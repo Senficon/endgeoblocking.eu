@@ -1,1 +1,114 @@
-Hello world! <span style='color: red;'>&lt;3</span>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>End Geoblocking</title>
+	<script type="text/javascript" src="https://juliareda.eu/wp-includes/js/jquery/jquery.js?ver=2.7"></script>
+	<script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-en.js?ver=2.7"></script>
+	<script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.7"></script>
+	<script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
+	<script type="text/javascript">
+        /* <![CDATA[ */
+        var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"https://juliareda.eu/wp-admin/admin-ajax.php","loadingTrans":"Loading..."};
+        /* ]]> */
+    </script><script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
+	<style type="text/css">
+	body {
+		background: #1f1e22 url(img/bg3.jpg) no-repeat;
+		background-size:contain;
+		background-attachment: xfixed;
+		color: #fff;
+		font-family: Helevtica, Arial, sans-serif;
+		text-align: center;
+		margin: 0 0 7em;
+		/*border-left: 1em solid #900;
+		border-right: 1em solid #900;*/
+	}
+	#credits {
+		font-size: .8em;
+		color: #444851;
+		margin-top: 18em;
+	}
+	#credits a { color: inherit; }
+	#col { width:640px; margin: 0 auto; text-align: left}
+	h2 { color:#c00; font-size: 2.1em; letter-spacing: -.03em; text-shadow: rgba(0,0,0,.5) 0 0 .5em;}
+	#tape { background: url(img/red_white.jpg); height:29px; width:100%; background-size:200px; margin-bottom:2em; box-shadow: rgba(0,0,0,.5) .5em .5em .5em; }
+	form {
+		background: #444851;
+		border-radius: 2.3em;
+		padding: 1.2em 1.3em;
+		position: absolute;
+		width:640px;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	form input[type=email] {
+		font-size: 1.5em;
+		padding: .2em .5em;
+		border-radius: 1.3em;
+		width:60%;
+		margin-right:.5em;
+	}
+	form input[type=submit] {
+		font-size: 1.3em;
+		background: #900;
+		color: #fff;
+		padding: .4em 1.3em;
+		border: 0;
+		border-radius: 1.3em;
+		background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #600 80%);
+		border: 2px outset #900;
+		text-shadow: rgba(0,0,0,.6) 0 0 6px;
+		font-family: inherit;
+		font-weight: bold;
+		width:30%;
+		position: absolute;
+		right:1.2em;
+	}
+	form input[type=submit]:hover {
+		border-style: inset;
+		padding: .5em 1.2em .3em 1.4em;
+	}
+	div.form-validation-field-0formError {
+		top:60px !important;
+		left: 30px !important;
+	}
+	</style>
+</head>
+<body>
+	<div id="tape"></div>
+
+	<img src="img/geoblocking-stamp-dirty-white.png" width="300" style="transform:rotate(2deg)" /><br />
+
+	<div id="col">
+		<h2>We wouldn't accept geoblocking at the corner store.</h2>
+
+		<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/WbiacSD13qk" frameborder="0" allowfullscreen></iframe><br />
+
+		<h2>So let's not online.</h2>
+
+		<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/0-cYWnjM4fc" frameborder="0" allowfullscreen></iframe><br />
+
+		<h2>The campaign to voice our opposition is launching soon. Are you in?</h2>
+		<div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html5724fb21bf17a-4" class="wysija-msg ajax"></div>
+		<form id="form-wysija-html5724fb21bf17a-4" method="post" action="#wysija" class="widget_wysija html_wysija">
+		    <input type="hidden" name="form_id" value="4" />
+		    <input type="hidden" name="action" value="save" />
+		    <input type="hidden" name="controller" value="subscribers" />
+		    <input type="hidden" value="1" name="wysija-page" />
+        	<input type="hidden" name="wysija[user_list][list_ids]" value="5" />
+
+			<input type="email" placeholder="email" title="email" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" />
+			<input type="submit" value="Notify me!" />
+		    <span class="abs-req">
+		        <input type="hidden" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+		    </span>
+    	</form>
+		</div>
+
+	</div>
+
+<p id="credits">Created by the office of <a href="https://juliareda.eu">MEP Julia Reda</a> and additional volunteers. <a href="https://github.com/JuliaRedaMEP/endgeoblocking.eu">Fork me on Github</a><br />
+Video "Imagine this happening" not produced by this campaign.</p>
+
+</body>
+</html>
