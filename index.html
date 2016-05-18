@@ -8,10 +8,10 @@
 	<script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.7"></script>
 	<script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
 	<script type="text/javascript">
-        /* <![CDATA[ */
-        var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"https://juliareda.eu/wp-admin/admin-ajax.php","loadingTrans":"Loading..."};
-        /* ]]> */
-    </script><script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
+		/* <![CDATA[ */
+		var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"https://juliareda.eu/wp-admin/admin-ajax.php","loadingTrans":"Loading..."};
+		/* ]]> */
+	</script><script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
 	<style type="text/css">
 	body {
 		background: #1f1e22 url(img/bg3.jpg) no-repeat;
@@ -77,6 +77,23 @@
 	#col a { color: inherit;}
 	</style>
 	<meta name="viewport" content="width=580px"/>
+
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(["setDomains", ["*.endgeoblocking.eu","*.endgeoblocking.eu"]]);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//stats.juliareda.eu/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 6]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+	<noscript><p><img src="//stats.juliareda.eu/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
 </head>
 <body>
 	<div id="tape"></div>
@@ -95,24 +112,23 @@
 		<h2>The campaign to voice our opposition is launching soon.<br />Are you in?</h2>
 		<div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html5724fb21bf17a-4" class="wysija-msg ajax"></div>
 		<form id="form-wysija-html5724fb21bf17a-4" method="post" action="#wysija" class="widget_wysija html_wysija">
-		    <input type="hidden" name="form_id" value="4" />
-		    <input type="hidden" name="action" value="save" />
-		    <input type="hidden" name="controller" value="subscribers" />
-		    <input type="hidden" value="1" name="wysija-page" />
-        	<input type="hidden" name="wysija[user_list][list_ids]" value="5" />
+			<input type="hidden" name="form_id" value="4" />
+			<input type="hidden" name="action" value="save" />
+			<input type="hidden" name="controller" value="subscribers" />
+			<input type="hidden" value="1" name="wysija-page" />
+			<input type="hidden" name="wysija[user_list][list_ids]" value="5" />
 
 			<input type="email" placeholder="email" title="email" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" />
 			<input type="submit" value="Notify me!" />
-		    <span class="abs-req">
-		        <input type="hidden" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
-		    </span>
-    	</form>
+			<span class="abs-req">
+				<input type="hidden" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+			</span>
+		</form>
 		</div>
 
 	</div>
 
-<p id="credits">Created by the office of <a href="https://juliareda.eu">MEP Julia Reda</a> and additional volunteers. <a href="https://github.com/JuliaRedaMEP/endgeoblocking.eu">Fork me on Github</a><br />
-Video "Imagine this happening" not affiliated with this campaign.</p>
-
+	<p id="credits">Created by the office of <a href="https://juliareda.eu">MEP Julia Reda</a> and additional volunteers. <a href="https://github.com/JuliaRedaMEP/endgeoblocking.eu">Fork me on Github</a><br />
+	Video "Imagine this happening" not affiliated with this campaign.</p>
 </body>
 </html>
