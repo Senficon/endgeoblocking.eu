@@ -98,13 +98,13 @@ form small {
 	font-size:.6em;
 }
 form input[type=email] {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	padding: .2em .5em;
 	border-radius: 1.3em;
-	width:54%;
+	width:49%;
 	margin-right:.5em;
 }
-form button, a.btn {
+form input[type=submit], a.btn {
 	padding: .2em .4em;
 	background: #900;
 	color: #fff;
@@ -144,26 +144,26 @@ h1 a.btn {
 a.btn {
 	font-weight: bold;
 }
-form button {
-	padding: .4em .8em;
-	font-size: .9em;
-	width:36%;
+form input[type=submit] {
+	padding: .6em .6em;
+	font-size: 1.2em;
+	font-weight: bold;
+	width:43%;
 	right:0;
 	cursor: pointer;
 	float: right;
-	margin-top:-.3em;
 	box-shadow: rgba(255,0,0,.3) 0 0 1.2em;
 }
-form button span {
+form input[type=submit] span {
 	font-size: 1.2em;
 	font-weight: bold;
 }
-form button:hover, a.btn:hover {
+form input[type=submit]:hover, a.btn:hover {
 	border-style: inset;
 	padding: .25em .35em .15em .45em;
 }
-form button:hover {
-	padding: .5em .7em .3em .9em;
+form input[type=submit]:hover {
+	padding: .7em .5em .5em .7em;
 	background-image: radial-gradient(ellipse farthest-corner at 100px 50px , #c00 0%, #800 80%);
 }
 .column a { color: inherit;}
@@ -328,6 +328,7 @@ abbr:hover::after {
 }
 
 .formErrorContent {
+	font-size: .8em;
     background: #666 !important;
     padding: .2em 1em !important;
     margin-left: -9em !important;
