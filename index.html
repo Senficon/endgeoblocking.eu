@@ -12,123 +12,321 @@
 		var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"https://juliareda.eu/wp-admin/admin-ajax.php","loadingTrans":"Loading..."};
 		/* ]]> */
 	</script><script type="text/javascript" src="https://juliareda.eu/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
-	<style type="text/css">
-	body {
-		background: #1f1e22 url(img/bg3.jpg) no-repeat;
-		background-size:contain;
-		background-attachment: xfixed;
-		color: #fff;
-		font-family: Helevtica, Arial, sans-serif;
-		text-align: center;
-		margin: 0 0 7em;
-		/*border-left: 1em solid #900;
-		border-right: 1em solid #900;*/
-	}
-	#credits {
-		font-size: .8em;
-		color: #444851;
-		margin-top: 18em;
-	}
-	#credits a { color: inherit; }
-	#col { width:540px; margin: 0 auto; text-align: left}
-	h2 { color:#c00; font-size: 2.3em; letter-spacing: -.03em; text-shadow: rgba(0,0,0,.5) 0 0 .5em;}
-	#tape { background: url(img/red_white.jpg); height:29px; width:100%; background-size:200px; margin-bottom:2em; box-shadow: rgba(0,0,0,.5) .5em .5em .5em; }
-	form {
-		background: #444851;
-		border-radius: 2.7em;
-		padding: 1.2em 1.3em;
-		position: absolute;
-		width:540px;
-		box-sizing: border-box;
-		overflow: hidden;
-	}
-	form input[type=email] {
-		font-size: 1.8em;
-		padding: .2em .5em;
-		border-radius: 1.3em;
-		width:54%;
-		margin-right:.5em;
-	}
-	form input[type=submit] {
-		font-size: 1.6em;
-		background: #900;
-		color: #fff;
-		padding: .4em .8em;
-		border: 0;
-		border-radius: 1.3em;
-		background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #600 80%);
-		border: 2px outset #900;
-		text-shadow: rgba(0,0,0,.6) 0 0 6px;
-		font-family: inherit;
-		font-weight: bold;
-		width:32%;
-		position: absolute;
-		right:1.2em;
-		cursor: pointer;
-	}
-	form input[type=submit]:hover {
-		border-style: inset;
-		padding: .5em .7em .3em .9em;
-	}
-	div.form-validation-field-0formError {
-		top:60px !important;
-		left: 30px !important;
-	}
-	#col a { color: inherit;}
-	</style>
+	<link rel="stylesheet" type="text/css" href="endgeoblocking.css" />
 	<meta name="viewport" content="width=580px"/>
 
-	<!-- Piwik -->
-	<script type="text/javascript">
-		var _paq = _paq || [];
-		_paq.push(["setDomains", ["*.endgeoblocking.eu","*.endgeoblocking.eu"]]);
-		_paq.push(['trackPageView']);
-		_paq.push(['enableLinkTracking']);
-		(function() {
-			var u="//stats.juliareda.eu/";
-			_paq.push(['setTrackerUrl', u+'piwik.php']);
-			_paq.push(['setSiteId', 6]);
-			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-		})();
-	</script>
+	<script type="text/javascript" src="endgeoblocking.js"></script>
 	<noscript><p><img src="//stats.juliareda.eu/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
-	<!-- End Piwik Code -->
 </head>
 <body>
-	<div id="tape"></div>
-
-	<img src="img/geoblocking-stamp-dirty-white.png" width="300" style="transform:rotate(2deg)" /><br />
-
-	<div id="col">
-		<h2 style="display:inline">We wouldn't accept geoblocking at the corner store.</h2> <span style="color:#444851; font-size:.8em; margin-left: 1em">(Video by <a href="http://www.beuc.eu/geoblocking" target="_blank">BEUC</a>)</span><br /><br />
-
-		<iframe width="540" height="303" src="https://www.youtube-nocookie.com/embed/WbiacSD13qk" frameborder="0" allowfullscreen></iframe><br />
-
-		<h2>So let's not online.</h2>
-
-		<iframe width="540" height="303" src="https://www.youtube-nocookie.com/embed/0-cYWnjM4fc" frameborder="0" allowfullscreen></iframe><br />
-
-		<h2>The campaign to voice our opposition is launching soon.<br />Are you in?</h2>
-		<div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html5724fb21bf17a-4" class="wysija-msg ajax"></div>
-		<form id="form-wysija-html5724fb21bf17a-4" method="post" action="#wysija" class="widget_wysija html_wysija">
-			<input type="hidden" name="form_id" value="4" />
-			<input type="hidden" name="action" value="save" />
-			<input type="hidden" name="controller" value="subscribers" />
-			<input type="hidden" value="1" name="wysija-page" />
-			<input type="hidden" name="wysija[user_list][list_ids]" value="5" />
-
-			<input type="email" placeholder="email" title="email" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" />
-			<input type="submit" value="Notify me!" />
-			<span class="abs-req">
-				<input type="hidden" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
-			</span>
-		</form>
+	<!--div id="tape"></div-->
+	<div id="menu">
+		<div class="column">
+			<ul>
+				<!--li><a href="#hallofshame">Hall of Shame</a></li-->
+				<li><a href="#unfair">Why it's unfair</a></li>
+		  		<li><a href="#voices">Voices</a></li>
+		  		<li><a href="#todo">3 steps to end it</a></li>
+		  		<li><a href="#learn">Learn more</a></li>
+				<li class="last"><a href="#signup" class="btn" onclick="signup(); return false">HELP END GEOBLOCKING</a></li>
+			</ul>
 		</div>
-
 	</div>
 
-	<p id="credits">Created by the office of <a href="https://juliareda.eu">MEP Julia Reda</a> and additional volunteers. <a href="https://github.com/JuliaRedaMEP/endgeoblocking.eu">Fork me on Github</a><br />
-	Video "Imagine this happening" not affiliated with this campaign.</p>
+	<section id="intro">
+		<div class="column">
+			<img id="logo" src="img/geoblocking-stamp-dirty-white.png" width="200" style="opacity:1" />
+			<h2 class="intro">Have you ever been <strong>geoblocked?</strong></h2>
+			<div id="screen">
+				<div id="noise"></div>
+			</div>
+		</div>
+		<!--div class="tape"></div-->
+		<div id="topbox" class="column">
+			<div class="tape"></div>
+			<h3>Every day, artificial digital borders block millions of Europeans from ordering goods, purchasing movies on demand or watching videos.<br />
+			<span class="now">Now the EU is considering taking action.</span> <span class="join">Join us in demanding:</span></h3>
+			<h1>
+				<span>End geoblocking!</span>
+				<a id="agree" class="bigbtn" href="#signup" onclick="signup(); return false">I agree</a>
+			</h1>
+			<div id="signup">
+				<div class="inner">
+					<img class="stamp" src="img/geoblocking-stamp-dirty-white.png" width="150" />
+
+					<p class="appeal"><strong>The fight to end geoblocking in the EU has begun.</strong><br /><strong class="hi">It can only be successful if you raise your voice!</strong> Sign up here so we can inform you when it's time to contact the right EU politicians:</p>
+
+					<div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html5724fb21bf17a-4" class="wysija-msg ajax"></div>
+					<form id="form-wysija-html5724fb21bf17a-4" method="post" action="#wysija" class="widget_wysija html_wysija">
+						<input type="hidden" name="form_id" value="4" />
+						<input type="hidden" name="action" value="save" />
+						<input type="hidden" name="controller" value="subscribers" />
+						<input type="hidden" value="1" name="wysija-page" />
+						<input type="hidden" name="wysija[user_list][list_ids]" value="5" />
+
+						<input id="email" type="email" placeholder="email" title="email" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" />
+						<button onclick="this.form.submit();">I want to<br /><span>end geoblocking</span></button>
+						<span class="abs-req">
+							<input type="hidden" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+						</span>
+						<small>Privacy policy: We won't spam you or share your data with anyone.</small>
+					</form>
+					</div>
+
+					<p>Now, please scroll down to share this page with your friends.<br /><strong>We can defeat geoblocking together!</strong></p>
+				</div>
+				<a class="down" href="#join">
+					<span>&raquo;</span>
+				</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="unfair">
+		<div class="column">
+			<h2>Why geoblocking must end</h2>
+			<ol>
+				<li>
+					<h3>Geoblocking is discrimination</h3>
+					<p>
+						Linguistic minorities, long-term migrants, exchange students, etc. &ndash; 1 in 10 Europeans &ndash; are denied access to their culture online.
+					</p>
+				</li>
+				<li>
+					<h3>Geoblocking locks in artists</h3>
+					<p>
+						Many artists' works are denied a Europe-wide audience &ndash; and fans ready to pay are turned away.
+					</p>
+				</li>
+				<li>
+					<h3>Geoblocking locks out audiences</h3>
+					<p>
+ 						Language learners, foreign sports league fans etc. are forced to pay VPNs instead of creators, or seek out illegal sources.
+					</p>
+				</li>
+				<li>
+					<h3>Geoblocking betrays EU principles</h3>
+					<p>
+						The EU is supposed to be a single market. Geoblocking undermines that. The EU must act &ndash; like it did on roaming.
+					</p>
+				</li>
+				<li class="last">
+					<h3>Geoblocking harms the economy</h3>
+					<p>
+						 Up to 1 billion Euros worth of cross-border demand is kept from EU VoD platforms, EU startups and artists.
+					</p>
+				</li>
+			</ol>
+		</div>
+	</section>
+
+	<section id="voices">
+		<div class="tape"></div>
+		<div class="column">
+			<h2>Voices against geoblocking</h2>
+
+			<h3>Politicians, consumer advocates, minority representatives, startup associations, regional Parliaments and many more have come out <strong>against geoblocking.</strong><br />
+			And here's what users like you say:</h3>
+
+			<h3>
+				<span class="stat">
+					<span class="num">80%</span><span class="btwn">have been<br />geoblocked</span>
+				</span>
+				<span class="stat">
+					<span class="num">90%</span><span class="btwn">say it should<br />never happen</span>
+				</span>
+				<span class="stat">
+					<span class="num long">vast majority</span><span class="btwn">supports EU<br />laws against it</span>
+				</span>
+			</h3>
+			<small><a href="https://ec.europa.eu/digital-agenda/en/news/first-brief-results-public-consultation-geo-blocking-and-other-geographically-based" target="_blank">Public consultation by the European Commission, 2016</a> (among individual respondents)</small>
+
+			<div class="quote supporter">
+				<div class="photo" style="background-image:url(img/ppl/juliareda.jpg)"></div>
+				<blockquote>
+					<div><strong>Geoblocking is the most anachronistic, un-European, un-digital practice on the web.</strong> This year, we have the chance to end it in the EU &ndash; whether we succeed depends on whether people will speak up. <span>supports this campaign</span></div>
+					<cite>
+						<a href="https://juliareda.eu" target="_blank" class="name">Julia Reda</a>, Member of the European Parliament (Pirate Party, Greens/EFA) 
+					</cite>
+				</blockquote>
+			</div>
+
+			<div class="quote supporter">
+				<div class="photo" style="background-image:url(img/ppl/elen.png); background-size: contain; background-color:#345"></div>
+				<blockquote>
+					<div>Geoblocking undermines regional minority lanuage usage. ... Usually-connected cross-border regions become <strong>digitally disconnected</strong>. This is ridiculous! <span>supports this campaign</span></div>
+					<cite>
+						 <a href="http://elen.ngo/" target="_blank" class="name">European Language Equality Network (ELEN)</a>
+					</cite>
+				</blockquote>
+			</div>
+  
+			<div class="quote">
+				<div class="photo" style="background-image:url(img/ppl/beuc.png); background-size: contain;"></div>
+				<blockquote>
+					<div><strong>It's time to end geoblocking!</strong> We would never accept to show our passport when shopping on a high street ... Unfortunately this happens too often when going online. ... Discriminatory territorial practices should stop. ... This would curb piracy and help all consumers to enjoy Europe's cultural diversity.</div>
+					<cite>
+						 <a href="http://www.beuc.eu/geoblocking" target="_blank" class="name">BEUC The European Consumer Organisation</a> <span>not an endorsement of this campaign</span>
+					</cite>
+				</blockquote>
+			</div>
+  
+			<div class="quote">
+				<div class="photo" style="background-image:url(img/ppl/aegee.jpg)"></div>
+				<blockquote>
+					<div>Access across borders contributes to cultural exchange, to learning [...] - <strong>it should become standard in the EU</strong>. It is especially crucial for students attending mobility programs. ... It will be a step to creating the common European public sphere that is so needed.</div>
+					<cite>
+						 <span class="name">Aleksandra Kluczka</span>, President of <a href="http://aegee.eu/" target="_blank">AEGEE European Students' Forum</a> <span>not an endorsement of this campaign</span>
+					</cite>
+				</blockquote>
+			</div>
+
+			<div class="quote">
+				<div class="photo" style="background-image:url(img/ppl/ansip.jpg)"></div>
+				<blockquote>
+					<div><strong>Deep in my heart, I hate geoblocking.</strong> ... To discriminate, using geoblocking, our citizens in the 21st century in the European Union is not acceptable.</div>
+					<cite>
+						 <span class="name">Andrus Ansip</span>, Vice-President for the Digital Single Market at the <a href="http://ec.europa.eu/priorities/digital-single-market_en" target="_blank">European Commission</a> <span>not an endorsement of this campaign</span>
+					</cite>
+				</blockquote>
+			</div>
+ 
+			<div class="quote">
+				<div class="photo" style="background-image:url(img/ppl/eyif.png);"></div>
+				<blockquote>
+					<div><strong>Services continue to be confined to national borders</strong> ... [we need] a targeted competition policy ensuring the prohibition of agreements for licenses which prohibit sales of services outside licensed territories.</div>
+					<cite>
+						 <a href="http://younginnovator.eu/wp-content/uploads/European-Startup-Act-2020.pdf" target="_blank" class="name">Eurpean Startup Act 2020</a> by European Young Innovators Forum <span>not an endorsement of this campaign</span>
+					</cite>
+				</blockquote>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="todo">
+		<div class="tape"></div>
+		<div class="column">
+			<h2>3 steps to end geoblocking</h2>
+			<ol>
+				<li>
+					<div class="check">
+						<h4>Current status</h4>
+						<strong class="no"><span class="light"></span>NO DETAILS ANNOUNCED</strong>
+						<a href="#signup" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+					</div>
+					<h3>Stop forcing services to turn away customers</h3>
+					<p>
+						Allow "passive sales": Services should be allowed
+						to sell to all people who find an offer, no matter where they come from. Licenses should only be able to restrict who they can actively advertise to.
+					</p>
+				</li>
+				<li>
+					<div class="check">
+						<h4>Current status</h4>
+						<strong class="maybe"><span class="light"></span>INVESTIGATION UNDERWAY</strong>
+						<a href="#signup" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+					</div>
+					<h3>Enforce anti-discrimination law</h3>
+					<p>
+						EU law sets out an anti-discrimination principle for commercial services. The EU must clarify that the common reasons to geoblock aren't justified exceptions to it.
+					</p>
+				</li>
+				<li>
+					<div class="check">
+						<h4>Current status</h4>
+						<strong class="maybe"><span class="light"></span>PROPOSAL DEBATED</strong>
+						<a href="#signup" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+					</div>
+					<h3>Allow "roaming" for subscription services</h3>
+					<p>
+ 						When crossing a border, users must be able to take their subscriptions to online services with them. 
+					</p>
+				</li>
+			</ol>
+		</div>
+	</section>
+
+	<section id="learn">
+		<div class="tape"></div>
+		<div class="column">
+			<h2>Learn more</h2>
+			<div class="twocol">
+				<div class="col">
+					<h3>Fact sheet</h3>
+					<a href="endgeoblocking-briefing.pdf" target="_blank"><img src="img/briefing2.png" width="100%" /></a>
+					<p>
+						<a class="gobtn"  href="endgeoblocking-briefing.pdf" target="_blank">Download PDF</a></p>
+					<p>
+						Including:
+						<ul>
+							<li>3 reasons why geoblocking exists</li>
+							<li>Common pro-geoblocking arguments refuted</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col">
+					<h3>Presentation</h3>
+					<a href="https://www.youtube.com/watch?v=MF8k5ooc4mw" target="_blank"><img src="img/video-talk.jpg" width="97%" /></a>
+					<p><a class="gobtn" href="https://www.youtube.com/watch?v=MF8k5ooc4mw" target="_blank">Watch on YouTube</a></p>
+					<p>Talk by MEP Julia Reda at re:publica conference (20 minutes)</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="join">
+		<div class="tape"></div>
+		<div class="column">
+			<h2>Join the fight</h2>
+
+			<h3><span class="num">01</span> Sign up to be notified when we need to contact politicians</h3>
+
+			<div class="widget_wysija_cont html_wysija sec"><div id="msg-form-wysija-html5724fb21bf17a-1" class="wysija-msg ajax"></div>
+				<form id="form-wysija-html5724fb21bf17a-1" method="post" action="#wysija" class="widget_wysija html_wysija">
+					<input type="hidden" name="form_id" value="1" />
+					<input type="hidden" name="action" value="save" />
+					<input type="hidden" name="controller" value="subscribers" />
+					<input type="hidden" value="1" name="wysija-page" />
+					<input type="hidden" name="wysija[user_list][list_ids]" value="5" />
+
+					<input id="email" type="email" placeholder="email" title="email" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" />
+					<button onclick="this.form.submit();">I want to<br /><span>end geoblocking</span></button>
+					<span class="abs-req">
+						<input type="hidden" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+					</span>
+					<small>Privacy policy: We won't spam you or share your data with anyone.</small>
+				</form>
+				</div>
+			
+			<h3><span class="num">02</span> Spread the word</h3>
+
+			<blockquote class="tweetthis">
+				No more "this content not available in your country": End geoblocking! Join the campaign: http://endgeoblocking.eu
+			</blockquote>
+
+			<a href="https://www.facebook.com/endgeoblocking/" target="_blank" class="fb"><img src="img/fb-like.png" width="50" /> <span>Like us on Facebook</span></a>
+
+			<div class="twocol">
+				<div class="col">
+					<iframe width="350" height="195" src="https://www.youtube-nocookie.com/embed/WbiacSD13qk" frameborder="0" allowfullscreen></iframe><br />
+					<small style="opacity: .5">by <a href="http://www.beuc.eu/geoblocking" target="_blank">BEUC</a></small>
+				</div>
+				<div class="col">
+					<iframe width="350" height="195" src="https://www.youtube-nocookie.com/embed/0-cYWnjM4fc" frameborder="0" allowfullscreen></iframe><br />
+					<small style="opacity: .5">by <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a></small>
+				</div>
+			</div>
+		</div>
+
+		<p id="credits">
+			Created by the office of <a href="https://juliareda.eu">MEP Julia Reda</a> and additional volunteers. <a href="https://github.com/JuliaRedaMEP/endgeoblocking.eu">Fork me on Github</a><br />
+			All original content dedicated to the public domain (Creative Commons Zero). Please copy, remix and share.
+		</p>
+	</section>
+
+
+
 </body>
 </html>
