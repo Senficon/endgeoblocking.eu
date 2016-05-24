@@ -18,8 +18,8 @@ window.onload = function() {
 	setTimeout(changeImage, 4000);
 
 	window.onscroll = function() {
-		//console.log(document.body.scrollTop);
-		if (document.body.scrollTop > 100) {
+		//console.log(document.body.scrollTop, window.scrollY);
+		if (window.scrollY > 100) {
 			addClass('state-menu')
 		} else {
 			removeClass('state-menu')
@@ -48,7 +48,7 @@ function signup() {
 	document.getElementById('signup').style.height = '450px';
 	var target = cumulativeOffset(document.getElementById('topbox')).top;
 	var c=0;
-	for (var i=document.body.scrollTop; i<target; i=i+3) {
+	for (var i=window.scrollY; i<target; i=i+3) {
 		c++;
 		//console.log(i, c*10, window.scrollY, target);
 		(function() {

@@ -86,6 +86,7 @@ body.state-menu #menu {
 }
 form {
 	padding-top:.3em;
+	clear: both;
 }
 form::after { /* clearfix */
     content:"";
@@ -109,13 +110,13 @@ form button, a.btn {
 	color: #fff;
 	border: 0;
 	background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #800 80%);
-	border: 3px outset #d44;
+	border: 3px outset #b00;
 	text-shadow: rgba(0,0,0,.6) 0 0 6px;
 	font-family: inherit;
 }
 h1 a.bigbtn {
 	background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #800 80%);
-	border: 4px outset #d44;
+	border: 4px outset #b00;
 	display: block;
 	float: right;
 	padding: .3em 1.3em .3em .9em;
@@ -273,7 +274,7 @@ a.vid {
 }
 a.vid:hover {
 	font-size: 6.5em;
-	color:rgba(255,255,255,1);
+	color:rgba(255,255,255,1s);
 	padding-top:1em;
 }
 a.vid .rot270 {
@@ -420,9 +421,12 @@ section#intro #topbox #signup {
 	overflow: hidden;
 	font-size: 1.3em;
 	line-height: 1.4em;
-	background: #900;
+	background-color: #600;
 	color: #fff;
 	transition: height .5s;
+}
+section#intro #topbox #signup .inner0 {
+	background: #900;
 }
 section#intro #topbox #signup .inner {
 	padding: .1em 1.2em .4em;
@@ -443,9 +447,7 @@ section#intro #topbox #signup p.appeal {
 }
 section#intro #topbox a.down {
 	display: block;
-	background-color: #600;
 	text-decoration: none;
-	height:5em;
 	text-align: center;
 }
 section#intro #topbox a.down span {
