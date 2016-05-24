@@ -74,15 +74,23 @@ body.state-menu #menu {
 	color: #fff;
 }
 #menu ul li.last a {
-	padding: .4em .5em;
+	margin-top: .1em;
+	padding: .4em .6em;
 	color: #fff;
+}
+#menu ul li.last a:hover {
+	padding: .45em .55em .35em .65em;
 }
 #menu ul li a:hover {
 	background-color: #333;
 }
 form {
-	overflow: hidden;
 	padding-top:.3em;
+}
+form::after { /* clearfix */
+    content:"";
+    display:block;
+    clear:both;
 }
 form small {
 	opacity: .5;
@@ -100,25 +108,31 @@ form button, a.btn {
 	background: #900;
 	color: #fff;
 	border: 0;
-	background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #600 80%);
-	border: 3px outset #900;
+	background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #800 80%);
+	border: 3px outset #d44;
 	text-shadow: rgba(0,0,0,.6) 0 0 6px;
 	font-family: inherit;
 }
 h1 a.bigbtn {
-	background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #600 80%);
-	border: 4px outset #900;
+	background-image: radial-gradient(ellipse farthest-corner at 75px 25px , #f00 0%, #800 80%);
+	border: 4px outset #d44;
 	display: block;
 	float: right;
-	padding: .4em 1.5em;
+	padding: .3em 1.3em .3em .9em;
 	color: #fff !important; text-decoration: none;
 	font-size: .6em;
 	margin: .3em .5em .5em 0;
+ }
+h1 a.bigbtn img {
+ 	vertical-align: top;
+}
+h1 a.bigbtn span {
+
 }
 h1 a.bigbtn:hover {
-	background-image: radial-gradient(ellipse farthest-corner at 100px 50px , #c00 0%, #400 80%);
+	background-image: radial-gradient(ellipse farthest-corner at 100px 50px , #c00 0%, #800 80%);
 	border-style: inset;
-	padding: .5em 1.4em .3em 1.6em;
+	padding: .35em 1.25em .25em .95em;
 }
 h1 a.btn { 
 	color: #fff !important;
@@ -137,6 +151,7 @@ form button {
 	cursor: pointer;
 	float: right;
 	margin-top:-.3em;
+	box-shadow: rgba(255,0,0,.3) 0 0 1.2em;
 }
 form button span {
 	font-size: 1.2em;
@@ -144,10 +159,11 @@ form button span {
 }
 form button:hover, a.btn:hover {
 	border-style: inset;
+	padding: .25em .35em .15em .45em;
 }
 form button:hover {
 	padding: .5em .7em .3em .9em;
-	background-image: radial-gradient(ellipse farthest-corner at 100px 50px , #c00 0%, #400 80%);
+	background-image: radial-gradient(ellipse farthest-corner at 100px 50px , #c00 0%, #800 80%);
 }
 div.form-validation-field-0formError {
 	top:60px !important;
@@ -165,7 +181,7 @@ h3 { color: #aaa; }
 
 ol {
 	list-style: none; counter-reset: item; padding: 0;
-	border: 4px solid #900;
+	border: 4px solid #678;
 	border-radius: 1em;
 	width: 80%;
 	margin: 0 auto;
@@ -173,7 +189,7 @@ ol {
 }
 ol li {
 	font-size:1.4em;
-	border-bottom: 2px solid #900;
+	border-bottom: 2px solid #678;
 }
 ol li.last {
 	border-bottom: 0;
@@ -216,8 +232,10 @@ h2 {
 	text-align: center;
 }
 
-.twocol {
-	overflow: hidden;
+.twocol::after { /* clearfix */
+    content:"";
+    display:block;
+    clear:both;
 }
 .twocol .col {
 	width: 49%;
@@ -233,6 +251,39 @@ a.gobtn {
 	padding: .4em 1em;
 	text-decoration: none;
 }
+a.gobtn:hover {
+	background: linear-gradient(#bbb, #eee);
+}
+
+a.vid {
+	display: block;
+	background-repeat: no-repeat;
+	width:97%; height:200px;
+	box-sizing: border-box;
+	background-size: contain;
+	text-align: center;
+	font-size: 5em; 
+	line-height:0;
+	color:rgba(255,255,255,.8);
+	text-decoration: none;
+	overflow: hidden;
+	padding-top:1.3em;
+	transition: all .3s;
+	text-shadow: rgba(0,0,0,.6) 0 0 .3em;
+}
+a.vid:hover {
+	font-size: 6.5em;
+	color:rgba(255,255,255,1);
+	padding-top:1em;
+}
+a.vid .rot270 {
+	font-size: 1.3em;
+}
+span.rot270 {
+	display:inline-block;
+	transform: rotate(-90deg);
+}
+
 
 section#join h3 span.num {
 	display: block;
@@ -250,6 +301,37 @@ section#join h3 span.num {
 	margin-right: .5em;
 	margin-top: -.4em;
 }
+
+
+abbr {
+	xborder-bottom: 1px dashed #999;
+    position: relative;
+    font-size:.7em;
+    color: rgba(0,0,0,.3);
+}
+section#unfair abbr, section#todo abbr {
+    color: rgba(255,255,255,.3);
+}
+abbr a {
+	text-decoration: none;
+}
+abbr:hover::after {
+    opacity: 1;
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    display: block;
+    padding: 1em;
+    background: #fff;
+    color: #000;
+    font-size: 1.1em;
+    content: attr(title);
+    width: 250px;
+    box-shadow: 0 0 1em rgba(0,0,0,.5);
+}
+
+
+/* * * * * * * * SECTIONS * * * * * * * */
 
 
 section {
@@ -375,7 +457,7 @@ section#intro #topbox a.down span {
 }
 
 section#unfair {
-	background: linear-gradient(#384255, #334);
+	background: linear-gradient(#334, #223);
 	background-size:contain;
 	padding-top: 7em;
 }
@@ -402,8 +484,12 @@ section#voices small {
 	text-align: center;
 }
 section#voices .quote {
-	margin-bottom: 3em;
-	overflow: hidden;
+	margin-bottom: 2.5em;
+}
+section#voices .quote::after {
+    content:"";
+    display:block;
+    clear:both;
 }
 section#voices .quote .photo {
 	width: 8em; height: 8em;
@@ -420,21 +506,21 @@ section#voices blockquote {
 	margin: 0; padding: 0;
 	width: 36em;
 }
-section#voices blockquote div {
+section#voices blockquote > div {
 	background: #fff;
 	font-family: Georgia, serif;
 	font-style: italic;
 	font-size: 1em;
-	line-height: 1.3em;
+	line-height: 1.4em;
 	padding: 1em 1.3em;
 	color: #000;
 	position: relative;
 }
-section#voices .supporter blockquote div {
-	font-size: 1.3em;
-	line-height: 1.3em;
+section#voices .supporter blockquote > div {
+	font-size: 1.25em;
+	line-height: 1.4em;
 }
-section#voices blockquote div:before {
+section#voices blockquote > div:before {
     content: "";
     width: 0;
     height: 0;
@@ -447,10 +533,12 @@ section#voices cite {
 	display: block;
 	font-style: normal;
 	margin-top: .3em;
-	color: #000;
+	color: #666;
+	clear: both;
+	font-size: .9em;
 }
 section#voices cite .name {
-	font-size: 1.2em;
+	font-size: 1.25em;
 	font-weight: bold;
 	color: #000;
 	display: inline;
@@ -466,17 +554,56 @@ section#voices cite span {
 	margin-top: .2em;
 }
 section#voices .supporter blockquote div span {
+	font-family: Helvetica, sans-serif;
+	font-style: normal;
 	display: block;
 	float: right;
 	font-size: .7em;
-	background: #456;
+	background: #98a3b0 url(img/up.png) .8em .3em no-repeat;
+	background-size: 1.4em;
 	color: #fff;
-	border-radius: 5px;
-	padding: .1em .5em;
+	border-radius: 1em;
+	padding: 0 1em 0 2.5em;
 	margin-top: .3em;
 }
-section#voices h3 {
-	overflow: hidden;
+
+section#voices .twocol .quote {
+	margin-bottom: 1.8em;
+}
+section#voices .twocol blockquote {
+	width: 100%;
+}
+section#voices .twocol .quote cite {
+	font-size: .85em;
+	padding-top: .5em;
+}
+section#voices .twocol .quote .photo {
+	width: 5em; height: 5em;
+	border-radius: 2.5em;
+	margin-right: 1em;
+}
+section#voices .twocol blockquote > div:before {
+	display:none;
+}
+section#voices .twocol blockquote > div:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -1.1em;
+    left: 3em;
+    border: .7em solid transparent;
+    border-top-color: #fff;
+}
+
+section#voices h3::after { /* clearfix */
+    content:"";
+    display:block;
+    clear:both;
+}
+section#voices h3.stat {
+	color: #345;
+	margin-bottom: 1.8em;
 }
 section#voices h3 .stat .num {
 	width: 90px;
@@ -496,6 +623,8 @@ section#voices h3 .stat {
 	display: block;
 	float: left;
 	width:33%;
+	margin-bottom:0;
+	margin-top:.5em;
 }
 section#voices h3 .stat .num.long {
 	font-size: 1.1em;
@@ -511,24 +640,29 @@ section#todo {
 	background-image: linear-gradient(rgba(0,0,0,.8), transparent 40%), url(img/fuzzy.jpg);
 	background-size: cover;
 	padding-top: 0;
+	padding-bottom: 6em;
 }
 section#todo .tape {
-	margin-bottom: 3em;
+	margin-bottom: 4em;
 }
 section#todo h2 {
 	text-shadow: #000 0 0 .5em;
 }
 section#todo ol {
-	background: #000;
-	border-color: #fff;
+	background: #222;
+	border-color: #678;
 	width: 100%;
 }
 section#todo li {
-	border-color: #fff;
+	border-color: #678;
+	color: #89a;
+}
+section#todo li a.btn {
+	color: #fff;
 }
 section#todo li:before {
-	background: #fff;
-	color: #000;
+	background: #678;
+	color: #fff;
 }
 section#todo li h3 {
 	color: #fff;
@@ -542,7 +676,7 @@ section#todo li .check {
 	width: 28%;
 	border-color: #fff;
 	font-size: .75em;
-	border-left: 2px solid #555;
+	border-left: 2px solid #345;
 	margin-left: 3%;
 	padding-left: 1em;
 	box-sizing: border-box;
@@ -553,11 +687,13 @@ section#todo li .check .btn {
 	text-decoration: none;
 	margin-top: .7em;
 	text-align: center;
-
 }
 section#todo li .check h4 {
 	margin: 0 0 .5em;
-	color: #888;
+	color: #678;
+}
+section#todo li .check strong {
+	color: #fff;
 }
 section#todo li .check strong .light {
 	width: 1em;
@@ -609,7 +745,7 @@ section#join .sec {
 section#join .column h3:first-child {
 	margin-bottom: .5em;
 }
-section#join a.fb {
+section#join a.fb, section#join a.tw {
 	background: linear-gradient(#394d72, #5573a9);
 	border-radius: .3em;
 	text-decoration: none;
@@ -618,18 +754,47 @@ section#join a.fb {
 	border: 3px outset #5573a9;
 	margin-bottom: 1em;
 }
-section#join a.fb:hover {
-	background: linear-gradient(#5573a9, #394d72);
+section#join a.fb {
+	clear: both;
+}
+section#join a.tw {
+	background: linear-gradient(#358cce, #55acee);
+	border-color: #55bcee;
+	float: left;
+}
+section#join a.fb:hover, section#join a.tw:hover {
+	background: linear-gradient(#394d72, #5573a9);
 	border-style: inset;
 	padding: .6em 1.4em .4em 1.1em;
 }
-section#join a.fb span {
+section#join a.tw:hover {
+	background: linear-gradient(#358cce, #55acee);
+}
+section#join a.fb span, section#join a.tw span {
 	font-size: 1.2em;
 	display: inline-block;
 	padding-top: .5em;
 }
-section#join a.fb img {
+section#join a.fb img, section#join a.tw img {
 	float: left;
-	margin-right: .7em;
+	margin-right: .7em;s
 }
-	
+blockquote.tweetthis {
+	background: #fff;
+	padding: .8em 1.3em;
+	margin: 0 0 0 .6em;
+	color: #000;
+	position: relative;
+	float: left;
+	width: 66%;
+}
+blockquote.tweetthis:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -1.2em;
+    top: 1.2em;
+    border: .7em solid transparent;
+    border-right-color: #fff;
+}
