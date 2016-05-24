@@ -166,10 +166,6 @@ form button:hover {
 	padding: .5em .7em .3em .9em;
 	background-image: radial-gradient(ellipse farthest-corner at 100px 50px , #c00 0%, #800 80%);
 }
-div.form-validation-field-0formError {
-	top:60px !important;
-	left: 30px !important;
-}
 .column a { color: inherit;}
 h3 { color: #aaa; }
 
@@ -329,6 +325,14 @@ abbr:hover::after {
     content: attr(title);
     width: 250px;
     box-shadow: 0 0 1em rgba(0,0,0,.5);
+}
+
+.formErrorContent {
+    background: #666 !important;
+    padding: .2em 1em !important;
+    margin-left: -9em !important;
+    margin-top: -1em !important;
+    border-radius: 1em !important;
 }
 
 
