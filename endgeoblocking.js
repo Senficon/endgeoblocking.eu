@@ -26,9 +26,9 @@ window.onload = function() {
 			}
 		}
 	}
-	var currLang = document.body.className.match(/lang-([a-z]{2})/)[1];
+	window.currLang = document.body.className.match(/lang-([a-z]{2})/)[1];
 	for (var i=0; i<langOs.length; i++) {
-		if (langOs[i].value == currLang) {
+		if (langOs[i].value == window.currLang) {
 			langOs[i].selected = 'selected';
 		}
 	}
@@ -44,6 +44,17 @@ window.onload = function() {
 		} else {
 			removeClass('state-menu')
 		}
+	}
+}, false);
+
+
+function switchLang(l) {
+	if (l != window.currLang) {
+		var url = document.location.pathname.replace('index.html', '');
+		url += (window.currLang == 'en') ? '' : '../'; // en lives in root
+		url += (l == 'en') ? '' : l+'/';
+		url += (document.location.protocol == 'file:') ? 'index.html' : ''; // for local dev
+		document.location.replace(url);
 	}
 }
 

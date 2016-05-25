@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>{{title}}</title>
-	<base href="../" />
+	<base href="{{ base }}" />
 	<meta property="og:image" content="http://endgeoblocking.eu/endgeoblocking.jpg" />
 	<meta property="og:description" content="{{description}}" />
 	<meta name="google-site-verification" content="qtkFmU40bcQlPJYrqGOPUOR7sKtSFCxc3gQbUOzUDro" />
@@ -26,22 +26,21 @@
 	<div id="menu">
 		<div class="column">
 			<ul>
-				<!--li><a href="#hallofshame">Hall of Shame</a></li-->
-				<li><a href="#unfair">{{menu.unfair}}</a></li>
-		  		<li><a href="#voices">{{menu.voices}}</a></li>
-		  		<li><a href="#todo">{{menu.todo}}</a></li>
-		  		<li><a href="#learn">{{menu.learn}}</a></li>
-				<li class="last"><a href="#signup" class="btn" onclick="signup(); return false">{{menu.signup}}</a></li>
+				<li><a href="javascript:;" onclick="document.location.hash='unfair'">{{menu.unfair}}</a></li>
+		  		<li><a href="javascript:;" onclick="document.location.hash='voices'">{{menu.voices}}</a></li>
+		  		<li><a href="javascript:;" onclick="document.location.hash='todo'">{{menu.todo}}</a></li>
+		  		<li><a href="javascript:;" onclick="document.location.hash='learn'">{{menu.learn}}</a></li>
+				<li class="last"><a href="javascript:;" class="btn" onclick="signup(); return false">{{menu.signup}}</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<section id="intro">
-		<select id="langselect" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
-	        <option value="de">DE - Deutsch</option>
-	        <option value="en">EN - English</option>
-	    </select>
 		<div class="column">
+			<select id="langselect" onchange="switchLang(this.options[this.selectedIndex].value)">
+				<option value="de">DE - Deutsch</option>
+				<option value="en">EN - English</option>
+			</select>
 			<img id="logo" src="img/geoblocking-stamp-dirty-white.png" width="200" style="opacity:1" />
 			<h2 class="intro">{{intro}}</h2>
 			<div id="screen">
@@ -55,7 +54,7 @@
 			<span class="now">{{now}}</span> <span class="join">{{join}}</span></h3>
 			<h1>
 				<span>{{title}}</span>
-				<a id="agree" class="bigbtn" href="#signup" onclick="signup(); return false"><img src="img/up.png" width=40 /><span>{{agree}}</span></a>
+				<a id="agree" class="bigbtn" href="javascript:;" onclick="signup(); return false"><img src="img/up.png" width=40 /><span>{{agree}}</span></a>
 			</h1>
 			<div id="signup">
 				<div class="inner0">
@@ -84,7 +83,7 @@
 					<p>{{friends}}<br /><strong>{{defeat}}</strong></p>
 				</div>
 				</div>
-				<a class="down" href="#join">
+				<a class="down" href="javascript:;" onclick="document.location.hash='join'">
 					<span>&raquo;</span>
 				</a>
 			</div>
@@ -243,7 +242,7 @@
 					<div class="check">
 						<h4>Current status</h4>
 						<strong class="no"><span class="light"></span>NO DETAILS ANNOUNCED</strong><abbr title="In May 2016, the European Commission presented proposals under the title 'geoblocking' that explicitly do not affect audiovisual content - they are missing the point by excluding the category in which users are most frequently subject to geoblocking."><sup>[?]</sup></abbr>
-						<a href="#signup" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+						<a href="javascript:;" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
 					</div>
 					<h3>Stop forcing services to turn away customers</h3>
 					<p>
@@ -254,7 +253,7 @@
 					<div class="check">
 						<h4>Current status</h4>
 						<strong class="maybe"><span class="light"></span>INVESTIGATION UNDERWAY</strong><abbr title="Contractual restrictions affecting cross border provision of pay TV services have been subject to an antitrust investigation by the European Commission since 2014"><sup><a href="http://europa.eu/rapid/press-release_IP-14-15_en.htm" target="_blank">[EC]</a></sup></abbr>
-						<a href="#signup" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+						<a href="javascript:;" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
 					</div>
 					<h3>Enforce anti-discrimination law</h3>
 					<p>
@@ -265,7 +264,7 @@
 					<div class="check">
 						<h4>Current status</h4>
 						<strong class="maybe"><span class="light"></span>PROPOSAL DEBATED</strong><abbr title="The 'Portability Regulation' is currently being debated in the European Parliament and the Council"><sup><a href="http://www.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2015/0284(COD)&l=en" target="_blank">[EP]</a></sup></abbr>
-						<a href="#signup" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+						<a href="javascript:;" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
 					</div>
 					<h3>Allow "roaming" for subscription services</h3>
 					<p>

@@ -38,18 +38,19 @@ h1 span {
 	z-index: 2;
  }
 #menu {
-	opacity: 0;
+	height: 0;
+	overflow: hidden;
 	position: fixed;
 	background: #000;
 	width: 100%;	
 	top: 0px;
 	left: 0;
 	z-index: 3;
-	transition: opacity .3s;
+	transition: height .3s;
 	box-shadow: rgba(0,0,0,.5) 0 0 1em;
 }
 body.state-menu #menu {
-	opacity: 1;
+	height: 2.5em;
 }
 #menu ul {
 	list-style-type: none;
