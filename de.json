@@ -1,0 +1,161 @@
+{
+  "lang": "de",
+  "base": "../",
+  "title": "End Geoblocking",
+  "description": "Every day, artificial digital borders block millions of Europeans from ordering goods, purchasing movies on demand or watching videos. Now the EU is considering taking action. Join us in demanding: End geoblocking!",
+  "menu": {
+    "unfair": "Why it's unfair",
+    "voices": "Voices",
+    "todo": "3 steps to end it",
+    "learn": "Learn more",
+    "signup": "HELP END GEOBLOCKING"
+  },
+  "intro": "Have you ever been <strong>geoblocked?</strong>",
+  "tape": "Every day, artificial digital borders block millions of Europeans from ordering goods, purchasing movies on demand or watching videos.",
+  "now": "Now the EU is considering taking action.",
+  "joinus": "Join us in demanding:",
+  "agree": "I agree",
+  "appeal": {
+    "fight": "The fight to end geoblocking in the EU has begun.",
+    "voice": "It can only be successful if you raise your voice!",
+    "signup": "Sign up here so we can inform you when it's time to contact the right EU politicians:"
+  },
+  "end": "Let's end geoblocking",
+  "privacy": "Privacy policy: We won't spam you or share your data with anyone.",
+  "friends": "Now, please scroll down to share this page with your friends.",
+  "defeat": "We can defeat geoblocking together!",
+  "unfair": {
+    "title": "Why geoblocking must end",
+    "discrimination": {
+      "title": "Geoblocking is discrimination",
+      "pretext": "Linguistic minorities, long-term migrants, exchange students, etc. &ndash; 1 in 10 Europeans",
+      "abbr": "1 in 10 Europeans speak a minority language - Davyth Hicks, ELEN",
+      "posttext": "are denied access to their culture online."
+    },
+    "artists": {
+      "title": "Geoblocking locks in artists",
+      "text": "Many artists' works are denied a Europe-wide audience &ndash; and fans ready to pay are turned away."
+    },
+    "audiences": {
+      "title": "Geoblocking locks out audiences",
+      "text": "Language learners, foreign sports league fans etc. are forced to pay VPNs instead of creators, or seek out illegal sources."
+    },
+    "principles": {
+      "title": "Geoblocking betrays EU principles",
+      "text": "The EU is supposed to be a single market. Geoblocking undermines that. The EU must act &ndash; like it did on roaming."
+    },
+    "economy": {
+      "title": "Geoblocking harms the economy",
+      "text": "Up to 1.6 billion Euros worth of cross-border demand is kept from EU VoD platforms, EU startups and artists."
+    }
+  },
+  "voices": {
+    "title": "Voices against geoblocking",
+    "text": "Politicians, consumer advocates, minority representatives, startup associations, regional Parliaments and many more have come out <strong>against geoblocking.</strong>"
+  },
+  "stat": {
+    "title": "And here's what users like you say:",
+    "consultation": "Public consultation by the European Commission, 2016 (among individual respondents)",
+    "link": "https://ec.europa.eu/digital-agenda/en/news/first-brief-results-public-consultation-geo-blocking-and-other-geographically-based",
+    "geoblocked": "have been<br />geoblocked",
+    "never": "say it should<br />never happen",
+    "majority": "vast majority",
+    "laws": "supports EU<br />laws against it"
+  },
+  "supporters": {
+    "julia": {
+      "text": "<strong>Geoblocking is the most anachronistic, un-European, un-digital practice on the web.</strong> This year, we have the chance to end it in the EU &ndash; whether we succeed depends on whether people will speak up. <span>supports this campaign</span>",
+      "position": "Member of the European Parliament (Pirate Party, Greens/EFA group)",
+      "watch": "Watch her keynote on geoblocking"
+    },
+    "elen": {
+      "text": "Geoblocking undermines regional minority lanuage usage. ... Usually-connected cross-border regions become <strong>digitally disconnected</strong>. This is ridiculous! <span>supports this campaign</span>",
+      "position": "European Language Equality Network (ELEN)"
+    },
+    "bermejo": {
+      "text": "<strong>Geoblocking is nonsense</strong> in today's world, especially when we are working on building worldwide companies and a European Digital Single Market. [...] People don't understand why geoblocking exists.<span>supports this campaign</span>",
+      "position": "Vice President",
+      "orga": "Spanish Startup Association"
+    }
+  },
+  "quotes": {
+    "not": "not an endorsement of this campaign",
+    "beuc": {
+      "text": "<strong>It's time to end geoblocking!</strong> We would never accept to show our passport when shopping on a high street ... Unfortunately this happens too often when going online. ... Discriminatory territorial practices should stop. ... This would curb piracy and help all consumers to enjoy Europe's cultural diversity.",
+      "from": "BEUC The European Consumer Organisation"
+    },
+    "eyif": {
+      "text": "<strong>Services continue to be confined to national borders</strong> ... [we need] a targeted competition policy ensuring the prohibition of agreements for licenses which prohibit sales of services outside licensed territories.",
+      "from": "by European Young Innovators Forum"
+    },
+    "ansip": {
+      "text": "<strong>Deep in my heart, I hate geoblocking.</strong> ... To discriminate, using geoblocking, our citizens in the 21st century in the European Union is not acceptable.",
+      "from": "Vice-President for the Digital Single Market at the",
+      "ec": "European Commission",
+      "link": "http://ec.europa.eu/priorities/digital-single-market_en"
+    },
+    "aegee": {
+      "text": "Access across borders contributes to cultural exchange, to learning [...] - <strong>it should become standard in the EU</strong>. It is especially crucial for students attending mobility programs. ... It will be a step to creating the common European public sphere that is so needed.",
+      "from": "President of",
+      "aegee": "AEGEE European Students' Forum"
+    }
+  },
+  "todo": {
+    "title": "3 steps to end geoblocking",
+    "current": "Current status",
+    "demand": "DEMAND ACTION",
+    "passive": {
+      "status": "NO DETAILS ANNOUNCED",
+      "statuslong": "In May 2016, the European Commission presented proposals under the title 'geoblocking' that explicitly do not affect audiovisual content - they are missing the point by excluding the category in which users are most frequently subject to geoblocking.",
+      "title": "Stop forcing services to turn away customers",
+      "text": "Allow &#xAB;passive sales&#xBB; for videos: Services should be allowed to do business with all people who find an offer, no matter where they come from. Licenses should only be able to restrict who they can <em>actively advertise to</em>."
+    },
+    "law": {
+      "status": "INVESTIGATION UNDERWAY",
+      "statuslong": "Contractual restrictions affecting cross border provision of pay TV services have been subject to an antitrust investigation by the European Commission since 2014",
+      "link": "http://europa.eu/rapid/press-release_IP-14-15_en.htm",
+      "title": "Enforce anti-discrimination law",
+      "text": "EU law forbids discriminatory<abbr title=\"Article 20 of the Services Directive\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0123&from=EN\" target=\"_blank\">[EU]</a></sup></abbr> and anti-competitive<abbr title=\"Article 101 of the Treaty on the functioning of the European Union\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12008E101&from=EN\" target=\"_blank\">[EU]</a></sup></abbr> business practices. The EU must clarify that the common justifications for geoblocking conflict with these provisions."
+    },
+    "roaming": {
+      "status": "PROPOSAL DEBATED",
+      "statuslong": "The 'Portability Regulation' is currently being debated in the European Parliament and the Council",
+      "link": "http://www.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2015/0284(COD)&l=en",
+      "title": "Allow &#xAB;roaming&#xBB; for subscription services",
+      "text": "When crossing a border, users must be able to take their subscriptions to online services with them."
+    }
+  },
+  "learn": {
+    "title": "Learn more",
+    "factsheet": {
+      "title": "Fact sheet",
+      "pdf": "Download PDF",
+      "incl": "Including:",
+      "reasons": "3 reasons why geoblocking exists",
+      "common": "Common pro-geoblocking arguments refuted"
+    },
+    "presentation": {
+      "title": "Presentation",
+      "watch": "Watch on YouTube",
+      "text": "Talk by MEP Julia Reda at re:publica conference (20 minutes)"
+    }
+  },
+  "join": {
+    "title": "Join the fight",
+    "signup": "Sign up to be notified when we need to contact politicians",
+    "spread": "Spread the word",
+    "reallife": "Geoblocking in real life",
+    "by": "by",
+    "geoblocked": "Have you been geoblocked?",
+    "tweetthis": "Tweet this",
+    "link": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=No%20more%20%22this content%20not%20available%20in%20your%20country%22%3A%20End%20%23geoblocking!%20Join%20the%20campaign%3A%20http://endgeoblocking.eu",
+    "tweet": "No more &#xAB;this content not available in your country&#xBB;: End geoblocking! Join the campaign: http://endgeoblocking.eu",
+    "fb": "Like &amp; share this campaign on Facebook"
+  },
+  "credits": {
+    "createdby": "Created by the office of",
+    "volunteers": "and additional volunteers.",
+    "gh": "Fork me on Github",
+    "cc": "All original content dedicated to the public domain (Creative Commons Zero). Please copy, remix and share."
+  }
+}

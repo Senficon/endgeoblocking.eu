@@ -2,7 +2,7 @@
 import json, os
 from jinja2 import Template
 
-for lang in ['en']:
+for lang in ['en',  'de']:
     urllang = '.' if (lang=='en') else lang
     if not os.path.exists(urllang):
         os.makedirs(urllang)
