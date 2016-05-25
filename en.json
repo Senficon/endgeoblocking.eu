@@ -22,5 +22,59 @@
   "end": "Let's end geoblocking",
   "privacy": "Privacy policy: We won't spam you or share your data with anyone.",
   "friends": "Now, please scroll down to share this page with your friends.",
-  "defeat": "We can defeat geoblocking together!"
+  "defeat": "We can defeat geoblocking together!",
+  "unfair": {
+    "title": "Why geoblocking must end",
+    "discrimination": {
+      "title": "Geoblocking is discrimination",
+      "pretext": "Linguistic minorities, long-term migrants, exchange students, etc. &ndash; 1 in 10 Europeans",
+      "abbr": "1 in 10 Europeans speak a minority language - Davyth Hicks, ELEN",
+      "posttext": "are denied access to their culture online."
+    },
+    "artists": {
+      "title": "Geoblocking locks in artists",
+      "text": "Many artists' works are denied a Europe-wide audience &ndash; and fans ready to pay are turned away."
+    },
+    "audiences": {
+      "title": "Geoblocking locks out audiences",
+      "text": "Language learners, foreign sports league fans etc. are forced to pay VPNs instead of creators, or seek out illegal sources."
+    },
+    "principles": {
+      "title": "Geoblocking betrays EU principles",
+      "text": "The EU is supposed to be a single market. Geoblocking undermines that. The EU must act &ndash; like it did on roaming."
+    },
+    "economy": {
+      "title": "Geoblocking harms the economy",
+      "text": "Up to 1.6 billion Euros worth of cross-border demand is kept from EU VoD platforms, EU startups and artists."
+    }
+  },
+  "voices": {
+    "title": "Voices against geoblocking",
+    "text": "Politicians, consumer advocates, minority representatives, startup associations, regional Parliaments and many more have come out <strong>against geoblocking.</strong>"
+  },
+  "stat": {
+    "title": "And here's what users like you say:",
+    "consultation": "Public consultation by the European Commission, 2016 (among individual respondents)",
+    "link": "https://ec.europa.eu/digital-agenda/en/news/first-brief-results-public-consultation-geo-blocking-and-other-geographically-based",
+    "geoblocked": "have been<br />geoblocked",
+    "never": "say it should<br />never happen",
+    "majority": "vast majority",
+    "laws": "supports EU<br />laws against it"
+  },
+  "supporters": {
+    "julia": {
+      "text": "<strong>Geoblocking is the most anachronistic, un-European, un-digital practice on the web.</strong> This year, we have the chance to end it in the EU &ndash; whether we succeed depends on whether people will speak up. <span>supports this campaign</span>",
+      "position": "Member of the European Parliament (Pirate Party, Greens/EFA group)",
+      "watch": "Watch her keynote on geoblocking"
+    },
+    "elen": {
+      "text": "Geoblocking undermines regional minority lanuage usage. ... Usually-connected cross-border regions become <strong>digitally disconnected</strong>. This is ridiculous! <span>supports this campaign</span>",
+      "position": "European Language Equality Network (ELEN)"
+    },
+    "bermejo": {
+      "text": "<strong>Geoblocking is nonsense</strong> in today's world, especially when we are working on building worldwide companies and a European Digital Single Market. [...] People don't understand why geoblocking exists.<span>supports this campaign</span>",
+      "position": "Vice President",
+      "orga": "Spanish Startup Association"
+    }
+  }
 }
