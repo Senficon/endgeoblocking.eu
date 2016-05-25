@@ -51,7 +51,7 @@
 		<div id="topbox" class="column">
 			<div class="tape"></div>
 			<h3>{{tape}}<br />
-			<span class="now">{{now}}</span> <span class="join">{{join}}</span></h3>
+			<span class="now">{{now}}</span> <span class="join">{{joinus}}</span></h3>
 			<h1>
 				<span>{{title}}</span>
 				<a id="agree" class="bigbtn" href="javascript:;" onclick="signup(); return false"><img src="img/up.png" width=40 /><span>{{agree}}</span></a>
@@ -186,20 +186,20 @@
 
 					<div class="quote">
 						<blockquote>
-							<div><strong>It's time to end geoblocking!</strong> We would never accept to show our passport when shopping on a high street ... Unfortunately this happens too often when going online. ... Discriminatory territorial practices should stop. ... This would curb piracy and help all consumers to enjoy Europe's cultural diversity.</div>
+							<div>{{quotes.beuc.text}}</div>
 							<cite>
 								<div class="photo" style="background-image:url(img/ppl/beuc.png); background-size: contain;"></div>
-								 <a href="http://www.beuc.eu/geoblocking" target="_blank" class="name">BEUC The European Consumer Organisation</a> <span>not an endorsement of this campaign</span>
+								 <a href="http://www.beuc.eu/geoblocking" target="_blank" class="name">{{quotes.beuc.from}}</a> <span>{{quotes.not}}</span>
 							</cite>
 						</blockquote>
 					</div>
 
 					<div class="quote">
 						<blockquote>
-							<div><strong>Services continue to be confined to national borders</strong> ... [we need] a targeted competition policy ensuring the prohibition of agreements for licenses which prohibit sales of services outside licensed territories.</div>
+							<div>{{quotes.eyif.text}}</div>
 							<cite>
 								<div class="photo" style="background-image:url(img/ppl/eyif.png);"></div>
-								 <a href="http://younginnovator.eu/wp-content/uploads/European-Startup-Act-2020.pdf" target="_blank" class="name">European Startup Act 2020</a> by European Young Innovators Forum <span>not an endorsement of this campaign</span>
+								 <a href="http://younginnovator.eu/wp-content/uploads/European-Startup-Act-2020.pdf" target="_blank" class="name">European Startup Act 2020</a> {{quotes.eyif.from}} <span>{{quotes.not}}</span>
 							</cite>
 						</blockquote>
 					</div>
@@ -210,21 +210,21 @@
 
 					<div class="quote">
 						<blockquote>
-							<div><strong>Deep in my heart, I hate geoblocking.</strong> ... To discriminate, using geoblocking, our citizens in the 21st century in the European Union is not acceptable.</div>
+							<div>{{quotes.ansip.text}}</div>
 							<cite>
 								<div class="photo" style="background-image:url(img/ppl/ansip.jpg)"></div>
-								 <span class="name">Andrus Ansip</span>, Vice-President for the Digital Single Market at the <a href="http://ec.europa.eu/priorities/digital-single-market_en" target="_blank">European Commission</a> <span>not an endorsement of this campaign</span>
+								 <span class="name">Andrus Ansip</span>, {{quotes.ansip.from}} <a href="{{quotes.ansip.link}}" target="_blank">{{quotes.ansip.ec}}</a> <span>{{quotes.not}}</span>
 							</cite>
 						</blockquote>
 					</div>
 
 					<div class="quote">
 						<blockquote>
-							<div>Access across borders contributes to cultural exchange, to learning [...] - <strong>it should become standard in the EU</strong>. It is especially crucial for students attending mobility programs. ... It will be a step to creating the common European public sphere that is so needed.</div>
+							<div>{{quotes.aegee.text}}</div>
 							<cite>
 								<div class="photo" style="background-image:url(img/ppl/aegee.jpg)"></div>
-								 <span class="name">Aleksandra Kluczka</span>, President of <a href="http://aegee.eu/" target="_blank">AEGEE European Students' Forum</a> <abbr title="European Parliament Dec 10, 2015"><sup><a href="https://www.youtube.com/watch?v=ktXuLZ5qYOo#t=36m18s" target="_blank">[12/2015]</a></sup></abbr>
-								 <span>not an endorsement of this campaign</span>
+								 <span class="name">Aleksandra Kluczka</span>, {{quotes.aegee.from}} <a href="http://aegee.eu/" target="_blank">{{quotes.aegee.aegee}}</a> <abbr title="European Parliament Dec 10, 2015"><sup><a href="https://www.youtube.com/watch?v=ktXuLZ5qYOo#t=36m18s" target="_blank">[12/2015]</a></sup></abbr>
+								 <span>{{quotes.not}}</span>
 							</cite>
 						</blockquote>
 					</div>
@@ -236,39 +236,39 @@
 	<section id="todo">
 		<div class="tape"></div>
 		<div class="column">
-			<h2>3 steps to end geoblocking</h2>
+			<h2>{{todo.title}}</h2>
 			<ol>
 				<li>
 					<div class="check">
-						<h4>Current status</h4>
-						<strong class="no"><span class="light"></span>NO DETAILS ANNOUNCED</strong><abbr title="In May 2016, the European Commission presented proposals under the title 'geoblocking' that explicitly do not affect audiovisual content - they are missing the point by excluding the category in which users are most frequently subject to geoblocking."><sup>[?]</sup></abbr>
-						<a href="javascript:;" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+						<h4>{{todo.current}}</h4>
+						<strong class="no"><span class="light"></span>{{todo.passive.status}}</strong><abbr title="{{todo.passive.statuslong}}"><sup>[?]</sup></abbr>
+						<a href="javascript:;" class="btn" onclick="signup(); return false">{{todo.demand}}</a>
 					</div>
-					<h3>Stop forcing services to turn away customers</h3>
+					<h3>{{todo.passive.title}}</h3>
 					<p>
-						Allow "passive sales" for videos: Services should be allowed to do business with all people who find an offer, no matter where they come from. Licenses should only be able to restrict who they can <em>actively advertise to</em>.
+						{{todo.passive.text}}
 					</p>
 				</li>
 				<li>
 					<div class="check">
-						<h4>Current status</h4>
-						<strong class="maybe"><span class="light"></span>INVESTIGATION UNDERWAY</strong><abbr title="Contractual restrictions affecting cross border provision of pay TV services have been subject to an antitrust investigation by the European Commission since 2014"><sup><a href="http://europa.eu/rapid/press-release_IP-14-15_en.htm" target="_blank">[EC]</a></sup></abbr>
-						<a href="javascript:;" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+						<h4>{{todo.current}}</h4>
+						<strong class="maybe"><span class="light"></span>{{todo.law.status}}</strong><abbr title="{{todo.law.statuslong}}"><sup><a href="{{todo.law.statuslong}}" target="_blank">[EC]</a></sup></abbr>
+						<a href="javascript:;" class="btn" onclick="signup(); return false">{{todo.demand}}</a>
 					</div>
-					<h3>Enforce anti-discrimination law</h3>
+					<h3>{{todo.law.title}}</h3>
 					<p>
-						EU law forbids discriminatory<abbr title="Article 20 of the Services Directive"><sup><a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0123&from=EN" target="_blank">[EU]</a></sup></abbr> and anti-competitive<abbr title="Article 101 of the Treaty on the functioning of the European Union"><sup><a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12008E101&from=EN" target="_blank">[EU]</a></sup></abbr> business practices. The EU must clarify that the common justifications for geoblocking conflict with these provisions.
+						{{todo.law.text}}
 					</p>
 				</li>
 				<li>
 					<div class="check">
-						<h4>Current status</h4>
-						<strong class="maybe"><span class="light"></span>PROPOSAL DEBATED</strong><abbr title="The 'Portability Regulation' is currently being debated in the European Parliament and the Council"><sup><a href="http://www.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2015/0284(COD)&l=en" target="_blank">[EP]</a></sup></abbr>
-						<a href="javascript:;" class="btn" onclick="signup(); return false">DEMAND ACTION</a>
+						<h4>{{todo.current}}</h4>
+						<strong class="maybe"><span class="light"></span>{{todo.roaming.status}}</strong><abbr title="{{todo.roaming.statuslong}}"><sup><a href="{{todo.roaming.link}}" target="_blank">[EP]</a></sup></abbr>
+						<a href="javascript:;" class="btn" onclick="signup(); return false">{{todo.demand}}</a>
 					</div>
-					<h3>Allow "roaming" for subscription services</h3>
+					<h3>{{todo.roaming.title}}</h3>
 					<p>
- 						When crossing a border, users must be able to take their subscriptions to online services with them.
+ 						{{todo.roaming.text}}
 					</p>
 				</li>
 			</ol>
@@ -278,26 +278,26 @@
 	<section id="learn">
 		<div class="tape"></div>
 		<div class="column">
-			<h2>Learn more</h2>
+			<h2>{{learn.title}}</h2>
 			<div class="twocol">
 				<div class="col">
-					<h3>Fact sheet</h3>
+					<h3>{{learn.factsheet.title}}</h3>
 					<a href="endgeoblocking-briefing.pdf" target="_blank"style="background-image:url(img/briefing2.png)" class="vid"><span class="rot270">&#x21e0;</span></a>
 					<p>
-						<a class="gobtn"  href="endgeoblocking-briefing.pdf" target="_blank">Download PDF</a></p>
+						<a class="gobtn"  href="endgeoblocking-briefing.pdf" target="_blank">{{learn.factsheet.pdf}}</a></p>
 					<p>
-						Including:
+						{{learn.factsheet.incl}}
 						<ul>
-							<li>3 reasons why geoblocking exists</li>
-							<li>Common pro-geoblocking arguments refuted</li>
+							<li>{{learn.factsheet.reasons}}</li>
+							<li>{{learn.factsheet.common}}</li>
 						</ul>
 					</p>
 				</div>
 				<div class="col">
-					<h3>Presentation</h3>
+					<h3>{{learn.presentation.title}}</h3>
 					<a href="https://www.youtube.com/watch?v=MF8k5ooc4mw" target="_blank" class="vid" style="background-image:url(img/video-talk.jpg)">&#9654;</a>
 					<p><a class="gobtn" href="https://www.youtube.com/watch?v=MF8k5ooc4mw" target="_blank">&#9654; Watch on YouTube</a></p>
-					<p>Talk by MEP Julia Reda at re:publica conference (20 minutes)</p>
+					<p>{{learn.presentation.text}}</p>
 				</div>
 			</div>
 		</div>
@@ -306,9 +306,9 @@
 	<section id="join">
 		<div class="tape"></div>
 		<div class="column">
-			<h2>Join the fight</h2>
+			<h2>{{join.title}}</h2>
 
-			<h3><span class="num">01</span> Sign up to be notified when we need to contact politicians</h3>
+			<h3><span class="num">01</span> {{join.signup}}</h3>
 
 			<div class="widget_wysija_cont html_wysija sec"><div id="msg-form-wysija-html5724fb21bf17a2-4" class="wysija-msg ajax"></div>
 				<form id="form-wysija-html5724fb21bf17a2-4" method="post" action="#wysija" class="widget_wysija html_wysija">
@@ -319,36 +319,36 @@
 					<input type="hidden" name="wysija[user_list][list_ids]" value="5" />
 
 					<input id="email" type="email" placeholder="email" title="email" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" />
-					<input type="submit" value="Let's end geoblocking" />
+					<input type="submit" value="{{end}}" />
 					<span class="abs-req">
 						<input type="hidden" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
 					</span>
-					<small>Privacy policy: We won't spam you or share your data with anyone.</small>
+					<small>{{privacy}}</small>
 				</form>
 				</div>
 
-			<h3><span class="num">02</span> Spread the word</h3>
+			<h3><span class="num">02</span> {{join.spread}}</h3>
 
 			<div class="twocol">
 				<div class="col">
 					<iframe width="350" height="195" src="https://www.youtube-nocookie.com/embed/WbiacSD13qk" frameborder="0" allowfullscreen></iframe><br />
-					<a href="https://youtu.be/WbiacSD13qk">Geoblocking in real life</a> <small style="opacity: .5">by <a href="http://www.beuc.eu/geoblocking" target="_blank">BEUC</a></small>
+					<a href="https://youtu.be/WbiacSD13qk">{{join.reallife}}</a> <small style="opacity: .5">{{join.by}} <a href="http://www.beuc.eu/geoblocking" target="_blank">BEUC</a></small>
 				</div>
 				<div class="col">
 					<iframe src="https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2FJuliaRedaMEP%2Fvideos%2Fvb.1444482109146991%2F1712801232315076%2F%3Ftype%3D3&show_text=0&width=350" width="350" height="195" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe><br />
-					<a href="https://youtu.be/0-cYWnjM4fc">Have you been geoblocked?</a>
-					<small style="opacity: .5">by <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a></small>
+					<a href="https://youtu.be/0-cYWnjM4fc">{{join.geoblocked}}</a>
+					<small style="opacity: .5">{{join.by}} <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a></small>
 				</div>
 			</div>
 
 			<div><br style="clear:both" /><br />
-				<a class="tw" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=No%20more%20%22this content%20not%20available%20in%20your%20country%22%3A%20End%20%23geoblocking!%20Join%20the%20campaign%3A%20http://endgeoblocking.eu" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=270,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220));"><img src="img/tw.png" width="46" /> <span>Tweet this</span></a><blockquote class="tweetthis">
-				No more "this content not available in your country": End geoblocking! Join the campaign: http://endgeoblocking.eu
+				<a class="tw" href="{{join.link}}" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=270,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220));"><img src="img/tw.png" width="46" /> <span>{{join.tweetthis}}</span></a><blockquote class="tweetthis">
+				{{join.tweet}}
 				</blockquote>
 				<br style="clear:both" />
 			</div>
 
-			<a href="https://www.facebook.com/endgeoblocking/" target="_blank" class="fb"><img src="img/fb-like.png" width="50" /> <span>Like &amp; share this campaign on Facebook</span></a>
+			<a href="https://www.facebook.com/endgeoblocking/" target="_blank" class="fb"><img src="img/fb-like.png" width="50" /> <span>{{join.fb}}</span></a>
 
 
 			<p style="text-align: center; margin-top: 2em">
@@ -359,8 +359,8 @@
 		</div>
 
 		<p id="credits">
-			Created by the office of <a href="https://juliareda.eu">MEP Julia Reda</a> and additional volunteers. <a href="https://github.com/JuliaRedaMEP/endgeoblocking.eu">Fork me on Github</a><br />
-			All original content dedicated to the public domain (Creative Commons Zero). Please copy, remix and share.
+			{{credits.createdby}} <a href="https://juliareda.eu">MEP Julia Reda</a> {{credits.volunteers}} <a href="https://github.com/JuliaRedaMEP/endgeoblocking.eu">{{credits.gh}}</a><br />
+			{{credits.cc}}
 		</p>
 	</section>
 
