@@ -13,6 +13,26 @@ _paq.push(['enableLinkTracking']);
 
 
 window.onload = function() {
+	// if going to main domain: try to auto detect language
+	var langOs = document.getElementById('langselect').options;
+	if (document.location.pathname == '/') {
+		var browserLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+		browserLang = browserLang.substr(0,2);
+		if (browserLang != 'en') { // don't need to do anything there
+			for (var i=0; i<langOs.length; i++) {
+				if (langOs[i].value == browserLang) { // if it exists in the language dropdown
+					document.location.replace('/'+browserLang);
+				}
+			}
+		}
+	}
+	var currLang = document.body.className.match(/lang-([a-z]{2})/)[1];
+	for (var i=0; i<langOs.length; i++) {
+		if (langOs[i].value == currLang) {
+			langOs[i].selected = 'selected';
+		}
+	}
+
 	window.screens = ['1b.jpg', '10.png', '19.png', '3.png', '4.png', '5.jpg', '17.jpg', '6.jpg', '7.jpg', '18.jpg', '8.jpg', '9.png', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '20.jpg'];
 	window.currentScreen = 0;
 	setTimeout(changeImage, 4000);
