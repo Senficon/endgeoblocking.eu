@@ -11,8 +11,7 @@ _paq.push(['enableLinkTracking']);
 	g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 })();
 
-
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function() {
 	// if going to main domain: try to auto detect language
 	var langOs = document.getElementById('langselect').options;
 	if (document.location.pathname == '/') {
