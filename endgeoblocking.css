@@ -173,7 +173,7 @@ h3 { color: #aaa; }
 #logo {
 	float: right;
 	transform:rotate(6deg);
-	margin-top: -3em;
+	margin-top: 0em;
 	margin-right: -2.5em;
 }
 
