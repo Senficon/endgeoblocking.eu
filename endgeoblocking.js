@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	}
 }, false);
-‚
 
 function switchLang(l) {
 	if (l != window.currLang) {
