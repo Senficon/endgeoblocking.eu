@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function switchLang(l) {
 	if (l != window.currLang) {
-		document.cookie = 'lang='+l;
+		document.cookie = 'lang='+l+'; path=/';
 		var url = document.location.pathname.replace('index.html', '');
 		url += (window.currLang == window.defaultLang) ? '' : '../'; // default language lives in root
 		url += (l == window.defaultLang) ? '' : l+'/';
