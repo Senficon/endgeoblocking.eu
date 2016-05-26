@@ -347,7 +347,7 @@ section {
 
 
 section#intro {
-	background: url(img/europe3.jpg);
+	background: #223 url(img/europe3.jpg);
 	background-size: 120%;
 	background-position: -100px -185px;
 	padding-top: 1em;
