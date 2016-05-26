@@ -97,6 +97,8 @@ form::after { /* clearfix */
 form small {
 	opacity: .5;
 	font-size:.6em;
+	clear: both;
+    display: block;
 }
 form input[type=email] {
 	font-size: 1.6em;
