@@ -68,8 +68,10 @@
 		<!--div class="tape"></div-->
 		<div id="topbox" class="column">
 			<div class="tape"></div>
-			<h3>{{tape}}<br />
-			<span class="now">{{now}}</span> <span class="join">{{joinus}}</span></h3>
+			<h3>
+				{{tape}}
+				<span class="now">{{now}}</span> <span class="join">{{joinus}}</span>
+			</h3>
 			<h1>
 				<span>{{title}}</span>
 				<a id="agree" class="bigbtn" href="javascript:;" onclick="signup(); return false"><img src="img/up.png" width=40 /><span>{{agree}}</span></a>
@@ -314,7 +316,7 @@
 				<div class="col">
 					<h3>{{learn.presentation.title}}</h3>
 					<a href="https://www.youtube.com/watch?v=MF8k5ooc4mw" target="_blank" class="vid" style="background-image:url(img/video-talk.jpg)">&#9654;</a>
-					<p><a class="gobtn" href="https://www.youtube.com/watch?v=MF8k5ooc4mw" target="_blank">&#9654; Watch on YouTube</a></p>
+					<p><a class="gobtn" href="https://www.youtube.com/watch?v=MF8k5ooc4mw" target="_blank">&#9654; {{learn.presentation.watch}}</a></p>
 					<p>{{learn.presentation.text}}</p>
 				</div>
 			</div>
