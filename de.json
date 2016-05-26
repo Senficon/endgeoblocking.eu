@@ -2,7 +2,7 @@
   "lang": "de",
   "base": "../",
   "title": "Beendet Geoblocking",
-  "description": "Jeden Tag hindern künstliche digitale Grenzen Millionen Europäaer daran online Waren zu bestellen, Filme on-demand zu kaufen oder Videos anzuschauen. Die EU überlegt nun, das zu ändern. Join us in demanding: End geoblocking!",
+  "description": "Jeden Tag hindern k&uuml;nstliche digitale Grenzen Millionen Europ&auml;aer daran online Waren zu bestellen, Filme on-demand zu kaufen oder Videos anzuschauen. Die EU &uuml;berlegt nun, das zu &auml;ndern. Join us in demanding: End geoblocking!",
   "menu": {
     "unfair": "Warum es unfair ist",
     "voices": "Stimmen",
@@ -11,92 +11,92 @@
     "signup": "HILF MIT GEOBLOCKING ZU BEENDEN"
   },
   "intro": "Wurdest Du schon mal <strong>geoblockiert?</strong>",
-  "tape": "Jeden Tag hindern künstliche digitale Grenzen Millionen Europäaer daran online Waren zu bestellen, Filme on-demand zu kaufen oder Videos anzuschauen.",
-  "now": "Die EU überlegt nun, das zu ändern.",
-  "joinus": "Schließ Dich uns an and fordere:",
+  "tape": "Jeden Tag hindern k&uuml;nstliche digitale Grenzen Millionen Europ&auml;aer daran online Waren zu bestellen, Filme on-demand zu kaufen oder Videos anzuschauen.",
+  "now": "Die EU &uuml;berlegt nun, das zu &auml;ndern.",
+  "joinus": "Schlie&szlig; Dich uns an and fordere:",
   "agree": "Ich stimme zu",
   "appeal": {
     "fight": "Der Kampf zur Beendigung von Geoblocking in der EU hat begonnen.",
     "voice": "Er can nur erfolgreich sein, wenn Du Deine Stimme erhebst!",
-    "signup": "Trage Dich hier ein, so dass wir Dir Bescheid geben können, wenn es Zeit ist die richtigen EU-Politikerzu kontaktieren:"
+    "signup": "Trage Dich hier ein, so dass wir Dir Bescheid geben k&ouml;nnen, wenn es Zeit ist die richtigen EU-Politikerzu kontaktieren:"
   },
   "end": "Lasst uns Geoblocking beenden",
   "privacy": "Datenschutz: Wir werden Dich nicht zuspammen oder Deine Daten mit anderen teilen.",
   "friends": "Bitte scrolle nach unten und teile diese Seite mit Deinen Freunden",
-  "defeat": "Gemeinsam können wir Geoblocking !",
+  "defeat": "Gemeinsam k&ouml;nnen wir Geoblocking !",
   "unfair": {
     "title": "Warum Geoblocking beendet werden muss",
     "discrimination": {
       "title": "Geoblocking ist Diskriminierung",
-      "pretext": "Sprachlichen Minderheiten, Langzeit-Migranten, Austauschstudenten, etc. &ndash; 1 von 10 Europäaern",
-      "abbr": "1 von 10 Europäaern spricht eine Minderheitensprache - Davyth Hicks, ELEN",
+      "pretext": "Sprachlichen Minderheiten, Langzeit-Migranten, Austauschstudenten, etc. &ndash; 1 von 10 Europ&auml;aern",
+      "abbr": "1 von 10 Europ&auml;aern spricht eine Minderheitensprache - Davyth Hicks, ELEN",
       "posttext": "wird der Zugang zu ihrer Kultur online verwehrt."
     },
     "artists": {
-      "title": "Geoblocking sperrt Künstler ein",
-      "text": "Der Arbeit vieler Künstler wird ein europaweites Publikum verwehrt &ndash; und bezahlwillige Fans werden weggeschickt."
+      "title": "Geoblocking sperrt K&uuml;nstler ein",
+      "text": "Der Arbeit vieler K&uuml;nstler wird ein europaweites Publikum verwehrt &ndash; und bezahlwillige Fans werden weggeschickt."
     },
     "audiences": {
       "title": "Geoblocking sperrt das Publikum ein",
-      "text": "Menschen die Sprachen lernen wollen, Fans von ausländischen Sportangeboten, etc. sind gezwungen VPNs zu bezahlen anstelle der Urheber oder sich illegale Quellen zu suchen."
+      "text": "Menschen die Sprachen lernen wollen, Fans von ausl&auml;ndischen Sportangeboten, etc. sind gezwungen VPNs zu bezahlen anstelle der Urheber oder sich illegale Quellen zu suchen."
     },
     "principles": {
-      "title": "Geoblocking verrät EU Prinzipien",
-      "text": "Die EU sollte ein gemeinsamer Markt sein. Geoblocking untergräbt das. Die EU muss handeln &ndash; wie sie es beim Roaming getan hat."
+      "title": "Geoblocking verr&auml;t EU Prinzipien",
+      "text": "Die EU sollte ein gemeinsamer Markt sein. Geoblocking untergr&auml;bt das. Die EU muss handeln &ndash; wie sie es beim Roaming getan hat."
     },
     "economy": {
       "title": "Geoblocking schadet der Wirtschaft",
-      "text": "Bis zu 1,6 Milliarden Euro grenzübergreifender Nachfrage entgeht EU VoD-Plattformen, EU Startups und Künstlern."
+      "text": "Bis zu 1,6 Milliarden Euro grenz&uuml;bergreifender Nachfrage entgeht EU VoD-Plattformen, EU Startups und K&uuml;nstlern."
     }
   },
   "voices": {
     "title": "Stimmen gegen Geoblocking",
-    "text": "Politiker, Verbraucherschützer, Minderheitenvertreter, Startup-Verbände, regionale Parlamente und viele andere haben sich <strong>gegen Geoblocking</strong> ausgesprochen."
+    "text": "Politiker, Verbrauchersch&uuml;tzer, Minderheitenvertreter, Startup-Verb&auml;nde, regionale Parlamente und viele andere haben sich <strong>gegen Geoblocking</strong> ausgesprochen."
   },
   "stat": {
     "title": "Und das sagen Nutzer wie Du:",
-    "consultation": "Öffentliche Konsultation der Europäischen Kommission, 2016 (Einzelpersonen)",
+    "consultation": "&Ouml;ffentliche Konsultation der Europ&auml;ischen Kommission, 2016 (Einzelpersonen)",
     "link": "https://ec.europa.eu/digital-agenda/en/news/first-brief-results-public-consultation-geo-blocking-and-other-geographically-based",
     "geoblocked": "wurden<br />geoblockiert",
     "never": "sagen es sollte<br />niemals vorkommen",
-    "majority": "große Mehrheit",
-    "laws": "unterstützt EU-<br />Gesetze dagegen"
+    "majority": "gro&szlig;e Mehrheit",
+    "laws": "unterst&uuml;tzt EU-<br />Gesetze dagegen"
   },
   "supporters": {
     "julia": {
-      "text": "<strong>Geoblocking ist die anachronistischste, uneuropäischste, anti-digitale Praktik im Web.</strong> In diesem Jahr haben wir die Chance sie in der EU zu beenden &ndash; ob wir Erfolg haben hängt davon ab, ob Menschen sich dafür einsetzen. <span>unterstützt diese Kampagne</span>",
-      "position": "Mitglied des Europäischen Parlamentes (Piratenpartei, Grüne/EFA Gruppe)",
+      "text": "<strong>Geoblocking ist die anachronistischste, uneurop&auml;ischste, anti-digitale Praktik im Web.</strong> In diesem Jahr haben wir die Chance sie in der EU zu beenden &ndash; ob wir Erfolg haben h&auml;ngt davon ab, ob Menschen sich daf&uuml;r einsetzen. <span>unterst&uuml;tzt diese Kampagne</span>",
+      "position": "Mitglied des Europ&auml;ischen Parlamentes (Piratenpartei, Gr&uuml;ne/EFA Gruppe)",
       "watch": "Schau Dir hier ihre Keynote zum Geoblocking an"
     },
     "elen": {
-      "text": "Geoblocking untergräbt die Nutzung regionaler Minderheitensprachen. ... Normalerweise verbundene Grenzregionen werden <strong>digital getrennt</strong>. Das ist lächerlich! <span>unterstützt diese Kampagne</span>",
+      "text": "Geoblocking untergr&auml;bt die Nutzung regionaler Minderheitensprachen. ... Normalerweise verbundene Grenzregionen werden <strong>digital getrennt</strong>. Das ist l&auml;cherlich! <span>unterst&uuml;tzt diese Kampagne</span>",
       "position": "European Language Equality Network (ELEN)"
     },
     "bermejo": {
-      "text": "<strong>Geoblocking ist Nonsense</strong> in der heutigen Welt, insbesondere dann, wenn wir daran arbeiten weltweite Unternehmen und einen europäischen digitalen Binnenmarkt zu schaffen. [...] Die Menschen verstehen nicht, warum Geoblocking existiert.<span>unterstützt diese Kampagne</span>",
-      "position": "Vize-Präsident",
+      "text": "<strong>Geoblocking ist Nonsense</strong> in der heutigen Welt, insbesondere dann, wenn wir daran arbeiten weltweite Unternehmen und einen europ&auml;ischen digitalen Binnenmarkt zu schaffen. [...] Die Menschen verstehen nicht, warum Geoblocking existiert.<span>unterst&uuml;tzt diese Kampagne</span>",
+      "position": "Vize-Pr&auml;sident",
       "orga": "Spanish Startup Association"
     }
   },
   "quotes": {
-    "not": "Keine Unterstützung dieser Kampagne",
+    "not": "Keine Unterst&uuml;tzung dieser Kampagne",
     "beuc": {
-      "text": "<strong>Es ist Zeit Geoblocking zu beenden!</strong> Wir würden es nicht akzeptieren, müssten wir beim Einkaufen in einem Laden unseren Pass vorzeugen ... Leider passiert das zu oft wenn wir online sind. ... Diskriminierende territorial Praktiken sollten gestoppt werden. ... Dies würde die Verbreitung von Raubkopien einschränken und Konsumenten helfen, Europas kulturelle Vielfalt zu geniessen.",
-      "from": "BEUC Die Europäische Verbraucherschutz Organisation"
+      "text": "<strong>Es ist Zeit Geoblocking zu beenden!</strong> Wir w&uuml;rden es nicht akzeptieren, m&uuml;ssten wir beim Einkaufen in einem Laden unseren Pass vorzeugen ... Leider passiert das zu oft wenn wir online sind. ... Diskriminierende territorial Praktiken sollten gestoppt werden. ... Dies w&uuml;rde die Verbreitung von Raubkopien einschr&auml;nken und Konsumenten helfen, Europas kulturelle Vielfalt zu geniessen.",
+      "from": "BEUC Die Europ&auml;ische Verbraucherschutz Organisation"
     },
     "eyif": {
-      "text": "<strong>Dienstleistungen sind weiterhin von nationalen Grenzen gefesselt</strong> ... [wir brauchen] eine zielgerichtete Wettbewerbspolitik die sichergestellt, dass keine Abkommen geschlossen werden, die Verkäufe von Dienstleistungen außerhalb des lizensierten Gebietes verbieten.",
+      "text": "<strong>Dienstleistungen sind weiterhin von nationalen Grenzen gefesselt</strong> ... [wir brauchen] eine zielgerichtete Wettbewerbspolitik die sichergestellt, dass keine Abkommen geschlossen werden, die Verk&auml;ufe von Dienstleistungen au&szlig;erhalb des lizensierten Gebietes verbieten.",
       "from": "von European Young Innovators Forum"
     },
     "ansip": {
-      "text": "<strong>Tief in meinem Herzen hasse ich Geoblocking.</strong> ... Unsere Bürger in der Europäischen Union, per Geoblocking, im 21. Jharhundert zu diskriminieren ist nicht hinnehmbar.",
-      "from": "Vize-Präsident für den digitalen Binnenmarkt bei der",
-      "ec": "Europäischen Kommission",
+      "text": "<strong>Tief in meinem Herzen hasse ich Geoblocking.</strong> ... Unsere B&uuml;rger in der Europ&auml;ischen Union, per Geoblocking, im 21. Jharhundert zu diskriminieren ist nicht hinnehmbar.",
+      "from": "Vize-Pr&auml;sident f&uuml;r den digitalen Binnenmarkt bei der",
+      "ec": "Europ&auml;ischen Kommission",
       "link": "http://ec.europa.eu/priorities/digital-single-market_de"
     },
     "aegee": {
-      "text": "Grenzübergreifender Zugang leistet einen Beitrag zu kulturellem Austausch, zum Lernen [...] - <strong>es sollte der Standard in der EU werden</strong>. Es ist besonders für Studierende in Mobilitätsprogrammen wichtig. ... Es ist ein Schritt zu einer europäischen Öffentlichkeit, die sehr gebraucht wird.",
-      "from": "Präsident von",
+      "text": "Grenz&uuml;bergreifender Zugang leistet einen Beitrag zu kulturellem Austausch, zum Lernen [...] - <strong>es sollte der Standard in der EU werden</strong>. Es ist besonders f&uuml;r Studierende in Mobilit&auml;tsprogrammen wichtig. ... Es ist ein Schritt zu einer europ&auml;ischen &Ouml;ffentlichkeit, die sehr gebraucht wird.",
+      "from": "Pr&auml;sident von",
       "aegee": "AEGEE European Students' Forum"
     }
   },
@@ -106,23 +106,23 @@
     "demand": "JETZT HANDELN",
     "passive": {
       "status": "KEINE DETAILS ANGEGEBEN",
-      "statuslong": "Im Mai 2016 hat die Europäische Kommission einen Vorschlag mit dem Titel 'Geoblocking' unterbreitet, der sich explizit nicht auf audiovisuelle Inhalte bezieht - damit verfehlen sie das Ziel indem sie gerade die Kategorie ausschließen, in der Nutzer am häufigsten von Geoblocking betroffen sind.",
+      "statuslong": "Im Mai 2016 hat die Europ&auml;ische Kommission einen Vorschlag mit dem Titel 'Geoblocking' unterbreitet, der sich explizit nicht auf audiovisuelle Inhalte bezieht - damit verfehlen sie das Ziel indem sie gerade die Kategorie ausschlie&szlig;en, in der Nutzer am h&auml;ufigsten von Geoblocking betroffen sind.",
       "title": "Dienstleister nicht dazu zwingen, Kunden abzulehnen",
-      "text": "&#xAB;Passive Verkäufe&#xBB; für Videos erlauben: Dienstleister sollten Handel treiben können mit jedem, der ihr Angebot findet, unabhängig von der Herkunft. Lizenzen sollten nur einschränken, wen sie <em>aktiv bewerben können</em>."
+      "text": "&#xAB;Passive Verk&auml;ufe&#xBB; f&uuml;r Videos erlauben: Dienstleister sollten Handel treiben k&ouml;nnen mit jedem, der ihr Angebot findet, unabh&auml;ngig von der Herkunft. Lizenzen sollten nur einschr&auml;nken, wen sie <em>aktiv bewerben k&ouml;nnen</em>."
     },
     "law": {
       "status": "ERMITTLUMG IM GANG",
-      "statuslong": "Vertragliche Beschränkungen bei der Erbringung grenzüberschreitender Pay TV Dienste werden von der Europäischen Kommission im Zuge kartellrechtlicher Ermittlungen seit 2014 untersucht.",
+      "statuslong": "Vertragliche Beschr&auml;nkungen bei der Erbringung grenz&uuml;berschreitender Pay TV Dienste werden von der Europ&auml;ischen Kommission im Zuge kartellrechtlicher Ermittlungen seit 2014 untersucht.",
       "link": "http://europa.eu/rapid/press-release_IP-14-15_de.htm",
       "title": "Anti-Diskriminierungsgesetze durchsetzen",
-      "text": "EU-Recht verbietet diskrimininierende<abbr title=\"Article 20 der Dienstleistungsrichtlinie\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32006L0123&from=DE\" target=\"_blank\">[EU]</a></sup></abbr> und wettbewewerbswidrige<abbr title=\"Article 101 des Vertrages über die Arbeitsweise der Europäischen Kommission\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:12008E101&from=DE\" target=\"_blank\">[EU]</a></sup></abbr> Geschäftspraktiken. Die EU muss klarstellen, dass die üblichen Rechtfertigungen für Geoblocking diesen Vorschriften zuwiderlaufen."
+      "text": "EU-Recht verbietet diskrimininierende<abbr title=\"Article 20 der Dienstleistungsrichtlinie\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32006L0123&from=DE\" target=\"_blank\">[EU]</a></sup></abbr> und wettbewewerbswidrige<abbr title=\"Article 101 des Vertrages &uuml;ber die Arbeitsweise der Europ&auml;ischen Kommission\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:12008E101&from=DE\" target=\"_blank\">[EU]</a></sup></abbr> Gesch&auml;ftspraktiken. Die EU muss klarstellen, dass die &uuml;blichen Rechtfertigungen f&uuml;r Geoblocking diesen Vorschriften zuwiderlaufen."
     },
     "roaming": {
       "status": "VORSCHLAG IN DER VERHANDLUNG",
-      "statuslong": "Die 'Portabilitäts Verordnung' wird momentan im Europäischen Parlament und im Rat verhandelt",
+      "statuslong": "Die 'Portabilit&auml;ts Verordnung' wird momentan im Europ&auml;ischen Parlament und im Rat verhandelt",
       "link": "http://www.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2015/0284(COD)&l=en",
-      "title": "&#xAB;Roaming&#xBB; für Abo-Dienste erlauben",
-      "text": "Wenn sie eine Grenze passieren, müssen Nutzer ihr Abo für Inline-Dienste mitnehmen können."
+      "title": "&#xAB;Roaming&#xBB; f&uuml;r Abo-Dienste erlauben",
+      "text": "Wenn sie eine Grenze passieren, m&uuml;ssen Nutzer ihr Abo f&uuml;r Inline-Dienste mitnehmen k&ouml;nnen."
     }
   },
   "learn": {
@@ -131,25 +131,25 @@
       "title": "Informationsblatt",
       "pdf": "Download PDF",
       "incl": "Beinhaltet:",
-      "reasons": "3 Gründe, warum Geoblocking existiert",
-      "common": "Häufige Pro-Geoblocking Argumente widerlegt"
+      "reasons": "3 Gr&uuml;nde, warum Geoblocking existiert",
+      "common": "H&auml;ufige Pro-Geoblocking Argumente widerlegt"
     },
     "presentation": {
-      "title": "Präsentation",
+      "title": "Pr&auml;sentation",
       "watch": "Auf YouTube ansehen",
       "text": "Vortrag von MdEP Julia Reda auf der re:publica Konferenz (20 Minuten)"
     }
   },
   "join": {
     "title": "Join the fight",
-    "signup": "Anmelden um zu erfahren, wenn wir Politiker kontaktieren müssen",
+    "signup": "Anmelden um zu erfahren, wenn wir Politiker kontaktieren m&uuml;ssen",
     "spread": "Weitersagen",
     "reallife": "Geoblocking im Real Life",
     "by": "von",
     "geoblocked": "Wurdest Du geoblockiert?",
     "tweetthis": "Twittern",
-    "link": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=Kein%20%22Dieser%20Inhalt%20ist%20in%20Deinem%20Land%20nicht%20verfügbar%22%20mehr%3A%20Beendet%20%23Geoblocking!%20Join%20the%20campaign%3A%20http://endgeoblocking.eu",
-    "tweet": "Kein &#xAB;Dieser Inhalt ist in Deinem Land nicht verfügbar&#xBB; mehr: Beenndet Geoblocking! Join the campaign: http://endgeoblocking.eu",
+    "link": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=Kein%20%22Dieser%20Inhalt%20ist%20in%20Deinem%20Land%20nicht%20verf&uuml;gbar%22%20mehr%3A%20Beendet%20%23Geoblocking!%20Join%20the%20campaign%3A%20http://endgeoblocking.eu",
+    "tweet": "Kein &#xAB;Dieser Inhalt ist in Deinem Land nicht verf&uuml;gbar&#xBB; mehr: Beenndet Geoblocking! Join the campaign: http://endgeoblocking.eu",
     "fb": "Like &amp; teile diese Kampagen auf Facebook"
   },
   "credits": {
