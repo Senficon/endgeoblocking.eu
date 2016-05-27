@@ -21,7 +21,7 @@
     "voice": "¡Pero solo puede tener éxito si alzas tu voz!",
     "signup": "Inscríbete aquí para que podamos informarte cuando llegue el momento de contactar con los políticos de la UE correspondientes:"
   },
-  "end": "Terminemos con el 'geoblocking'",
+  "end": "Quiero unirme",
   "privacy": "Política de privacidad: No vamos a spamearte ni a compartir tus datos personales con nadie.",
   "friends": "Por favor, sigue bajando si quieres compartir esta página con tus amigos.",
   "defeat": "¡Juntos podemos acabar con el 'geoblocking'!",
@@ -35,7 +35,7 @@
     },
     "artists": {
       "title": "Geoblocking limita a los artistas",
-      "text": "Al trabajo de muchos artistas se les deniega la oportunidad de una audiencia europea, rechazando a fans que están dispuestos a pagar."
+      "text": "Al trabajo de muchos artistas se le deniega la oportunidad de alcanzar una audiencia europea, rechazando a fans que están dispuestos a pagar."
     },
     "audiences": {
       "title": "Geoblocking deja fuera a posibles audiencias",
@@ -53,16 +53,16 @@
   },
   "voices": {
     "title": "Voces contra el 'geoblocking'",
-    "text": "Políticos, defensores del consumidor, representantes de minorías, asociaciones de startups, Parlamentos regionales y muchos más se han manifestado<strong>en contra del 'geoblocking'.</strong>"
+    "text": "Políticos, defensores del consumidor, representantes de minorías, asociaciones de startups, Parlamentos regionales y muchos más se han manifestado <strong>en contra del 'geoblocking'.</strong>"
   },
   "stat": {
     "title": "Esto es lo que otros usuarios como tú han dicho:",
     "consultation": "Consulta pública de la Comisión Europea, 2016 (participantes individuales)",
     "link": "https://ec.europa.eu/digital-agenda/en/news/first-brief-results-public-consultation-geo-blocking-and-other-geographically-based",
     "geoblocked": "han sido<br />geobloqueados",
-    "never": "dicen que nunca<br />debería ocurrir",
+    "never": "creen que no<br />debería ocurrir",
     "majority": "la gran mayoría",
-    "laws": "quieren una ley europea<br />que lo impida"
+    "laws": "quiere una ley<br />europea que<br />lo impida"
   },
   "supporters": {
     "julia": {
@@ -83,7 +83,7 @@
   "quotes": {
     "not": "no forma parte de esta campaña",
     "beuc": {
-      "text": "<strong>¡Es hora de terminar con el 'geoblocking'!</strong> Nunca aceptaríamos tener que enseñar nuestro pasaporte cuando vamos de compras por la avenida principal... Sin embargo, esto pasa demasiado a menudo cuando lo hacemos online... Las prácticas territorialmente discriminatorias deberían terminar... Ayudaría a frenar la piratería y ayudaría a todos los consumidores a disfrutar de la diversidad cultural de Europa.",
+      "text": "<strong>¡Es hora de terminar con el 'geoblocking'!</strong> Nunca aceptaríamos tener que enseñar nuestro pasaporte cuando vamos de compras por la avenida principal... Sin embargo, esto pasa a menudo cuando lo hacemos online... Las prácticas territorialmente discriminatorias deberían terminar... Ayudaría a frenar la piratería y ayudaría a todos los consumidores a disfrutar de la diversidad cultural de Europa.",
       "from": "BEUC, Asociación Europea de Consumidores"
     },
     "eyif": {
@@ -109,14 +109,14 @@
     "passive": {
       "status": "AÚN SIN DETALLES",
       "statuslong": "En mayo de 2016, la Comisión Europea presentó propuestas bajo el título de 'geoblocking' que no afectan explícitamente al contenido audiovisual - olvidan lo más importante al excluir la categoría en la que los usuarios se enfrentan con más frecuencia al 'geoblocking'.",
-      "title": "Dejad de forzar a los servicios a rechazar clientes",
+      "title": "No obliguéis a los servicios a rechazar clientes",
       "text": "Permitid la &#xAB;venta pasiva&#xBB; de vídeos: Se debería permitir a los servicios hacer negocios con cualquier persona que acceda a sus ofertas, sin importar de dónde procedan. Las licencias deberían poder restringir solamente <em>a quién se promocionan de manera activa</em>."
     },
     "law": {
       "status": "INVESTIGACIÓN EN CURSO",
       "statuslong": "Las restricciones contractuales que afectan a la prestación transfronteriza de servicios de TV de pago han sido objeto de investigación de la Comisión Europea desde el 2014.",
       "link": "http://europa.eu/rapid/press-release_IP-14-15_en.htm",
-      "title": "Haz que se cumpla la ley antidiscriminación",
+      "title": "Haz que se cumpla la ley antidiscriminatoria",
       "text": "La legislación europea prohíbe las prácticas de negocio discriminatorias <abbr title=\"Artículo 20 de la Directiva de Servicios\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32006L0123&from=ES\" target=\"_blank\">[EU]</a></sup></abbr> y anticompetitivas<abbr title=\"Artículo 101 del Tratado de Funcionamiento de la Unión Europea\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12008E101&from=ES\" target=\"_blank\">[EU]</a></sup></abbr>. La UE debe aclarar que las justificaciones en las que se basa normalmente el 'geoblocking' entran en conflicto con estas disposiciones."
     },
     "roaming": {
@@ -144,7 +144,7 @@
   },
   "join": {
     "title": "Únete a la lucha",
-    "signup": "Inscríbite para que te notifiquemos cuando sea necesario contactar a los políticos",
+    "signup": "Inscríbite para que te notifiquemos cuando sea necesario contactar a los eurodiputados",
     "spread": "Difunde la palabra",
     "reallife": "Geoblocking en la vida real",
     "by": "por",
