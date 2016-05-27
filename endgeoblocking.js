@@ -1,3 +1,5 @@
+window.defaultLang = 'en';
+
 // Piwik stats
 var _paq = _paq || [];
 _paq.push(["setDomains", ["*.endgeoblocking.eu","*.endgeoblocking.eu"]]);
@@ -14,10 +16,11 @@ _paq.push(['enableLinkTracking']);
 document.addEventListener("DOMContentLoaded", function() {
 	// if going to main domain: try to auto detect language
 	var langOs = document.getElementById('langselect').options;
-	if (document.location.pathname == '/') {
+	if (document.location.pathname == '/' &&
+		!document.cookie.match('lang='+window.defaultLang)) {
 		var browserLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
 		browserLang = browserLang.substr(0,2);
-		if (browserLang != 'en') { // don't need to do anything there
+		if (browserLang != window.defaultLang) { // don't need to do anything there
 			for (var i=0; i<langOs.length; i++) {
 				if (langOs[i].value == browserLang) { // if it exists in the language dropdown
 					document.location.replace('/'+browserLang);
@@ -46,12 +49,12 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 }, false);
 
-
 function switchLang(l) {
 	if (l != window.currLang) {
+		document.cookie = 'lang='+l+'; path=/';
 		var url = document.location.pathname.replace('index.html', '');
-		url += (window.currLang == 'en') ? '' : '../'; // en lives in root
-		url += (l == 'en') ? '' : l+'/';
+		url += (window.currLang == window.defaultLang) ? '' : '../'; // default language lives in root
+		url += (l == window.defaultLang) ? '' : l+'/';
 		url += (document.location.protocol == 'file:') ? 'index.html' : ''; // for local dev
 		document.location.replace(url);
 	}

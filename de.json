@@ -2,7 +2,7 @@
   "lang": "de",
   "base": "../",
   "title": "Geoblocking abschaffen!",
-  "description": "Jeden Tag hindern k&uuml;nstliche digitale Grenzen Millionen Menschen in Europ&auml;a daran, Waren zu bestellen, Filme on-demand zu kaufen oder Videos zu gucken. Die EU &uuml;berlegt nun, das zu &auml;ndern. Unterst&uuml;tze unsere Forderung: Schluss mit Geoblocking!s",
+  "description": "Jeden Tag hindern k&uuml;nstliche digitale Grenzen Millionen Menschen in Europa daran, Waren zu bestellen, Filme on-demand zu kaufen oder Videos zu gucken. Die EU &uuml;berlegt nun, das zu &auml;ndern. Unterst&uuml;tze unsere Forderung: Schluss mit Geoblocking!",
   "menu": {
     "unfair": "Geoblocking ist unfair",
     "voices": "Stimmen",
@@ -20,7 +20,7 @@
     "voice": "Wir k&ouml;nnen es nur schaffen, wenn du deine Stimme erhebst!",
     "signup": "Trage Dich hier ein, damit wir dich informieren k&ouml;nnen, wenn es an der Zeit ist, EU-Politiker*innen zu kontaktieren:"
   },
-  "end": "Geoblocking abschaffen!",
+  "end": "Geoblocking muss weg",
   "privacy": "Datenschutz: Wir werden dich nicht zuspammen und deine Daten mit niemandem teilen.",
   "friends": "Bitte scrolle nach unten und teile diese Seite mit Deinen Freunden",
   "defeat": "Gemeinsam k&ouml;nnen wir Geoblocking abschaffen!",
@@ -41,7 +41,7 @@
       "text": "Menschen, die Sprachen lernen wollen, Fans von ausl&auml;ndischen Sport-Ligen, etc. sind gezwungen, anstelle Urheber*innen VPNs zu bezahlen, oder suchen sich gleich illegale Quellen."
     },
     "principles": {
-      "title": "Geoblocking verr&auml;t EU Prinzipien",
+      "title": "Geoblocking verr&auml;t EU-Prinzipien",
       "text": "Die EU sollte ein gemeinsamer Markt sein. Geoblocking untergr&auml;bt das. Die EU muss handeln &ndash; wie sie es beim Roaming getan hat."
     },
     "economy": {
@@ -51,7 +51,7 @@
   },
   "voices": {
     "title": "Stimmen gegen Geoblocking",
-    "text": "Politiker*innen, Verbrauchersch&uuml;tzorganisationen, Minderheitenvertreter*innen, Startup-Verb&auml;nde, regionale Parlamente und viele mehr sprechen sich <strong>gegen Geoblocking</strong> aus."
+    "text": "Politiker*innen, Verbraucherschutzorganisationen, Minderheitenvertreter*innen, Startup-Verb&auml;nde, regionale Parlamente und viele mehr sprechen sich <strong>gegen Geoblocking</strong> aus."
   },
   "stat": {
     "title": "Und das sagen Nutzer*innen wie du:",
@@ -103,7 +103,7 @@
   "todo": {
     "title": "3 Schritte, um Geoblocking abzuschaffen",
     "current": "Stand",
-    "demand": "FORDERUNG UNTERST&Uuml;TZEN",
+    "demand": "MASSNAHME EINFORDERN",
     "passive": {
       "status": "KEINE DETAILS BEKANNT",
       "statuslong": "Im Mai 2016 hat die Europ&auml;ische Kommission unter dem Titel 'Geoblocking' einen Vorschlag unterbreitet, der audiovisuelle Inhalte aber explizit ausschlie&szlig;t - sie verfehlen das Ziel, indem sie gerade jene Kategorie ausschlie&szlig;en, in der Nutzer*innen am h&auml;ufigsten von Geoblocking betroffen sind.",
@@ -111,7 +111,7 @@
       "text": "&#xAB;Passive Verk&auml;ufe&#xBB; f&uuml;r Videos erlauben: Dienstleister sollten mit allen Handel treiben k&ouml;nnen, die ihr Angebot finden, egal woher sie kommen. Lizenzen sollten nur einschr&auml;nken k&ouml,nnen, wo sie es <em>aktiv bewerben k&ouml;nnen</em>."
     },
     "law": {       
-      "status": "ERMITTLUNGEN IM GANG",
+      "status": "ERMITTLUNGEN LAUFEN",
       "statuslong": "Vertragliche Beschr&auml;nkungen bei der Erbringung grenz&uuml;berschreitender Pay TV Dienste werden von der Europ&auml;ischen Kommission im Zuge kartellrechtlicher Ermittlungen seit 2014 untersucht.",
       "link": "http://europa.eu/rapid/press-release_IP-14-15_de.htm",
       "title": "Anti-Diskriminierung durchsetzen",
@@ -126,7 +126,7 @@
     }
   },
   "learn": {
-    "title": "Hintergrund-Information",
+    "title": "Hintergrundinfos",
     "factsheet": {
       "title": "Informationsblatt",
       "pdf": "PDF &ouml;ffnen",
@@ -146,7 +146,7 @@
     "spread": "Weitersagen",
     "reallife": "Geoblocking im Laden",
     "by": "von",
-    "geoblocked": "Have you ever been geoblocked?",
+    "geoblocked": "Have you been geoblocked?",
     "tweetthis": "Twittern",
     "link": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=Schluss%20mit%20%22Dieser%20Inhalt%20ist%20in%20deinem%20Land%20nicht%20verf%C3%BCgbar%22%3A%20Geoblocking%20abschaffen!%20Jetzt%20aktiv%20werden%3A%20http://endgeoblocking.eu/de",
     "tweet": "Schluss mit &#xAB;Dieser Inhalt ist in deinem Land nicht verf&uuml;gbar&#xBB;: Geoblocking abschaffen! Jetzt aktiv werden: http://endgeoblocking.eu/de",

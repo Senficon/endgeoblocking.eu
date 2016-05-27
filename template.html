@@ -3,6 +3,7 @@
 <head>
 	<title>{{title}}</title>
 	<base href="{{ base }}" />
+	<meta charset="utf-8" />
 	<meta name="title" content="{{title}}" />
 	<meta name="description" content="{{description}}" />
 	<meta property="og:image" content="http://endgeoblocking.eu/endgeoblocking.jpg" />
@@ -60,8 +61,9 @@
 			<select id="langselect" onchange="switchLang(this.options[this.selectedIndex].value)">
 				<option value="de">DE - Deutsch</option>
 				<option value="en">EN - English</option>
+				<option value="es">ES - Espa&ntilde;ol</option>
 			</select>
-			<img id="logo" src="img/geoblocking-stamp-dirty-white.png" width="200" style="opacity:1" />
+			<img id="logo" src="img/geoblocking-stamp-dirty-white-{{lang}}.png" width="200" style="opacity:1" />
 			<h2 class="intro">{{intro}}</h2>
 			<div id="screen">
 				<div id="noise"></div>
@@ -81,7 +83,7 @@
 			<div id="signup">
 				<div class="inner0">
 				<div class="inner">
-					<img class="stamp" src="img/geoblocking-stamp-dirty-white.png" width="150" />
+					<img class="stamp" src="img/geoblocking-stamp-dirty-white-{{lang}}.png" width="150" />
 
 					<p class="appeal"><strong>{{appeal.fight}}</strong><br /><strong class="hi">{{appeal.voice}}</strong> {{appeal.signup}}</p>
 
@@ -357,7 +359,7 @@
 					<a href="https://youtu.be/WbiacSD13qk">{{join.reallife}}</a> <small style="opacity: .5">{{join.by}} <a href="http://www.beuc.eu/geoblocking" target="_blank">BEUC</a></small>
 				</div>
 				<div class="col">
-					<iframe src="https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2FJuliaRedaMEP%2Fvideos%2Fvb.1444482109146991%2F1712801232315076%2F%3Ftype%3D3&show_text=0&width=350" width="350" height="195" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe><br />
+					<iframe width="350" height="195" src="https://www.youtube-nocookie.com/embed/0-cYWnjM4fc" frameborder="0" allowfullscreen></iframe><br />
 					<a href="https://youtu.be/0-cYWnjM4fc">{{join.geoblocked}}</a>
 					<small style="opacity: .5">{{join.by}} <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a></small>
 				</div>
