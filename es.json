@@ -14,6 +14,7 @@
   "tape": "Cada día, las fronteras digitales artificiales impiden a millones de europeos la posibilidad de comprar bienes, películas bajo demanda o ver vídeos.",
   "now": "Ahora la UE está considerando tomar medidas.",
   "joinus": "Únete a nosotros y pide:",
+  "title2": "<span style=\"font-size:.9em\">Acabemos con el Geoblocking!</span>",
   "agree": "Estoy de acuerdo",
   "appeal": {
     "fight": "La pelea para terminar con el 'geoblocking' en la UE ha comenzado.",
@@ -46,7 +47,8 @@
     },
     "economy": {
       "title": "Geoblocking daña la economía",
-      "text": "Hasta 1.6 billones de euros vale la demanda transfronteriza que se les deniega a las plataformas europeas de VoD, startups y artistas en la UE."
+      "text": "Hasta 1.6 billones de euros vale la demanda transfronteriza que se les deniega a las plataformas europeas de VoD, startups y artistas en la UE.",
+      "abbr": "Demanda potencial estimada de suscripciones transfronterizas de servicios audiovisuales entre personas migrantes dentro de la UE  - Plum Consulting, 2012 (pg. 157)"
     }
   },
   "voices": {

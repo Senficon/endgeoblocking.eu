@@ -14,6 +14,7 @@
   "tape": "Every day, artificial digital borders block millions of Europeans from ordering goods, purchasing movies on demand or watching videos.",
   "now": "Now the EU is considering taking action.",
   "joinus": "Join us in demanding:",
+  "title2": "End Geoblocking",
   "agree": "I agree",
   "appeal": {
     "fight": "The fight to end geoblocking in the EU has begun.",
@@ -46,7 +47,8 @@
     },
     "economy": {
       "title": "Geoblocking harms the economy",
-      "text": "Up to 1.6 billion Euros worth of cross-border demand is kept from EU VoD platforms, EU startups and artists."
+      "text": "Up to 1.6 billion Euros worth of cross-border demand is kept from EU VoD platforms, EU startups and artists.",
+      "abbr": "Estimated potential demand among intra-EU migrants for subscription-based cross-border audiovisual media services - Plum Consulting, 2012 (pg. 157)"
     }
   },
   "voices": {

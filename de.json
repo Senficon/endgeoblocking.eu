@@ -14,6 +14,7 @@
   "tape": "Jeden Tag hindern k&uuml;nstliche digitale Grenzen Millionen Menschen in Europa daran, Waren zu bestellen, Filme on-demand zu kaufen oder Videos zu gucken.",
   "now": "Die EU &uuml;berlegt nun, das zu &auml;ndern.",
   "joinus": "Schlie&szlig; dich uns an and fordere:",
+  "title2": "Geoblocking abschaffen!",
   "agree": "Ich stimme zu",
   "appeal": {
     "fight": "Der Kampf um die Abschaffung von Geoblocking in der EU hat begonnen.",
@@ -46,7 +47,8 @@
     },
     "economy": {
       "title": "Geoblocking schadet der Wirtschaft",
-      "text": "Bis zu 1,6 Milliarden Euro grenz&uuml;bergreifender Nachfrage entgeht EU-VoD-Anbietern, EU-Startups und Kulturschaffenden."
+      "text": "Bis zu 1,6 Milliarden Euro grenz&uuml;bergreifender Nachfrage entgeht EU-VoD-Anbietern, EU-Startups und Kulturschaffenden.",
+      "abbr": "Estimated potential demand among intra-EU migrants for subscription-based cross-border audiovisual media services - Plum Consulting, 2012 (pg. 157)"
     }
   },
   "voices": {
