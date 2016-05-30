@@ -76,6 +76,19 @@ function changeImage() {
 	preload.src = 'img/screens/'+screens[next];
 }
 
+function share(h) {
+	var c = document.getElementById('cover');
+	c.style.display = 'block';
+	c.style.opacity	= 1;
+	//document.getElementById('shareframe').src = h;
+}
+
+function shareHide() {
+	var c = document.getElementById('cover');
+	c.style.display = 'none';
+	c.style.opacity	= 0;
+}
+
 function signup() {
 	document.getElementById('agree').style.opacity = 0;
 	document.getElementById('signup').style.height = '450px';

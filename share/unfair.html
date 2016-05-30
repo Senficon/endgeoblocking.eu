@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+	<title>EndGeoblocking.eu</title>
+	<meta charset="utf-8" />
+	<meta name="title" content="{{title}}" />
+	<meta name="description" content="{{description}}" />
+	<meta property="og:image" content="http://endgeoblocking.eu/share/unfair-en.png" />
+	<!--meta property="og:image:width" content="900" />
+	<meta property="og:image:height" content="506" /-->
+	<meta property="og:description" content="{{description}}" />
+	<meta property="og:title" content="{{title}}" />
+	<meta property="og:locale" content="{{lang}}" />
+	<meta property="og:type" content="website" />
+	<meta property="twitter:title" content="{{title}}" />
+	<meta property="twitter:url" content="http://endgeoblocking.eu/share/unfair.html" />
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="@senficon" />
+	<meta property="twitter:description" content="{{description}}" />
+	<meta property="twitter:image" content="http://endgeoblocking.eu/share/unfair-en.png" />
+	<meta property="twitter:image:alt" content="End Geoblocking" />
+	<meta name="rights" content="Creative Commons Zero" />
+	<style type="text/css">
+		body {
+			margin: 0;
+			overflow: hidden;
+		}
+		#share {
+			position: fixed;
+			bottom: 0;
+			width:100%;
+			overflow: hidden;
+		}
+		#share a {
+			display: block;
+			width: 30%;
+			float: left;
+			text-decoration: none;
+			font-size: 1.5em;
+			font-family: Arial, Helvetica, sans-serif;
+			color: #fff;
+			padding: 3% 10%;
+		}
+		#share a img {
+			float: left;
+			margin-right: .5em;
+		}
+		#share a span {
+			display: inline-block;
+			float: left;
+			margin-top: .5em;
+		}
+		#share a.tw {
+			background: linear-gradient(#358cce, #55acee);
+		}
+		#share a.fb {
+			background: linear-gradient(#394d72, #5573a9);
+		}
+	</style>
+	<script type="text/javascript">
+		function parseQuery(qstr) {
+	        var query = {};
+	        var a = qstr.substr(1).split('&');
+	        for (var i = 0; i < a.length; i++) {
+	            var b = a[i].split('=');
+	            query[decodeURIComponent(b[0])] = decodeURIComponent(b[1] || '');
+	        }
+	        return query;
+	    }
+	    var q = parseQuery(document.location.search);
+	    var lang = (q.lang == 'en') ? '' : q.lang;
+
+		// if arrived here via a share, redirect to campaign page
+		if (parent == window) document.location.replace('http://endgeoblocking.eu/'+lang);
+
+		document.addEventListener("DOMContentLoaded", function() {
+			var t = document.getElementById('tw');
+			t.href = t.href.replace('***', encodeURIComponent(document.location.href));
+			var f = document.getElementById('fb');
+			f.href = f.href.replace('***', encodeURIComponent(document.location.href));
+		}, false);
+	</script>
+</head>
+<body>
+	<img src="unfair-en.png" width="100%" />
+
+	<div id="share">
+		<a id="tw" class="tw" href="https://twitter.com/intent/tweet?text=End%20%23geoblocking!%20***" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=270,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220));"><img src="../img/tw.png" width="27%" /> <span>Tweet</span></a>
+		<a id="fb" class="fb" href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&sdk=joey&u=***&display=popup&ref=plugin&src=share_button" target="_blank"><img src="../img/fb-like.png" width="30%" /> <span>Share</span></a>
+	</div>
+</body>
+</html>

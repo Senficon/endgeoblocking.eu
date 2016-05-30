@@ -339,6 +339,24 @@ abbr:hover::after {
     border-radius: 1em !important;
 }
 
+#cover {
+	z-index: 9999;
+	display: none;
+	opacity: 0;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(0,0,0,.8);
+	transition: opacity .6s;
+}
+#cover #shareframe {
+	border: 0;
+	width: 600px;
+	margin: 5% auto;
+	height: 80%;
+	box-shadow:#000 0 0 2em;
+}
+
 
 /* * * * * * * * SECTIONS * * * * * * * */
 
@@ -470,6 +488,16 @@ section#unfair {
 	background: linear-gradient(#334, #223);
 	background-size:contain;
 	padding-top: 7em;
+}
+section#unfair .share {
+	margin-top:.5em;
+	padding-left: 26%;
+	overflow: hidden;
+}
+section#unfair .share a {
+	height: 1.5em;
+	float: left;
+	margin-right:2px;
 }
 
 
@@ -689,7 +717,7 @@ section#todo li .check {
 	border-left: 2px solid #345;
 	margin-left: 3%;
 	padding-left: 1em;
-	padding-right: .5em;
+	  padding-right: .5em;
 	box-sizing: border-box;
 }
 section#todo li .check .btn {
@@ -756,29 +784,34 @@ section#join .sec {
 section#join .column h3:first-child {
 	margin-bottom: .5em;
 }
-section#join a.fb, section#join a.tw {
+a.fb, a.tw {
 	background: linear-gradient(#394d72, #5573a9);
 	border-radius: .3em;
 	text-decoration: none;
 	padding: .5em 1.5em .5em 1em;
 	display: inline-block;
-	border: 3px outset #5573a9;
-	margin-bottom: 1em;
+	border: 2px outset #5573a9;
 }
 section#join a.fb {
+	margin-bottom: 1em;
+	border-width: 3px;
 	clear: both;
 }
-section#join a.tw {
+a.tw {
 	background: linear-gradient(#358cce, #55acee);
 	border-color: #55bcee;
+}
+section#join a.tw {
+	margin-bottom: 1em;
+	border-width: 3px;
 	float: left;
 }
-section#join a.fb:hover, section#join a.tw:hover {
+a.fb:hover, a.tw:hover {
 	background: linear-gradient(#394d72, #5573a9);
 	border-style: inset;
 	padding: .6em 1.4em .4em 1.1em;
 }
-section#join a.tw:hover {
+a.tw:hover {
 	background: linear-gradient(#358cce, #55acee);
 }
 section#join a.fb span, section#join a.tw span {
