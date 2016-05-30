@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	}
 
-	window.screens = ['1b.jpg', '10.png', '19.png', '3.png', '4.png', '5.jpg', '17.jpg', '6.jpg', '7.jpg', '18.jpg', '8.jpg', '9.png', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '20.jpg'];
+	window.screens = ['1b.jpg', '10.png', '19.png', '3.png', '4.png', '5.jpg', '17.jpg', '6.jpg', '7.jpg', '18.jpg', '8.jpg', '9.png', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '20.jpg', '22.jpg'];
 	window.currentScreen = 0;
 	setTimeout(changeImage, 4000);
 

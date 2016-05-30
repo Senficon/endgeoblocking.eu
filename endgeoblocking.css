@@ -23,7 +23,7 @@ h1 {
 	margin: 0;
 	xtext-transform: uppercase;	
 }
-h1 span {
+h1 > span {
 	display: inline-block;
 	padding:.2em .4em;
 }
@@ -689,6 +689,7 @@ section#todo li .check {
 	border-left: 2px solid #345;
 	margin-left: 3%;
 	padding-left: 1em;
+	padding-right: .5em;
 	box-sizing: border-box;
 }
 section#todo li .check .btn {
