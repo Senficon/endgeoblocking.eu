@@ -9,5 +9,5 @@ for lang in ['en', 'de', 'es', 'el']:
     with open('%s/index.html' % directory, 'w') as out:
         with open('template.html') as t:
             with open('%s.json' % lang) as f:
-                output = Template(t.read()).render(**json.load(f, encoding='utf-8'))
+                output = Template(t.read().decode('utf8')).render(**json.load(f, encoding='utf-8'))
                 out.write(output.encode('utf-8'))
