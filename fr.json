@@ -1,13 +1,13 @@
 {
   "lang": "fr",
   "base": "../",
-  "title": "En terminer avec le G&eacute;oblocage",
-  "description": "Chaque jour, des fronti&egrave;res num&eacute;riques artificielles bloquent des millions d'europ&eacute;ens quand ils veulent commander des biens, acheter des films ou regarder des vid&eacute;os. Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;gl&eacute; le probl&egrave;me. Rejoignez-nous pour demander l'arr&ecirc;t du g&eacute;oblocage&nbsp;!",
+  "title": "STOP au G&eacute;oblocage",
+  "description": "Chaque jour, des fronti&egrave;res num&eacute;riques artificielles bloquent des millions d'europ&eacute;ens quand ils veulent commander des biens, acheter des films ou regarder des vid&eacute;os. Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;gler le probl&egrave;me. Rejoignez-nous pour demander l'arr&ecirc;t du g&eacute;oblocage&nbsp;!",
   "menu": {
     "unfair": "Pourquoi c'est abusif",
     "voices": "T&eacute;moignages",
-    "todo": "3 &eacute;tapes pour en finir",
-    "learn": "en savoir plus",
+    "todo": "3 &Eacute;tapes pour en finir",
+    "learn": "En savoir plus",
     "signup": "AIDEZ NOUS &Agrave; STOPPER LE G&Eacute;OBLOCAGE"
   },
   "intro": "Avez vous d&eacute;j&agrave; subit le <strong>g&eacute;oblocage&nbsp;?</strong>",
@@ -78,12 +78,12 @@
       "text": "Geoblocking is utterly <strong>contrary to the Single Market and the European idea as a whole</strong>."
     },
     "jef": {
-      "text": "Geo-blocking is <strong>discrimination based on territory</strong>. Getting rid of it is key for the creation of a true digital single market and even a European public space!",
-      "orga": "Young European Federalists"
+      "text": "Le géoblocage, c'est une <strong>discrimination fond&eacute;e sur territorialit&eacute;</strong>. L'abolir, c'est le cl&eacute; &agrave; la cr&eacute;ation d'un vrai march&eacute; unique num&eacute;rique et m&ecirc;me d'une sph&egrave;re public europ&eacute;enne&nbsp;!",
+      "orga": "Jeunes Europ&eacute;ens f&eacute;d&eacute;ralistes"
     },
     "aegee": {
       "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes.",
-      "orga": "European Students' Forum"
+      "orga": "Association des &Eacute;tats G&eacute;n&eacute;raux des &Eacute;tudiants de l'Europe"
     },
     "bermejo": {
       "text": "<strong>Le g&eacute;oblocage est un non-sens</strong> dans le monde actuel, surtout lorsque nous travaillons &agrave; la construction de soci&eacute;t&eacute;s mondiales et d'un march&eacute; unique num&eacute;rique europ&eacute;en. [&hellip;] Les gens ne comprennent pas pourquoi le g&eacute;oblocage existe.",
@@ -94,7 +94,7 @@
   "quotes": {
     "not": "ceci n'est pas un soutien &agrave; cette campagne",
     "beuc": {
-      "text": "<strong>Il est temps de mettre fin au g&eacute;oblocage !</strong> Jamais nous n'accepterions de montrer notre passeport pour faire un achat dans une galerie marchande &hellip; Malheureusement, cela arrive tr&egrave;s souvent lors des achats en ligne. &hellip; Ces restrictions territoriales doivent cesser. &hellip; Cela permettrait de lutter contre le piratage et permettrait &agrave; tout les consommateurs de profiter de la diversit&eacute; culturelle de l'Europe.",
+      "text": "<strong>Il est temps de mettre fin au g&eacute;oblocage&nbsp;!</strong> Jamais nous n'accepterions de montrer notre passeport pour faire un achat dans une galerie marchande &hellip; Malheureusement, cela arrive tr&egrave;s souvent lors des achats en ligne. &hellip; Ces restrictions territoriales doivent cesser. &hellip; Cela permettrait de lutter contre le piratage et permettrait &agrave; tous les consommateurs de profiter de la diversit&eacute; culturelle de l'Europe.",
       "from": "BEUC, Bureau europ&eacute;en des unions de consommateurs"
     },
     "eyif": {
@@ -108,22 +108,22 @@
       "link": "http://ec.europa.eu/priorities/digital-single-market_fr"
     },
     "ep": {
-      "text": "Geoblocking practices should not prevent cultural minorities living in EU Member States from accessing existing contents or services in their language that are either free or paid for",
+      "text": "les pratiques de blocage g&eacute;ographique [&hellip;] ne devraient pas emp&ecirc;cher les minorit&eacute;s culturelles vivant dans les &Eacute;tats membres de l'Union d'acc&eacute;der aux contenus ou aux services gratuits ou payants existant dans leur langue",
       "link": "https://juliareda.eu/copyright-evaluation-report/full/#14",
-      "from": "Reda Report (07/2015)"
+      "from": "Rapport Reda (07/2015)"
     },
     "aegee": {
-      "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage [&hellip;] - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes. &hellip;Cela serait une &eacute;tape pour cr&eacute;er la sph&egrave;re publique europ&eacute;enne commune qui est si n&eacute;cessaire.",
+      "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage [&hellip;] &ndash; <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>. C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes. &hellip;Cela serait une &eacute;tape pour cr&eacute;er la sph&egrave;re publique europ&eacute;enne commune qui est si n&eacute;cessaire.",
       "from": "Pr&eacute;sident de",
       "aegee": "AEGEE, Association des &Eacute;tats G&eacute;n&eacute;raux des &Eacute;tudiants de l'Europe"
     }
   },
   "todo": {
-    "title": "3 &eacute;tapes pour en finir avec le g&eacute;oblocage",
+    "title": "3 &Eacute;tapes pour en finir avec le g&eacute;oblocage",
     "current": "En cours",
-    "demand": "ACTION DEMAND&Eacute;E",
+    "demand": "R&Eacute;GLONS LE PROBL&Egrave;ME",
     "passive": {
-      "status": "PAS DE D&Eacute;TAIL",
+      "status": "AUCUN D&Eacute;TAIL ANNONC&Eacute;",
       "statuslong": "En mai 2016, la Commission europ&eacute;enne a pr&eacute;sent&eacute;e des propositions sous le titre &laquo;&nbsp;g&eacute;oblocage&nbsp;&raquo; qui n'auront, par choix, aucun impact sur le contenu audiovisuel - excluant de fait la cat&eacute;gorie la plus concern&eacute;e par le g&eacute;oblocage.",
       "title": "Arr&ecirc;tez de forcer les services en ligne &agrave; rebuter les clients",
       "text": "Autorisez les &laquo;&nbsp;ventes passives&nbsp;&raquo; des vid&eacute;os&nbsp;: Les services en ligne devraient &ecirc;tre autoris&eacute;s &agrave; faire des affaires avec tous les gens qui trouvent une offre, peu importe d'o&ugrave; ils viennent. Les licences ne devraient que pouvoir limiter le public qu'ils peuvent <em>activement d&eacute;marcher.</em>."
@@ -166,8 +166,8 @@
     "by": "by",
     "geoblocked": "Avez-vous &eacute;t&eacute; g&eacute;obloqu&eacute;s&nbsp;?",
     "tweetthis": "Tweeter",
-    "link": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=Plus%20de%20%C2%AB%20ce%20contenue%20n%27est%20pas%20disponible%20dans%20votre%20pays%20%C2%BB%20%3A%20STOPPEZ%20le%20g%C3%A9oblocage%20!%20Participez%20%C3%A0%20la%20campagne%20%3A%20http%3A%2F%2Fendgeoblocking.eu%2Ffr%2F",
-    "tweet": "Plus de &laquo;&nbsp;ce contenu n'est pas disponible dans votre pays&nbsp;&raquo;&nbsp;: STOPPEZ le g&eacute;oblocage&nbsp;! Participez &agrave; la campagne&nbsp;: http://endgeoblocking.eu/fr/",
+    "link": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=Plus%20de%20%C2%AB%20ce%20contenue%20n%27est%20pas%20disponible%20dans%20votre%20pays%20%C2%BB%20%E2%80%93%20STOPPEZ%20le%20g%C3%A9oblocage%20!%20Participez%20%C3%A0%20la%20campagne%20%3A%20http%3A%2F%2Fendgeoblocking.eu%2Ffr%2F",
+    "tweet": "Plus de &laquo;&nbsp;ce contenu n'est pas disponible dans votre pays&nbsp;&raquo; &ndash; STOPPEZ le g&eacute;oblocage&nbsp;! Participez &agrave; la campagne&nbsp;: http://endgeoblocking.eu/fr/",
     "fb": "Likez &amp; partagez cette campagne sur Facebook"
   },
   "credits": {
@@ -176,5 +176,5 @@
     "gh": "Fork me on Github",
     "cc": "Les droits de reproduction rel&egrave;vent du domaine public (Creative Commons Zero - CCO). N'h&eacute;sitez pas &agrave; copier, remixer ou partager."
   },
-  "sharefb": "Partagez sur Facebook"
+  "sharefb": "Partager sur Facebook"
 }
