@@ -1,12 +1,12 @@
 {
   "lang": "fr",
   "base": "../",
-  "title": "STOP au G&eacute;oblocage",
+  "title": "STOP au g&eacute;oblocage",
   "description": "Chaque jour, des fronti&egrave;res num&eacute;riques artificielles bloquent des millions d'europ&eacute;ens quand ils veulent commander des biens, acheter des films ou regarder des vid&eacute;os. Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;gler le probl&egrave;me. Rejoignez-nous pour demander l'arr&ecirc;t du g&eacute;oblocage&nbsp;!",
   "menu": {
     "unfair": "Pourquoi c'est abusif",
     "voices": "T&eacute;moignages",
-    "todo": "3 &Eacute;tapes pour en finir",
+    "todo": "3 &eacute;tapes pour en finir",
     "learn": "En savoir plus",
     "signup": "AIDEZ NOUS &Agrave; STOPPER LE G&Eacute;OBLOCAGE"
   },
@@ -62,7 +62,7 @@
     "geoblocked": "ont &eacute;t&eacute;<br />g&eacute;obloqu&eacute;s",
     "never": "demandent que<br /> cela ne se<br /> reproduise plus",
     "majority": "grande majorit&eacute;",
-    "laws": "est en faveur de<br /> lois europ&eacute;nnes<br />pour le r&eacute;gler"
+    "laws": "est pour une<br /> solution <br />europ&eacute;nne"
   },
   "supporters": {
     "supports": "je soutiens cette campagne",
@@ -75,14 +75,14 @@
       "text": "Le g&eacute;oblocage affaiblit l'utilisation des langues r&eacute;gionales minoritaires. Habituellement symbole de lien entre les r&eacute;gions transfrontali&egrave;res, elles se retrouvent <strong>&eacute;l&eacute;ctroniquement d&eacute;connect&eacute;es</strong>. C'est ridicule&nbsp;!"
     },
     "afs": {
-      "text": "Geoblocking is utterly <strong>contrary to the Single Market and the European idea as a whole</strong>."
+      "text": "Le g&eacute;oblocage est <strong>aux antipodes du march&eacute; unique et de l'id&eacute;e europ&eacute;eenne dans son ensemble</strong>."
     },
     "jef": {
-      "text": "Le géoblocage, c'est une <strong>discrimination fond&eacute;e sur territorialit&eacute;</strong>. L'abolir, c'est le cl&eacute; &agrave; la cr&eacute;ation d'un vrai march&eacute; unique num&eacute;rique et m&ecirc;me d'une sph&egrave;re public europ&eacute;enne&nbsp;!",
+      "text": "Le g&eacute;oblocage, c'est une <strong>discrimination fond&eacute;e sur le territoire</strong>. L'abolir, c'est la cl&eacute; de la cr&eacute;ation d'un vrai march&eacute; unique num&eacute;rique et m&ecirc;me d'une sph&egrave;re publique europ&eacute;enne&nbsp;!",
       "orga": "Jeunes Europ&eacute;ens f&eacute;d&eacute;ralistes"
     },
     "aegee": {
-      "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes.",
+      "text": "L'acc&egrave;s transfrontalier contribue aux &eacute;changes culturels, &agrave; l'apprentissage - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes.",
       "orga": "Association des &Eacute;tats G&eacute;n&eacute;raux des &Eacute;tudiants de l'Europe"
     },
     "bermejo": {
@@ -119,7 +119,7 @@
     }
   },
   "todo": {
-    "title": "3 &Eacute;tapes pour en finir avec le g&eacute;oblocage",
+    "title": "3 &eacute;tapes pour en finir avec le g&eacute;oblocage",
     "current": "En cours",
     "demand": "R&Eacute;GLONS LE PROBL&Egrave;ME",
     "passive": {
