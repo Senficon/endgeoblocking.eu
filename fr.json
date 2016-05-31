@@ -2,28 +2,28 @@
   "lang": "fr",
   "base": "./",
   "title": "En terminer avec le G&eacute;oblocage",
-  "description": "Chaque jour, des fronti&egrave;res num&eacute;riques artificielles bloquent des millions d'europ&eacute;ens quand ils veulent commander des biens, acheter des films ou regarder des vid&eacute;os. Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;fl&eacute;chir sur le sujet. Rejoignez-nous pour demander l'arr&ecirc;t du g&eacute;oblocage&nbsp;!",
+  "description": "Chaque jour, des fronti&egrave;res num&eacute;riques artificielles bloquent des millions d'europ&eacute;ens quand ils veulent commander des biens, acheter des films ou regarder des vid&eacute;os. Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;gl&eacute; le probl&egrave;me. Rejoignez-nous pour demander l'arr&ecirc;t du g&eacute;oblocage&nbsp;!",
   "menu": {
-    "unfair": "Pourquoi c'est injuste",
-    "voices": "voix",
+    "unfair": "Pourquoi c'est abusif",
+    "voices": "T&eacute;moignages",
     "todo": "3 &eacute;tapes pour en finir",
     "learn": "en savoir plus",
-    "signup": "AIDEZ NOUS &Agrave; STOPPER LE GEOBLOCAGE"
+    "signup": "AIDEZ NOUS &Agrave; STOPPER LE G&Eacute;OBLOCAGE"
   },
   "intro": "Avez vous d&eacute;j&agrave; subit le <strong>g&eacute;oblocage&nbsp;?</strong>",
   "tape": "Chaque jour, des fronti&egrave;res num&eacute;riques artificielles bloquent des millions d'europ&eacute;ens quand ils veulent commander des biens, acheter des films ou regarder des vid&eacute;os",
-  "now": "Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;fl&eacute;chir sur le sujet.",
+  "now": "Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;gl&eacute; le probl&egrave;me.",
   "joinus": "Rejoignez-nous pour exiger&nbsp;:",
   "title2": "STOP au g&eacute;oblocage",
   "agree": "J'approuve",
   "appeal": {
     "fight": "Le combat pour en finir avec le g&eacute;oblocage n'en est qu'&agrave; ses d&eacute;buts.",
     "voice": "Ce combat ne peut r&eacute;ussir que si vous y apportez votre voix&nbsp;!",
-    "signup": "Inscrivez-vous ici pour que nous puissions vous informer des actions &agrave; entreprendre envers les eurod&eacute;put&eacute;s&nbsp;:"
+    "signup": "Inscrivez-vous ici pour que nous puissions vous informer lorsqu'il sera temps de contacter les politiciens capables de faire changer les choses&nbsp;:"
   },
-  "end": "En finir avec le g&eacute;oblocage",
+  "end": "Finissons-en avec le g&eacute;oblocage",
   "privacy": "Politique de confidentialit&eacute;&nbsp;: nous ne vous spammerons pas, nous ne partagerons pas vos donn&eacute;es.",
-  "friends": "Maintenant, lisez cette page et partagez-la avec vos amis.",
+  "friends": "Maintenant, voyez plus bas pour partagez cette page avec vos amis.",
   "defeat": "Ensemble, nous pouvons vaincre le g&eacute;oblocage&nbsp;!",
   "unfair": {
     "title": "Pourquoi doit-on en finir avec le g&eacute;oblocage&nbsp;?",
@@ -38,7 +38,7 @@
       "text": "Les &oelig;uvres de nombreux artistes se voient refuser un public europ&eacute;en &ndash; et leurs fans, pr&ecirc;ts a payer, sont refoul&eacute;s."
     },
     "audiences": {
-      "title": "Le g&eacute;oblocage bride le public",
+      "title": "Le g&eacute;oblocage met le public dehors",
       "text": "Les personnes qui veulent apprendre une langue, ou suivre une &eacute;quipe de sport &eacute;trang&egrave;re etc. sont contraints de payer des <acronym title=\"R&eacute;seau priv&eacute; virtuel\">RPV</acronym>, voir de rechercher des sources ill&eacute;gales, au lieu de r&eacute;mun&eacute;rer les cr&eacute;ateurs."
     },
     "principles": {
@@ -61,30 +61,30 @@
     "link": "https://ec.europa.eu/digital-agenda/en/news/first-brief-results-public-consultation-geo-blocking-and-other-geographically-based",
     "geoblocked": "ont &eacute;t&eacute;<br />g&eacute;obloqu&eacute;s",
     "never": "demandent que cela<br />ne se reproduise plus",
-    "majority": "grande majorit&eacute;",
-    "laws": "soutient l'U.E.<br />l&eacute;gif&eacute;rons contre cela"
+    "majority": "une grande majorit&eacute;",
+    "laws": "est en faveur de lois europ&eacute;nnes<br />pour r&eacute;gler le probl$egrave;me"
   },
   "supporters": {
     "julia": {
-      "text": "<strong>Le g&eacute;oblocage est une pratique anachronique, non-europ&eacute;enne et contraire au fonctionnement de la toile.</strong> Cette ann&eacute;e, nous avons une chance d'y mettre fin dans l'U.E. &ndash; mais notre succ&egrave;s d&eacute;pend de la participation de tous. <span>soutient cette campagne</span>",
+      "text": "<strong>Le g&eacute;oblocage est une pratique anachronique, non-europ&eacute;enne et contraire au fonctionnement de la toile.</strong> Cette ann&eacute;e, nous avons une chance d'y mettre fin dans l'U.E. &ndash; mais notre succ&egrave;s d&eacute;pend de la participation de tous. <span>je soutiens cette campagne</span>",
       "position": "Membre du Parlement europ&eacute;en (Parti Pirate, groupe Les Verts/ALE)",
       "watch": "Voir son discours liminaire sur le g&eacute;oblocage"
     },
     "elen": {
-      "text": "Le g&eacute;oblocage affaiblit l'utilisation des langues r&eacute;gionales minoritaires. Habituellement symbole de lien entre les r&eacute;gions transfrontali&egrave;res, elles se retrouvent <strong>&eacute;l&eacute;ctroniquement d&eacute;connect&eacute;es</strong>. C'est ridicule&nbsp;! <span>soutient cette campagne</span>",
+      "text": "Le g&eacute;oblocage affaiblit l'utilisation des langues r&eacute;gionales minoritaires. Habituellement symbole de lien entre les r&eacute;gions transfrontali&egrave;res, elles se retrouvent <strong>&eacute;l&eacute;ctroniquement d&eacute;connect&eacute;es</strong>. C'est ridicule&nbsp;! <span>je soutiens cette campagne</span>",
       "position": "European Language Equality Network (ELEN)"
     },
     "bermejo": {
-      "text": "<strong>Le g&eacute;oblocage est un non-sens</strong> dans le monde actuel, surtout lorsque nous travaillons &agrave; la construction de soci&eacute;t&eacute;s mondiales et d'un march&eacute; unique num&eacute;rique europ&eacute;en. [&hellip;] Les gens ne comprennent pas pourquoi le g&eacute;oblocage existe.<span>soutient cette campagne</span>",
+      "text": "<strong>Le g&eacute;oblocage est un non-sens</strong> dans le monde actuel, surtout lorsque nous travaillons &agrave; la construction de soci&eacute;t&eacute;s mondiales et d'un march&eacute; unique num&eacute;rique europ&eacute;en. [&hellip;] Les gens ne comprennent pas pourquoi le g&eacute;oblocage existe.<span>je soutiens cette campagne</span>",
       "position": "Vice Pr&eacute;sident",
       "orga": "Association des startups espagnoles"
     }
   },
   "quotes": {
-    "not": "ceci n'est pas un soutien pour cette campagne",
+    "not": "ceci n'est pas un soutien &agrave; cette campagne",
     "beuc": {
       "text": "<strong>Il est temps de mettre fin au g&eacute;oblocage !</strong> Jamais nous n'accepterions de montrer notre passeport pour faire un achat dans une galerie marchande &hellip; Malheureusement, cela arrive tr&egrave;s souvent lors des achats en ligne. &hellip; Ces restrictions territoriales doivent cesser. &hellip; Cela permettrait de lutter contre le piratage et permettrait &agrave; tout les consommateurs de profiter de la diversit&eacute; culturelle de l'Europe.",
-      "from": "BEUC, Bureau européen des unions de consommateurs"
+      "from": "BEUC, Bureau europ&eacute;en des unions de consommateurs"
     },
     "eyif": {
       "text": "<strong>Les services continuent &agrave; &ecirc;tre confin&eacute;s aux fronti&egrave;res nationales</strong> &hellip; [nous avons besoin d'une] politique concurrentielle cibl&eacute;e assurant la prohibition de contrats de licences qui interdisent la vente de services en dehors des territoires sous licence.",
@@ -97,9 +97,9 @@
       "link": "http://ec.europa.eu/priorities/digital-single-market_fr"
     },
     "aegee": {
-      "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage [&hellip;] - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes. &hellip;Cela sera une &eacute;tape pour cr&eacute;er la sph&egrave;re publique europ&eacute;enne commune qui est si n&eacute;cessaire.",
+      "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage [&hellip;] - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes. &hellip;Cela serait une &eacute;tape pour cr&eacute;er la sph&egrave;re publique europ&eacute;enne commune qui est si n&eacute;cessaire.",
       "from": "Pr&eacute;sident de",
-      "aegee": "AEGEE, Association des États Généraux des Étudiants de l'Europe"
+      "aegee": "AEGEE, Association des &Eacute;tats G&eacute;n&eacute;raux des &Eacute;tudiants de l'Europe"
     }
   },
   "todo": {
@@ -108,29 +108,29 @@
     "demand": "ACTION DEMAND&Eacute;E",
     "passive": {
       "status": "PAS DE D&Eacute;TAIL",
-      "statuslong": "En mai 2016, la Commission europ&eacute;enne a pr&eacute;sent&eacute;e des propositions sous le titre &laquo;&nbsp;g&eacute;oblocage&nbsp;&raquo; qui n'auront volontairement aucun impact sur le contenu audiovisuel - excluant de fait la cat&eacute;gorie la plus concern&eacute;e par le g&eacute;oblocage.",
-      "title": "Arr&ecirc;tez de forcer les clients &agrave; se d&eacute;tourner des services en ligne",
-      "text": "Autorisez &laquo;&nbsp;les ventes passives&nbsp;&raquo; des vid&eacute;os&nbsp;: Les services en ligne devraient &ecirc;tre autoris&eacute;s &agrave; faire des affaires avec tous les gens qui trouvent une offre, peu importe d'o&ugrave; ils viennent. Une licence ne devraient pas &ecirc;tre en mesure de limiter &agrave; qui ils peuvent <em>annoncer activement.</em>."
+      "statuslong": "En mai 2016, la Commission europ&eacute;enne a pr&eacute;sent&eacute;e des propositions sous le titre &laquo;&nbsp;g&eacute;oblocage&nbsp;&raquo; qui n'auront, par choix, aucun impact sur le contenu audiovisuel - excluant de fait la cat&eacute;gorie la plus concern&eacute;e par le g&eacute;oblocage.",
+      "title": "Arr&ecirc;tez de forcer les services en ligne &agrave; rebuter les clients",
+      "text": "Autorisez les &laquo;&nbsp;ventes passives&nbsp;&raquo; des vid&eacute;os&nbsp;: Les services en ligne devraient &ecirc;tre autoris&eacute;s &agrave; faire des affaires avec tous les gens qui trouvent une offre, peu importe d'o&ugrave; ils viennent. Les licences ne devraient que pouvoir limiter le public qu'ils peuvent <em>activement d&eacute;marcher.</em>."
     },
     "law": {
       "status": "INVESTIGATIONS EN COURS",
       "statuslong": "Les restrictions contractuelles affectant les prestations transfrontali&egrave;res de services de t&eacute;l&eacute;vision payantes font l'objet d'une enqu&ecirc;te antitrust de la Commission europ&eacute;enne depuis 2014",
       "link": "http://europa.eu/rapid/press-release_IP-14-15_fr.htm",
       "title": "Appliquez la loi anti-discrimination",
-      "text": "La l&eacute;gislation europ&eacute;enne interdit la discrimination<abbr title=\"Article 20 de la directive sur les services\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/fr/TXT/HTML/?uri=CELEX:32006L0123&from=fr\" target=\"_blank\">[UE]</a></sup></abbr> et pratiques commerciales anti-concurrentielles<abbr title=\"Article 101 du Trait&eacute; sur le fonctionnement de l'Union europ&eacute;enne\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/fr/TXT/HTML/?uri=CELEX:12008E101&from=fr\" target=\"_blank\">[EU]</a></sup></abbr>. L'U.E. doit pr&eacute;ciser que les justifications communes pour le g&eacute;oblocage sont en conflit avec ces dispositions."
+      "text": "La l&eacute;gislation europ&eacute;enne interdit la discrimination<abbr title=\"Article 20 de la directive sur les services\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/fr/TXT/HTML/?uri=CELEX:32006L0123&from=fr\" target=\"_blank\">[UE]</a></sup></abbr> et les pratiques commerciales anti-concurrentielles<abbr title=\"Article 101 du Trait&eacute; sur le fonctionnement de l'Union europ&eacute;enne\"><sup><a href=\"http://eur-lex.europa.eu/legal-content/fr/TXT/HTML/?uri=CELEX:12008E101&from=fr\" target=\"_blank\">[EU]</a></sup></abbr>. L'U.E. doit pr&eacute;ciser que les justifications courantes du g&eacute;oblocage sont en conflit avec ces dispositions."
     },
     "roaming": {
-      "status": "PROPOSITION DE D&Eacute;BAT",
+      "status": "PROPOSITION EN COURS DE CONSID&Eacute;RATION",
       "statuslong": "Le &laquo;&nbsp;r&egrave;glement sur la portabilit&eacute;&nbsp;&raquo; est actuellement d&eacute;battu au Parlement europ&eacute;en et au Conseil de l'Union europ&eacute;enne",
       "link": "http://www.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2015/0284(COD)&l=FR",
       "title": "Autorisez &laquo;&nbsp;l'itin&eacute;rance&nbsp;&raquo; pour les services d'abonnement",
-      "text": "Lors du franchissement de la fronti&egrave;re, les utilisateurs doivent &ecirc;tre en m&eacute;sure de profiter de leurs abonnements aux services en ligne."
+      "text": "Lorsqu'ils franchissent les fronti&egrave;res, les utilisateurs doivent &ecirc;tre en m&eacute;sure d'emmener leurs abonnements aux services en ligne avec eux."
     }
   },
   "learn": {
     "title": "En savoir plus",
     "factsheet": {
-      "title": "Fiche descriptive",
+      "title": "Fiche explicative",
       "pdf": "T&eacute;l&eacute;charger le PDF",
       "incl": "Inclus:",
       "reasons": "3 raisons pour lesquelles le g&eacute;oblocage existe",
@@ -151,7 +151,7 @@
     "geoblocked": "Avez-vous &eacute;t&eacute; g&eacute;obloqu&eacute;s&nbsp;?",
     "tweetthis": "Tweeter",
     "link": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fendgeoblocking.eu%2F&amp;related=senficon%3AMEP%20Julia%20Reda%20(European%20Pirate%20Party)&amp;text=Plus%20de%20%C2%AB%20ce%20contenue%20n%27est%20pas%20disponible%20dans%20votre%20pays%20%C2%BB%20%3A%20STOPPEZ%20le%20g%C3%A9oblocage%20!%20Participez%20%C3%A0%20la%20campagne%20%3A%20http%3A%2F%2Fendgeoblocking.eu%2Ffr%2F",
-    "tweet": "Plus de &laquo;&nbsp;ce contenue n'est pas disponible dans votre pays&nbsp;&raquo;&nbsp;: STOPPEZ le géoblocage&nbsp;! Participez à la campagne&nbsp;: http://endgeoblocking.eu/fr/",
+    "tweet": "Plus de &laquo;&nbsp;ce contenu n'est pas disponible dans votre pays&nbsp;&raquo;&nbsp;: STOPPEZ le g&eacute;oblocage&nbsp;! Participez &agrave; la campagne&nbsp;: http://endgeoblocking.eu/fr/",
     "fb": "Likez &amp; partagez cette campagne sur Facebook"
   },
   "credits": {
