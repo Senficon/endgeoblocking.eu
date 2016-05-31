@@ -355,6 +355,7 @@ abbr:hover::after {
 	margin: 5% auto;
 	height: 80%;
 	box-shadow:#000 0 0 2em;
+	background: #000 url(img/loading.gif) center no-repeat;
 }
 
 

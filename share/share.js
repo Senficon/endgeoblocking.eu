@@ -8,7 +8,7 @@ function parseQuery(qstr) {
     return query;
 }
 var q = parseQuery(document.location.search);
-var lang = (q.lang == 'en') ? '' : q.lang;
+var lang = (q.lang) ? ((q.lang == 'en') ? '' : q.lang) : '';
 
 // if arrived here via a share, redirect to campaign page
 if (parent == window) document.location.replace('http://endgeoblocking.eu/'+lang);
