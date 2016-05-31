@@ -1,6 +1,6 @@
 {
   "lang": "fr",
-  "base": "./",
+  "base": "../",
   "title": "En terminer avec le G&eacute;oblocage",
   "description": "Chaque jour, des fronti&egrave;res num&eacute;riques artificielles bloquent des millions d'europ&eacute;ens quand ils veulent commander des biens, acheter des films ou regarder des vid&eacute;os. Aujourd'hui, l'Union europ&eacute;enne envisage de r&eacute;gl&eacute; le probl&egrave;me. Rejoignez-nous pour demander l'arr&ecirc;t du g&eacute;oblocage&nbsp;!",
   "menu": {
@@ -60,22 +60,31 @@
     "consultation": "R&eacute;sultat de la consultation publique de la Commission europ&eacute;enne, 2016 (r&eacute;ponses des individus, en anglais)",
     "link": "https://ec.europa.eu/digital-agenda/en/news/first-brief-results-public-consultation-geo-blocking-and-other-geographically-based",
     "geoblocked": "ont &eacute;t&eacute;<br />g&eacute;obloqu&eacute;s",
-    "never": "demandent que cela<br />ne se reproduise plus",
-    "majority": "une grande majorit&eacute;",
-    "laws": "est en faveur de lois europ&eacute;nnes<br />pour r&eacute;gler le probl$egrave;me"
+    "never": "demandent que<br /> cela ne se<br /> reproduise plus",
+    "majority": "grande majorit&eacute;",
+    "laws": "est en faveur de<br /> lois europ&eacute;nnes<br />pour le r&eacute;gler"
   },
   "supporters": {
+    "supports": "je soutiens cette campagne",
     "julia": {
-      "text": "<strong>Le g&eacute;oblocage est une pratique anachronique, non-europ&eacute;enne et contraire au fonctionnement de la toile.</strong> Cette ann&eacute;e, nous avons une chance d'y mettre fin dans l'U.E. &ndash; mais notre succ&egrave;s d&eacute;pend de la participation de tous. <span>je soutiens cette campagne</span>",
+      "text": "<strong>Le g&eacute;oblocage est une pratique anachronique, non-europ&eacute;enne et contraire au fonctionnement de la toile.</strong> Cette ann&eacute;e, nous avons une chance d'y mettre fin dans l'U.E. &ndash; mais notre succ&egrave;s d&eacute;pend de la participation de tous.",
       "position": "Membre du Parlement europ&eacute;en (Parti Pirate, groupe Les Verts/ALE)",
       "watch": "Voir son discours liminaire sur le g&eacute;oblocage"
     },
     "elen": {
-      "text": "Le g&eacute;oblocage affaiblit l'utilisation des langues r&eacute;gionales minoritaires. Habituellement symbole de lien entre les r&eacute;gions transfrontali&egrave;res, elles se retrouvent <strong>&eacute;l&eacute;ctroniquement d&eacute;connect&eacute;es</strong>. C'est ridicule&nbsp;! <span>je soutiens cette campagne</span>",
-      "position": "European Language Equality Network (ELEN)"
+      "text": "Le g&eacute;oblocage affaiblit l'utilisation des langues r&eacute;gionales minoritaires. Habituellement symbole de lien entre les r&eacute;gions transfrontali&egrave;res, elles se retrouvent <strong>&eacute;l&eacute;ctroniquement d&eacute;connect&eacute;es</strong>. C'est ridicule&nbsp;!"
+    },
+    "afs": {
+      "text": "Geoblocking is utterly <strong>contrary to the Single Market and the European idea as a whole</strong>."
+    },
+    "jef": {
+      "text": "Geo-blocking is <strong>discrimination based on territory</strong>. Getting rid of it is key for the creation of a true digital single market and even a European public space!"
+    },
+    "aegee": {
+      "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes."
     },
     "bermejo": {
-      "text": "<strong>Le g&eacute;oblocage est un non-sens</strong> dans le monde actuel, surtout lorsque nous travaillons &agrave; la construction de soci&eacute;t&eacute;s mondiales et d'un march&eacute; unique num&eacute;rique europ&eacute;en. [&hellip;] Les gens ne comprennent pas pourquoi le g&eacute;oblocage existe.<span>je soutiens cette campagne</span>",
+      "text": "<strong>Le g&eacute;oblocage est un non-sens</strong> dans le monde actuel, surtout lorsque nous travaillons &agrave; la construction de soci&eacute;t&eacute;s mondiales et d'un march&eacute; unique num&eacute;rique europ&eacute;en. [&hellip;] Les gens ne comprennent pas pourquoi le g&eacute;oblocage existe.",
       "position": "Vice Pr&eacute;sident",
       "orga": "Association des startups espagnoles"
     }
@@ -95,6 +104,11 @@
       "from": "Vice-Pr&eacute;sident de la Commission en charge du march&eacute; unique num&eacute;rique &agrave; la",
       "ec": "Commission europ&eacute;enne",
       "link": "http://ec.europa.eu/priorities/digital-single-market_fr"
+    },
+    "ep": {
+      "text": "Geoblocking practices should not prevent cultural minorities living in EU Member States from accessing existing contents or services in their language that are either free or paid for",
+      "link": "https://juliareda.eu/copyright-evaluation-report/full/#14",
+      "from": "Reda Report (07/2015)"
     },
     "aegee": {
       "text": "L'acc&egrave;s &agrave; travers les fronti&egrave;res contribue aux &eacute;changes culturels, &agrave; l'apprentissage [&hellip;] - <strong>Cela devrait &ecirc;tre un standard dans l'Union europ&eacute;enne</strong>.C'est particuli&egrave;rement important pour les &eacute;tudiants participants &agrave; des programmes d'&eacute;changes. &hellip;Cela serait une &eacute;tape pour cr&eacute;er la sph&egrave;re publique europ&eacute;enne commune qui est si n&eacute;cessaire.",

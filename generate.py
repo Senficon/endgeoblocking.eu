@@ -2,7 +2,7 @@
 import json, os
 from jinja2 import Template
 
-for lang in ['en', 'de', 'es', 'el']:
+for lang in ['en', 'de', 'es', 'el', 'fr']:
     directory = '.' if (lang=='en') else lang
     if not os.path.exists(directory):
         os.makedirs(directory)
