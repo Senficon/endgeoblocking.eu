@@ -490,7 +490,7 @@ section#unfair {
 	padding-top: 7em;
 }
 section#unfair .share {
-	margin-top:.5em;
+	margin:1em 0 2em;
 	padding-left: 26%;
 	overflow: hidden;
 }
@@ -792,6 +792,12 @@ a.fb, a.tw {
 	display: inline-block;
 	border: 2px outset #5573a9;
 }
+a.fb.tiny, a.tw.tiny {
+	height: 1.3em;
+	padding: .4em .6em .1em;
+	float: left;
+	margin-right: .1em;
+}
 section#join a.fb {
 	margin-bottom: 1em;
 	border-width: 3px;
@@ -810,6 +816,9 @@ a.fb:hover, a.tw:hover {
 	background: linear-gradient(#394d72, #5573a9);
 	border-style: inset;
 	padding: .6em 1.4em .4em 1.1em;
+}
+a.fb.tiny:hover, a.tw.tiny:hover {
+	padding: .45em .55em .05em .65em;
 }
 a.tw:hover {
 	background: linear-gradient(#358cce, #55acee);
