@@ -530,14 +530,18 @@ section#voices .quote::after {
     clear:both;
 }
 section#voices .quote .photo {
-	width: 8em; height: 8em;
+	width: 7em; height: 7em;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	border-radius: 4em;
+	border-radius: 3.5em;
 	float: left;
+	margin-top: -.3em;
 	margin-right: 1em;
 	background-color: #fff;
+}
+section#voices .supporter .photo {
+	margin-top: -.7em;
 }
 section#voices blockquote {
 	float: left;
@@ -555,7 +559,7 @@ section#voices blockquote > div {
 	position: relative;
 }
 section#voices .supporter blockquote > div {
-	font-size: 1.25em;
+	font-size: 1.1em;
 	line-height: 1.4em;
 }
 section#voices blockquote > div:before {
@@ -578,10 +582,11 @@ section#voices cite {
 section#voices cite .name {
 	font-size: 1.25em;
 	font-weight: bold;
-	color: #000;
+	color: #444;
 	display: inline;
 }
 section#voices cite a.name {
+	color: #444;
 	text-decoration: none;
 	border-bottom: 1px solid #999;
 }

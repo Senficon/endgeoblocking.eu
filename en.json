@@ -65,17 +65,26 @@
     "laws": "supports EU<br />laws against it"
   },
   "supporters": {
+    "supports": "supports this campaign",
     "julia": {
-      "text": "<strong>Geoblocking is the most anachronistic, un-European, un-digital practice on the web.</strong> This year, we have the chance to end it in the EU &ndash; whether we succeed depends on whether people will speak up. <span>supports this campaign</span>",
-      "position": "Member of the European Parliament (Pirate Party, Greens/EFA group)",
+      "text": "<strong>Geoblocking is the most anachronistic, un-European, un-digital practice on the web.</strong> This year, we have the chance to end it in the EU &ndash; whether we succeed depends on whether people will speak up.",
+      "position": "Member of the European Parliament (<a href=\"http://europeanpirateparty.eu\" target=\"_blank\">Pirate Party</a>, <a href=\"http://www.greens-efa.eu\" target=\"_blank\">Greens/EFA group</a>)",
       "watch": "Watch her keynote on geoblocking"
     },
     "elen": {
-      "text": "Geoblocking undermines regional minority lanuage usage. ... Usually-connected cross-border regions become <strong>digitally disconnected</strong>. This is ridiculous! <span>supports this campaign</span>",
-      "position": "European Language Equality Network (ELEN)"
+      "text": "Geoblocking undermines regional minority lanuage usage. ... Usually-connected cross-border regions become <strong>digitally disconnected</strong>. This is ridiculous!"
+    },
+    "afs": {
+      "text": "Geoblocking is utterly <strong>contrary to the Single Market and the European idea as a whole</strong>."
+    },
+    "jef": {
+      "text": "Ending geoblocking will be a step to creating the common European public sphere that is so needed."
+    },
+    "aegee": {
+      "text": "Access across borders contributes to cultural exchange and learning – <strong>it should become standard in the EU</strong>. It is especially crucial for students attending mobility programs."
     },
     "bermejo": {
-      "text": "<strong>Geoblocking is nonsense</strong> in today's world, especially when we are working on building worldwide companies and a European Digital Single Market. [...] People don't understand why geoblocking exists.<span>supports this campaign</span>",
+      "text": "<strong>Geoblocking is nonsense</strong> in today's world, especially when we are working on building worldwide companies and a European Digital Single Market. [...] People don't understand why geoblocking exists.",
       "position": "Vice President",
       "orga": "Spanish Startup Association"
     }
@@ -87,7 +96,7 @@
       "from": "BEUC The European Consumer Organisation"
     },
     "eyif": {
-      "text": "<strong>Services continue to be confined to national borders</strong> ... [we need] a targeted competition policy ensuring the prohibition of agreements for licenses which prohibit sales of services outside licensed territories.",
+      "text": "[We need] a targeted competition policy ensuring the prohibition of agreements for licenses which prohibit sales of services outside licensed territories.",
       "from": "by European Young Innovators Forum"
     },
     "ansip": {
@@ -96,8 +105,13 @@
       "ec": "European Commission",
       "link": "http://ec.europa.eu/priorities/digital-single-market_en"
     },
+    "ep": {
+      "text": "Geoblocking practices should not prevent cultural minorities living in EU Member States from accessing existing contents or services in their language that are either free or paid for",
+      "link": "https://juliareda.eu/copyright-evaluation-report/full/#14",
+      "from": "Reda Report (07/2015)"
+    },
     "aegee": {
-      "text": "Access across borders contributes to cultural exchange, to learning [...] - <strong>it should become standard in the EU</strong>. It is especially crucial for students attending mobility programs. ... It will be a step to creating the common European public sphere that is so needed.",
+      "text": "",
       "from": "President of",
       "aegee": "AEGEE European Students' Forum"
     }

@@ -65,17 +65,26 @@
     "laws": "will dagegen<br />EU-Regeln"
   },
   "supporters": {
+    "supports": "unterst&uuml;tzt diese Kampagne",
     "julia": {
-      "text": "<strong>Geoblocking ist die anachronistischste, uneurop&auml;ischste, anti-digitalste Praktik im Web.</strong> In diesem Jahr haben wir die Chance, sie in der EU abzuschaffen &ndash; ob wir Erfolg haben werden h&auml;ngt davon ab, ob Menschen sich daf&uuml;r einsetzen. <span>unterst&uuml;tzt diese Kampagne</span>",
+      "text": "<strong>Geoblocking ist die anachronistischste, uneurop&auml;ischste, anti-digitalste Praktik im Web.</strong> In diesem Jahr haben wir die Chance, sie in der EU abzuschaffen &ndash; ob wir Erfolg haben werden h&auml;ngt davon ab, ob Menschen sich daf&uuml;r einsetzen.",
       "position": "Mitglied des Europ&auml;ischen Parlamentes (Piratenpartei, Fraktion Gr&uuml;ne/EFA)",
       "watch": "Sieh dir ihren Vortrag zum Geoblocking an"
     },
     "elen": {
-      "text": "Geoblocking untergr&auml;bt die Nutzung regionaler Minderheitensprachen. ... Sonst zusammenh&auml;ngende Grenzregionen werden <strong>digital getrennt</strong>. Das ist unsinnig! <span>unterst&uuml;tzt diese Kampagne</span>",
-      "position": "European Language Equality Network (ELEN)"
+      "text": "Geoblocking untergr&auml;bt die Nutzung regionaler Minderheitensprachen. ... Sonst zusammenh&auml;ngende Grenzregionen werden <strong>digital getrennt</strong>. Das ist unsinnig!"
+    },
+    "afs": {
+      "text": "Geoblocking is utterly <strong>contrary to the Single Market and the European idea as a whole</strong>."
+    },
+    "jef": {
+      "text": "Coming soon"
+    },
+    "aegee": {
+      "text": "Access across borders contributes to cultural exchange and learning [...] - <strong>it should become standard in the EU</strong>. It is especially crucial for students attending mobility programs. ... Ending geoblocking will be a step to creating the common European public sphere that is so needed."
     },
     "bermejo": {
-      "text": "<strong>Geoblocking ist Unsinn</strong>  in einer Zeit, in der wir daran arbeiten, weltweite Unternehmen aufzubauen und einen europ&auml;ischen digitalen Binnenmarkt zu schaffen. [&hellip;] Die Menschen verstehen nicht, warum Geoblocking existiert.<span>unterst&uuml;tzt diese Kampagne</span>",
+      "text": "<strong>Geoblocking ist Unsinn</strong>  in einer Zeit, in der wir daran arbeiten, weltweite Unternehmen aufzubauen und einen europ&auml;ischen digitalen Binnenmarkt zu schaffen. [&hellip;] Die Menschen verstehen nicht, warum Geoblocking existiert.",
       "position": "Vize-Pr&auml;sidentin",
       "orga": "Spanish Startup Association"
     }
@@ -95,6 +104,11 @@
       "from": "Vizepr&auml;sident f&uuml;r den digitalen Binnenmarkt bei der",
       "ec": "Europ&auml;ischen Kommission",
       "link": "http://ec.europa.eu/priorities/digital-single-market_de"
+    },
+    "ep": {
+      "text": "Geoblocking practices should not prevent cultural minorities living in EU Member States from accessing existing contents or services in their language that are either free or paid for",
+      "link": "https://juliareda.eu/copyright-evaluation-report/full/#14",
+      "from": "Reda Report (07/2015)"
     },
     "aegee": {
       "text": "Grenz&uuml;bergreifender Zugang leistet einen Beitrag zu kulturellem Austausch, zum Lernen [...] - <strong>das sollte EU-weit Praxis werden</strong>. Es ist besonders f&uuml;r Studierende in Austauschprogrammen wichtig. ... Es ist ein Schritt zu einer europ&auml;ischen &Ouml;ffentlichkeit, die wir dringend brauchen.",

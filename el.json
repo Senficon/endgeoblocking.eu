@@ -65,17 +65,26 @@
     "laws": "υποστηρίζει τους νόμους της ΕΕ<br />ενάντια σε αυτό"
   },
   "supporters": {
+    "supports": "υποστηρίζει αυτήν την καμπάνια",
     "julia": {
-      "text": "<strong>Το γεωμπλοκάρισμα είναι ο πιο αναχρονιστικός περιορισμός, είναι αντι-Ευρωπαϊκός, μια αντι-ψηφιακή πρακτική πάνω στο web.</strong> Φέτος, θα πρέπει να έχουμε την ευκαιρία να το τελειώσουμε μέσα στην ΕΕ &ndash; το αν θα το πετύχουμε εξαρτάται από το αν οι άνθρωποι θα υψώσουν την φωνή τους. <span>υποστηρίζει αυτήν την καμπάνια</span>",
+      "text": "<strong>Το γεωμπλοκάρισμα είναι ο πιο αναχρονιστικός περιορισμός, είναι αντι-Ευρωπαϊκός, μια αντι-ψηφιακή πρακτική πάνω στο web.</strong> Φέτος, θα πρέπει να έχουμε την ευκαιρία να το τελειώσουμε μέσα στην ΕΕ &ndash; το αν θα το πετύχουμε εξαρτάται από το αν οι άνθρωποι θα υψώσουν την φωνή τους.",
       "position": "Μέλος του Ευρωπαϊκού Κοινοβουλίου (Κόμμα Πειρατών, στην ομάδα των Greens/EFA)",
       "watch": "Δες την δήλωσή της σχετικά με το γεωμπλοκάρισμα"
     },
     "elen": {
-      "text": "Το γεωμπλοκάρισμα υποσκάπτει την χρήση από τις μειονότητες της ίδιας τους της γλώσσας. ... Οι συνήθως καλά συνδεδεμένες διασυνοριακές περιοχές γίνονται <strong>ψηφιακά ασύνδετες</strong>. Αυτό είναι γελοίο! <span>>υποστηρίζει αυτήν την καμπάνια</span>",
-      "position": "European Language Equality Network (ELEN)"
+      "text": "Το γεωμπλοκάρισμα υποσκάπτει την χρήση από τις μειονότητες της ίδιας τους της γλώσσας. ... Οι συνήθως καλά συνδεδεμένες διασυνοριακές περιοχές γίνονται <strong>ψηφιακά ασύνδετες</strong>. Αυτό είναι γελοίο!"
+    },
+    "afs": {
+      "text": "Geoblocking is utterly <strong>contrary to the Single Market and the European idea as a whole</strong>."
+    },
+    "jef": {
+      "text": "Coming soon"
+    },
+    "aegee": {
+      "text": "Access across borders contributes to cultural exchange and learning [...] - <strong>it should become standard in the EU</strong>. It is especially crucial for students attending mobility programs. ... Ending geoblocking will be a step to creating the common European public sphere that is so needed."
     },
     "bermejo": {
-      "text": "<strong>Το γεωμπλοκάρισμα είναι χαζομάρα</strong> στον σημερινό κόσμο, ειδικά όταν εργαζόμαστε για χτίσουμε παγκόσμιας εμβέλειας επιχειρήσεις και μια Ευρωπαϊκή Ψηφιακή Ενιαία Αγορά. [...] Οι άνθρωποι δεν καταλαβαίνουν το γιατί υπάρχει το γεωμπλοκάρισμα.<span>υποστηρίζει αυτήν την καμπάνια</span>",
+      "text": "<strong>Το γεωμπλοκάρισμα είναι χαζομάρα</strong> στον σημερινό κόσμο, ειδικά όταν εργαζόμαστε για χτίσουμε παγκόσμιας εμβέλειας επιχειρήσεις και μια Ευρωπαϊκή Ψηφιακή Ενιαία Αγορά. [...] Οι άνθρωποι δεν καταλαβαίνουν το γιατί υπάρχει το γεωμπλοκάρισμα.",
       "position": "Αντιπρόεδρος",
       "orga": "Spanish Startup Association"
     }
@@ -95,6 +104,11 @@
       "from": "Αντιπρόεδρος για την Ψηφιακή Ενιαία Αγορά στην",
       "ec": "Ευρωπαϊκή Επιτροπή",
       "link": "http://ec.europa.eu/priorities/digital-single-market_en"
+    },
+    "ep": {
+      "text": "Geoblocking practices should not prevent cultural minorities living in EU Member States from accessing existing contents or services in their language that are either free or paid for",
+      "link": "https://juliareda.eu/copyright-evaluation-report/full/#14",
+      "from": "Reda Report (07/2015)"
     },
     "aegee": {
       "text": "Η πρόσβαση διασυνοριακά στις πολιτισμικές ανταλλαγές, για την εκπαίδευση [...] - <strong>it θα πρέπει να γίνει ένα στάνταρ στην ΕΕ</strong>. Είναι ειδικά κρίσιμο για τους σπουδαστές να μπορούν να παρακολουθούν κινητά προγράμματα. ... Θα είναι ένα βήμα προς την δημιουργία μιας κοινής Ευρωπαϊκής δημόσιας σφαίρας που είναι τόσο απαραίτητη.",
