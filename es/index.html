@@ -63,13 +63,15 @@
 
 	<section id="intro">
 		<div class="column">
-			<select id="langselect" onchange="switchLang(this.options[this.selectedIndex].value)">
-				<option value="de">DE - Deutsch</option>
-				<option value="el">EL - Ελληνικά</option>
-				<option value="en">EN - English</option>
-				<option value="es">ES - Espa&ntilde;ol</option>
-				<option value="fr">FR - Français</option>
-			</select>
+			<div id="langswitch">
+				<select id="langselect" onchange="switchLang(this.options[this.selectedIndex].value)">
+					<noption value="de">DE - Deutsch</option>
+					<option value="el">EL - Ελληνικά</option>
+					<option value="en">EN - English</option>
+					<option value="es">ES - Espa&ntilde;ol</option>
+					<option value="fr">FR - Français</option>
+				</select>
+			</div>
 			<img id="logo" src="img/geoblocking-stamp-dirty-white-es.png" width="200" style="opacity:1" />
 			<h2 class="intro">¿Alguna vez has sido <strong>geobloqueado?</strong></h2>
 			<div id="screen">
@@ -314,34 +316,34 @@
 			<h2>3 pasos para terminar con el geobloqueo</h2>
 			<ol>
 				<li>
+					<h3>No obliguéis a los servicios a rechazar clientes</h3>
 					<div class="check">
 						<h4>Estado actual</h4>
 						<strong class="no"><span class="light"></span>AÚN SIN DETALLES</strong><abbr title="En mayo de 2016, la Comisión Europea presentó propuestas bajo el título de 'geoblocking' que no afectan explícitamente al contenido audiovisual - olvidan lo más importante al excluir la categoría en la que los usuarios se enfrentan con más frecuencia al 'geoblocking'."><sup>[?]</sup></abbr>
 						<a href="javascript:;" class="btn" onclick="signup(); return false">PIDE MEDIDAS</a>
 					</div>
-					<h3>No obliguéis a los servicios a rechazar clientes</h3>
 					<p>
 						Permitid la &#xAB;venta pasiva&#xBB; de vídeos: Se debería permitir a los servicios hacer negocios con cualquier persona que acceda a sus ofertas, sin importar de dónde procedan. Las licencias deberían poder restringir solamente <em>a quién se promocionan de manera activa</em>.
 					</p>
 				</li>
 				<li>
+					<h3>Haz que se cumpla la ley antidiscriminatoria</h3>
 					<div class="check">
 						<h4>Estado actual</h4>
 						<strong class="maybe"><span class="light"></span>INVESTIGACIÓN EN CURSO</strong><abbr title="Las restricciones contractuales que afectan a la prestación transfronteriza de servicios de TV de pago han sido objeto de investigación de la Comisión Europea desde el 2014."><sup><a href="Las restricciones contractuales que afectan a la prestación transfronteriza de servicios de TV de pago han sido objeto de investigación de la Comisión Europea desde el 2014." target="_blank">[EC]</a></sup></abbr>
 						<a href="javascript:;" class="btn" onclick="signup(); return false">PIDE MEDIDAS</a>
 					</div>
-					<h3>Haz que se cumpla la ley antidiscriminatoria</h3>
 					<p>
 						La legislación europea prohíbe las prácticas de negocio discriminatorias <abbr title="Artículo 20 de la Directiva de Servicios"><sup><a href="http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32006L0123&from=ES" target="_blank">[EU]</a></sup></abbr> y anticompetitivas<abbr title="Artículo 101 del Tratado de Funcionamiento de la Unión Europea"><sup><a href="http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12008E101&from=ES" target="_blank">[EU]</a></sup></abbr>. La UE debe aclarar que las justificaciones en las que se basa normalmente el 'geoblocking' entran en conflicto con estas disposiciones.
 					</p>
 				</li>
 				<li>
+					<h3>Permitid el &#xAB;roaming&#xBB; para los servicios de suscripción</h3>
 					<div class="check">
 						<h4>Estado actual</h4>
 						<strong class="maybe"><span class="light"></span>PROPUESTA A DEBATE</strong><abbr title="La 'Regulación de Portabilidad' se está debatiendo en estos momentos en el Parlamento Europeo y en el Consejo"><sup><a href="http://www.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2015/0284(COD)&l=en" target="_blank">[EP]</a></sup></abbr>
 						<a href="javascript:;" class="btn" onclick="signup(); return false">PIDE MEDIDAS</a>
 					</div>
-					<h3>Permitid el &#xAB;roaming&#xBB; para los servicios de suscripción</h3>
 					<p>
  						Los usuarios tienen que poder llevarse con ellos sus suscripciones a servicios online cuando cruzan la frontera.
 					</p>

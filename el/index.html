@@ -63,13 +63,15 @@
 
 	<section id="intro">
 		<div class="column">
-			<select id="langselect" onchange="switchLang(this.options[this.selectedIndex].value)">
-				<option value="de">DE - Deutsch</option>
-				<option value="el">EL - Ελληνικά</option>
-				<option value="en">EN - English</option>
-				<option value="es">ES - Espa&ntilde;ol</option>
-				<option value="fr">FR - Français</option>
-			</select>
+			<div id="langswitch">
+				<select id="langselect" onchange="switchLang(this.options[this.selectedIndex].value)">
+					<noption value="de">DE - Deutsch</option>
+					<option value="el">EL - Ελληνικά</option>
+					<option value="en">EN - English</option>
+					<option value="es">ES - Espa&ntilde;ol</option>
+					<option value="fr">FR - Français</option>
+				</select>
+			</div>
 			<img id="logo" src="img/geoblocking-stamp-dirty-white-el.png" width="200" style="opacity:1" />
 			<h2 class="intro">Έχεις υποστεί ποτέ <strong>γεωμπλοκάρισμα;</strong></h2>
 			<div id="screen">
@@ -314,34 +316,34 @@
 			<h2>3 βήματα για να νικήσουμε το γεωμπλοκάρισμα</h2>
 			<ol>
 				<li>
+					<h3>Σταματήστε την επιβολή υπηρεσιών που στρέφουν τους πελάτες μακρυά</h3>
 					<div class="check">
 						<h4>Τρέχουσα κατάσταση</h4>
 						<strong class="no"><span class="light"></span>ΔΕΝ ΕΧΟΥΝ ΑΝΑΚΟΙΝΩΘΕΙ ΛΕΠΤΟΜΕΡΕΙΕΣ</strong><abbr title="Τον Μάϊο του 2016, η Ευρωπαϊκή Επιτροπή παρουσίασε προτάσεις κάτω από τον τίτλο 'γεωμπλοκάρισμα' που κατ' εξαίρεση δεν επηρεάζουν το οπτικοακουστικό περιεχόμενο - χάνουν έτσι το νόημα με τον αποκλεισμό της κατηγορίας στην οποία οι χρήστες υπόκεινται πιο συχνά σε γεωμπλοκάρισμα."><sup>[?]</sup></abbr>
 						<a href="javascript:;" class="btn" onclick="signup(); return false">ΑΠΑΙΤΕΙΤΑΙ ΔΡΑΣΗ</a>
 					</div>
-					<h3>Σταματήστε την επιβολή υπηρεσιών που στρέφουν τους πελάτες μακρυά</h3>
 					<p>
 						Επιτρέψτε τις &#xAB;παθητικές αγορές&#xBB; για τα βίντεο: Οι υπηρεσίες θα πρέπει να επιτρέπεται να κάνουν δουλειές με όλους τους ανθρώπους που βρίσκουν μια προσφορά, χωρίς να παίζει ρόλο το από προέρχονται. Οι άδειες θα πρέπει μόνο να περιορίζουν το ποιος θα μπορεί μπορεί <em>ενεργά να διαφημίζει προς αυτούς</em>.
 					</p>
 				</li>
 				<li>
+					<h3>Επιβολή του νόμου κατά των διακρίσεων</h3>
 					<div class="check">
 						<h4>Τρέχουσα κατάσταση</h4>
 						<strong class="maybe"><span class="light"></span>ΤΡΕΧΕΙ ΔΙΑΔΙΚΑΣΙΑ ΕΡΕΥΝΑΣ</strong><abbr title="Οι συμβατικοί περιορισμοί που επηρεάζουν τη διασυνοριακή παροχή υπηρεσιών συνδρομητικής τηλεόρασης έχουν υπαχθεί σε αντιμονοπωλιακή έρευνα από την Ευρωπαϊκή Επιτροπή από το 2014"><sup><a href="Οι συμβατικοί περιορισμοί που επηρεάζουν τη διασυνοριακή παροχή υπηρεσιών συνδρομητικής τηλεόρασης έχουν υπαχθεί σε αντιμονοπωλιακή έρευνα από την Ευρωπαϊκή Επιτροπή από το 2014" target="_blank">[EC]</a></sup></abbr>
 						<a href="javascript:;" class="btn" onclick="signup(); return false">ΑΠΑΙΤΕΙΤΑΙ ΔΡΑΣΗ</a>
 					</div>
-					<h3>Επιβολή του νόμου κατά των διακρίσεων</h3>
 					<p>
 						Η νομοθεσία της ΕΕ απαγορεύει τις διακρίσεις<abbr title=";Άρθρο 20 της Οδηγίας για της Υπηρεσίες"><sup><a href="http://eur-lex.europa.eu/legal-content/EL/TXT/HTML/?uri=CELEX:32006L0123&from=EN" target="_blank">[ΕΕ]</a></sup></abbr> και για τον ανταγωνισμό<abbr title="Άρθρο 101 της Συνθήκης για τη λειτουργία της Ευρωπαϊκής Ένωσης"><sup><a href="http://eur-lex.europa.eu/legal-content/EL/TXT/HTML/?uri=CELEX:12008E101&from=EN" target="_blank">[ΕΕ]</a></sup></abbr> κανόνες εφαρμοστέοι επί των επιχειρήσεων. Η ΕΕ πρέπει να αποσαφηνίσει ότι οι κοινές δικαιολογίες για το γεωμπλοκάρισμα έρχονται σε σύγκρουση με τις διατάξεις αυτές.
 					</p>
 				</li>
 				<li>
+					<h3>Που θα επιτρέπει &#xAB;την περιαγωγή&#xBB; για της συνδρομητικές υπηρεσίες</h3>
 					<div class="check">
 						<h4>Τρέχουσα κατάσταση</h4>
 						<strong class="maybe"><span class="light"></span>Η ΥΠΟ ΣΥΖΗΤΗΣΗ ΠΡΟΤΑΣΗ</strong><abbr title="Ο 'Κανονισμός Φορητότητας' αυτή τη στιγμή συζητείται στο Ευρωπαϊκό Κοινοβούλιο και στο Συμβούλιο"><sup><a href="http://www.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2015/0284(COD)&l=en" target="_blank">[EP]</a></sup></abbr>
 						<a href="javascript:;" class="btn" onclick="signup(); return false">ΑΠΑΙΤΕΙΤΑΙ ΔΡΑΣΗ</a>
 					</div>
-					<h3>Που θα επιτρέπει &#xAB;την περιαγωγή&#xBB; για της συνδρομητικές υπηρεσίες</h3>
 					<p>
  						Κατά τη διέλευση των συνόρων, οι χρήστες πρέπει να είναι σε θέση να παίρνουν μαζί τους τις συνδρομές τους σε online υπηρεσίες.
 					</p>
