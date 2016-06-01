@@ -911,11 +911,18 @@ blockquote.tweetthis:before {
 }
 
 @media screen and (max-width: 400px) {
+	section#intro #screen, section#intro #noise { width: auto; border: 0; border-radius: 0; }
+	section#intro #screen { background-position: center; }
+	section#intro #noise { position: relative; }
 	section#intro #topbox #signup .stamp { display: none; }
 	section#intro #topbox #signup p.appeal { margin: 1em 0 .5em }
 	section#todo li h3 { max-width: 75%; }
 	ol li:before { margin-left: .5em; margin-right: .5em; }
 	ol li p { padding-left: 2em; }
 	section#unfair .share { padding-left: 0; }
+}
+
+@media screen and (max-width: 320px) {
+	section#intro h2, h1 { font-size: 3em;}
 }
 
