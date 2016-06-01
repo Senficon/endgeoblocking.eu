@@ -99,6 +99,7 @@ form small {
 	font-size:.6em;
 	clear: both;
     display: block;
+	line-height: 1.2em;
 }
 form input[type=email] {
 	font-size: 1.6em;
@@ -700,6 +701,10 @@ section#todo ol {
 section#todo li {
 	border-color: #678;
 	color: #89a;
+	overflow: hidden;
+}
+section#todo li p {
+	clear: left;
 }
 section#todo li a.btn {
 	color: #fff;
@@ -707,9 +712,13 @@ section#todo li a.btn {
 section#todo li:before {
 	background: #678;
 	color: #fff;
+	margin-top: .8em;
 }
 section#todo li h3 {
 	color: #fff;
+	float: left;
+	margin-bottom: .3em;
+	max-width: 55%;
 }
 section#agree {
 	opacity: 1;
@@ -722,8 +731,8 @@ section#todo li .check {
 	font-size: .75em;
 	border-left: 2px solid #345;
 	margin-left: 3%;
-	padding-left: 1em;
-	  padding-right: .5em;
+	margin-top: 1em;
+	padding: 0 .5em .5em 1em;
 	box-sizing: border-box;
 }
 section#todo li .check .btn {
@@ -857,3 +866,56 @@ blockquote.tweetthis:before {
     border: .7em solid transparent;
     border-right-color: #fff;
 }
+
+
+@media screen and (max-width: 940px) { 
+	.column { width: 100%; }
+	#langselect { margin-left: 2.5em; margin-bottom: 2em; } 
+	#logo { margin-right: 1em; margin-top: -2.5em; }
+	section:not(#intro) .column { padding: 0 1em; box-sizing: border-box; }
+	section#intro h2 { margin-left: .5em; margin-top: 0; }
+	section#voices blockquote { width: 70%; }
+	.twocol .col { float: none; width: 100%; }
+ 	section#todo li h3 { max-width: 52%; }
+
+}
+
+@media screen and (max-width: 550px) {
+	a.gobtn { display: block; width: 100%; box-sizing: border-box; text-align: center; padding: .6em 0; }
+	#langswitch { display: block; }
+	#langselect { margin-left: 0; font-size: 1.5em; }
+	#intro .column { text-align: center; }
+	#intro #topbox { text-align: left; }
+	#logo { float: none; clear: both; margin: 0 auto; width: 60%; }
+	section#unfair ol { width: 100%;}
+	section#unfair .share { padding-left: 15%; }
+	section#voices .quote .photo { width: 6em; height: 6em; position: relative; z-index: 2; border: 1px solid #ccc; }
+	section#voices blockquote { float: none; width: 100%; box-sizing: border-box; }
+	section#voices blockquote > div:before { display: none; }
+	section#voices blockquote > div { font-size: .9em; }
+	section#voices h3 .btwn { clear: left; margin-top:.3em;}
+	section#voices cite .share { display: none;}
+	section#todo li h3 { max-width: 74%; }
+	section#todo li .check { clear: both; float: none; width: auto; border: 2px solid #345; margin: 1em 2em 0; padding: .5em 1em;}
+	section#todo ol li p { padding-left: 2em;}
+	section#learn a.vid { width: 100%; background-size: cover; }
+	form input[type=email] { width: 90%; }
+	form input[type=submit] { width: 100%; margin: .5em 0; float: none;}
+	section#join a.tw, section#join a.fb { width: 100%; box-sizing: border-box; }
+	section#join a.tw { margin-bottom: 0; line-height: 2.5em; }
+	blockquote.tweetthis { width: 97%; box-sizing: border-box; margin-bottom: 1em;}
+	section#join a.fb img, section#join a.tw img, section#join a.fb span, section#join a.tw span { display: inline; }
+	section#join .twocol .col { margin-bottom:2em; }
+	section#join .twocol iframe { width:100%; }
+	#cover #shareframe { width:70%;}
+}
+
+@media screen and (max-width: 400px) {
+	section#intro #topbox #signup .stamp { display: none; }
+	section#intro #topbox #signup p.appeal { margin: 1em 0 .5em }
+	section#todo li h3 { max-width: 75%; }
+	ol li:before { margin-left: .5em; margin-right: .5em; }
+	ol li p { padding-left: 2em; }
+	section#unfair .share { padding-left: 0; }
+}
+
