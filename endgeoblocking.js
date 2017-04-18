@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		) {
 		showEmail(); // then => show email!
 	}
-	
+
 	// countdown
 	var targetDate = Date.parse("Apr 24, 2017 12:00 GMT+0100");
 	var daysLeft = (targetDate-Date.parse(d))/(1000*60*60*24);
@@ -132,10 +132,28 @@ function signup() {
 }
 
 
+
+function geo(d, fromDropdown) {
+	calliframe.src = 'https://endgeoblockingeu.herokuapp.com/?committee=IMCO&country='+d.country;
+}
+
 var meplist = [
-	{name: "Pavel Svoboda",country: "CZ",group: "EPP",party: "Křesťanská a demokratická unie - Československá strana lidová",id: "16829",photoid: "96272",email: "pavel.svoboda@europarl.europa.eu"},
-	{name: "Lidia Joanna Geringer de Oedenberg",country: "PL",group: "S&D",party: "Bezpartyjna",id: "16889", photoid: "28377", email: "lidiajoanna.geringerdeoedenberg@europarl.europa.eu"},
-	{name: "Jean-Marie Cavada",country: "FR",group: "ALDE",party: "Nous Citoyens",id: "17057", photoid: "28206", weight: 2, email: "jean-marie.cavada@europarl.europa.eu"},
+	{name:"Vicky Ford", country:"UK", group:"ECR", party:"Conservatives", id:"?", photoid:"96949", email:"vicky.ford@europarl.europa.eu"},
+	{name:"Anna Maria Corazza Bildt", country:"SE", group:"EPP", party:"Moderaterna", id:"?", photoid:"96674", email:"annamaria.corazzabildt@europarl.europa.eu"},
+
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+	{name:"", country:"", group: "", party: "", id: "?", photoid: "", email: "" },
+
+
+	{name: "Jean-Marie Cavada",country: "FR",group: "ALDE",party: "Nous Citoyens",id: "17057", photoid: "28206", email: "jean-marie.cavada@europarl.europa.eu"},
 	{name: "Axel Voss",country: "DE",group: "EPP",party: "Christlich Demokratische Union Deutschlands",id: "16943", photoid: "96761", email: "axel.voss@europarl.europa.eu"},
 	{name: "Mady Delvaux",country: "LU",group: "S&D",party: "Parti ouvrier socialiste luxembourgeois",id: "17056", photoid: "124776", email: "mady.delvaux-stehres@europarl.europa.eu"},
 	{name: "Max Andersson",country: "SE",group: "Greens/EFA",party: "Miljöpartiet de gröna",id: "17280", photoid: "124994", email: "max.andersson@europarl.europa.eu"},
