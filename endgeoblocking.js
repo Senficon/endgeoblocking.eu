@@ -28,7 +28,12 @@ document.addEventListener("DOMContentLoaded", function() {
 			}
 		}
 	}
-	window.currLang = document.body.className.match(/lang-([a-z]{2})/)[1];
+
+	if (document.body.className.match(/lang-([a-z]{2})/)) {
+		window.currLang = document.body.className.match(/lang-([a-z]{2})/)[1];
+	} else {
+		window.currLang = 'en';
+	}
 	for (var i=0; i<langOs.length; i++) {
 		if (langOs[i].value == window.currLang) {
 			langOs[i].selected = 'selected';
@@ -47,6 +52,25 @@ document.addEventListener("DOMContentLoaded", function() {
 			removeClass('state-menu')
 		}
 	}
+
+	// "don't call now, email instead" button
+	var d = new Date();
+	window.showEmailState = false;
+	if (d.getUTCDay() === 0 || // if Sunday
+		d.getUTCDay() === 6 || // or Saturday
+		d.getUTCHours() < 7 || // or before 9AM Brussels Summer Time
+		d.getUTCHours() > 15 // or after 6PM Brussels Summer Time
+		) {
+		showEmail(); // then => show email!
+	}
+	
+	// countdown
+	var targetDate = Date.parse("Apr 24, 2017 12:00 GMT+0100");
+	var daysLeft = (targetDate-Date.parse(d))/(1000*60*60*24);
+	var daysLeftDisplay = (daysLeft < 0) ? 0 : Math.round(daysLeft);
+	document.getElementById('days').innerHTML = daysLeftDisplay;
+	document.getElementById('countdown').style.opacity = 1;
+
 }, false);
 
 function switchLang(l) {
@@ -106,6 +130,179 @@ function signup() {
 	}
 	document.getElementById('email').focus();
 }
+
+
+var meplist = [
+	{name: "Pavel Svoboda",country: "CZ",group: "EPP",party: "Křesťanská a demokratická unie - Československá strana lidová",id: "16829",photoid: "96272",email: "pavel.svoboda@europarl.europa.eu"},
+	{name: "Lidia Joanna Geringer de Oedenberg",country: "PL",group: "S&D",party: "Bezpartyjna",id: "16889", photoid: "28377", email: "lidiajoanna.geringerdeoedenberg@europarl.europa.eu"},
+	{name: "Jean-Marie Cavada",country: "FR",group: "ALDE",party: "Nous Citoyens",id: "17057", photoid: "28206", weight: 2, email: "jean-marie.cavada@europarl.europa.eu"},
+	{name: "Axel Voss",country: "DE",group: "EPP",party: "Christlich Demokratische Union Deutschlands",id: "16943", photoid: "96761", email: "axel.voss@europarl.europa.eu"},
+	{name: "Mady Delvaux",country: "LU",group: "S&D",party: "Parti ouvrier socialiste luxembourgeois",id: "17056", photoid: "124776", email: "mady.delvaux-stehres@europarl.europa.eu"},
+	{name: "Max Andersson",country: "SE",group: "Greens/EFA",party: "Miljöpartiet de gröna",id: "17280", photoid: "124994", email: "max.andersson@europarl.europa.eu"},
+	{name: "Joëlle Bergeron",country: "FR",group: "EFDD",party: "Sans étiquette",id: "16807", photoid: "124740", email: "joelle.bergeron@europarl.europa.eu"},
+	{name: "Marie-Christine Boutonnet",country: "FR",group: "NI",party: "Front national",id: "17279", photoid: "124753", email: "marie-christine.boutonnet@europarl.europa.eu"},
+	{name: "Kostas Chrysogonos",country: "GR",group: "GUE/NGL",party: "SYRIZA",id: "16896", photoid: "125061", weight: 3, email: "kostas.chrysogonos@europarl.europa.eu"},
+	{name: "Therese Comodini Cachia",country: "MT",group: "EPP",party: "Partit Nazzjonalista",id: "17125", photoid: "124968", weight: 10, email: "therese.comodinicachia@europarl.europa.eu"},
+	//{name: "Andrzej Duda",country: "PL",group: "ECR",party: "Prawo i Sprawiedliwość",id: "17276", photoid: "124899"},
+	{name: "Rosa Estaràs Ferragut",country: "ES",group: "EPP",party: "Partido Popular",id: "16862", photoid: "96811", email: "rosa.estaras@europarl.europa.eu"},
+	{name: "Laura Ferrara",country: "IT",group: "EFDD",party: "Movimento 5 Stelle",id: "16935", photoid: "124833", email: "laura.ferrara@europarl.europa.eu"},
+	{name: "Enrico Gasbarra",country: "IT",group: "S&D",party: "Partito Democratico",id: "18983", photoid: "124817", email: "enrico.gasbarra@europarl.europa.eu"},
+	{name: "Mary Honeyball",country: "UK",group: "S&D",party: "Labour Party",id: "17002", photoid: "5846", weight: 2, email: "mary.honeyball@europarl.europa.eu"},
+	{name: "Sajjad Karim",country: "UK",group: "ECR",party: "Conservative Party",id: "16853", photoid: "28481", email: "sajjad.karim@europarl.europa.eu"},
+	{name: "Dietmar Köster",country: "DE",group: "S&D",party: "Sozialdemokratische Partei Deutschlands",id: "17277", photoid: "124822", email: "dietmar.koester@europarl.europa.eu"},
+	{name: "Gilles Lebreton",country: "FR",group: "NI",party: "Front national/Rassemblement Bleu Marine",id: "17282", photoid: "124738", email: "gilles.lebreton@europarl.europa.eu"},
+	{name: "António Marinho e Pinto",country: "PT",group: "ALDE",party: "Independente",id: "16934", photoid: "124742", email: "antonio.marinhoepinto@europarl.europa.eu"},
+	{name: "Jiří Maštálka",country: "CZ",group: "GUE/NGL",party: "Komunistická strana Čech a Moravy",id: "17085", photoid: "23704", weight: 2, email: "jiri.mastalka@europarl.europa.eu"},
+	{name: "Ignazio Corrao",country: "IT",group: "EFDD",party: "Movimento 5 Stelle",id: "16742", photoid: "124856", email: "ignazio.corrao@europarl.europa.eu"},
+	{name: "Sergio Gaetano Cofferati",country: "IT",group: "S&D",party: "Partito Democratico",id: "17047", photoid: "96915", email: "sergio.cofferati@europarl.europa.eu"},
+	{name: "Fabio Massimo Castaldo",country: "IT",group: "EFDD",party: "Movimento 5 Stelle",id: "16872", photoid: "124812", email: "fabiomassimo.castaldo@europarl.europa.eu"},
+	{name: "Daniel Buda",country: "RO",group: "EPP",party: "Partidul Naţional Liberal",id: "17187", photoid: "125012", email: "daniel.buda@europarl.europa.eu"},
+	{name: "Mario Borghezio",country: "IT",group: "NI",party: "Lega Nord",id: "17329", photoid: "21817", email: "mario.borghezio@europarl.europa.eu"},
+	{name: "Tadeusz Zwiefka",country: "PL",group: "EPP",party: "Platforma Obywatelska",id: "17278", photoid: "28301", email: "tadeusz.zwiefka@europarl.europa.eu"},
+	{name: "József Szájer",country: "HU",group: "EPP",party: "Fidesz-Magyar Polgári Szövetség-Keresztény Demokrata Néppárt",id: "16801", photoid: "23821", email: "jozsef.szajer@europarl.europa.eu"},
+	{name: "Evelyn Regner",country: "AT",group: "S&D",party: "Sozialdemokratische Partei Österreichs",id: "16919", photoid: "96998", email: "evelyn.regner@europarl.europa.eu"},
+//	{name: "Julia Reda",country: "DE",group: "Greens/EFA",party: "Piratenpartei Deutschland",id: "16776", photoid: "124816"},
+	{name: "Emil Radev",country: "BG",group: "EPP",party: "Граждани за европейско развитие на България",id: "17281", photoid: "124850", email: "emil.radev@europarl.europa.eu"},
+	{name: "Victor Negrescu",country: "RO",group: "S&D",party: "Partidul Social Democrat",id: "17183", photoid: "88882", email: "victor.negrescu@europarl.europa.eu"},
+	{name: "Constance Le Grip",country: "FR",group: "EPP",party: "Union pour un Mouvement Populaire",id: "17170", photoid: "101580", email: "constance.legrip@europarl.europa.eu"},
+	{name: "Sylvia-Yvonne Kaufmann",country: "DE",group: "S&D",party: "Sozialdemokratische Partei Deutschlands",id: "17175", photoid: "1849", email: "sylvia-yvonne.kaufmann@europarl.europa.eu"},
+	{name: "Heidi Hautala",country: "FI",group: "Greens/EFA",party: "Vihreä liitto",id: "16740", photoid: "2054", email: "heidi.hautala@europarl.europa.eu"},
+	{name: "Jytte Guteland",country: "SE",group: "S&D",party: "Arbetarepartiet – Socialdemokraterna",id: "17216", photoid: "124991", email: "jytte.guteland@europarl.europa.eu"},
+	{name: "Luis de Grandes Pascual",country: "ES",group: "EPP",party: "Partido Popular",id: "16842", photoid: "28393", email: "luis.degrandespascual@europarl.europa.eu"},
+	{name: "Evelyne Gebhardt",country: "DE",group: "S&D",party: "Sozialdemokratische Partei Deutschlands",id: "17193", photoid: "1913", email: "evelyne.gebhardt@europarl.europa.eu"},
+	{name: "Angel Dzhambazki",country: "BG",group: "ECR",party: "VMRO",id: "17040", photoid: "124873", weight: 2, email: "angel.dzhambazki@europarl.europa.eu"},
+	{name: "Pascal Durand",country: "FR",group: "Greens/EFA",party: "Europe Écologie",id: "16990", photoid: "124693", email: "pascal.durand@europarl.europa.eu"},
+	{name: "Brian Crowley",country: "IE",group: "ECR",party: "Fianna Fáil Party",id: "16909", photoid: "2109", email: "brian.crowley@europarl.europa.eu"},
+	{name: "Stanisław Żółtek",country: "PL",group: "NI",party: "Kongres Nowej Prawicy",id: "17422", photoid: "124902", email: "stanislawjozef.zoltek@europarl.europa.eu"},
+	{name: "Cecilia Wikström",country: "SE",group: "ALDE",party: "Folkpartiet liberalerna",id: "16772", photoid: "96677", weight: 3, email: "cecilia.wikstrom@europarl.europa.eu"},
+	{name: "Rainer Wieland",country: "DE",group: "EPP",party: "Christlich Demokratische Union Deutschlands",id: "16729", photoid: "2323", email: "rainer.wieland@europarl.europa.eu"},
+	{name: "Viktor Uspaskich",country: "LT",group: "ALDE",party: "Darbo partija",id: "17262", photoid: "96698", email: "viktor.uspaskich@europarl.europa.eu"},
+	{name: "Giovanni Toti",country: "IT",group: "EPP",party: "Forza Italia",id: "17391", photoid: "124764", email: "giovanni.toti@europarl.europa.eu"},
+	{name: "Virginie Rozière",country: "FR",group: "S&D",party: "Parti radical de gauche",id: "17194", photoid: "103845", email: "virginie.roziere@europarl.europa.eu"},
+	{name: "Angelika Niebler",country: "DE",group: "EPP",party: "Christlich-Soziale Union in Bayern e.V.",id: "17004", photoid: "4289", email: "angelika.niebler@europarl.europa.eu"}
+];
+
+function showMEP(fromButton) {
+	var validCountryCodes = ['AT', 'BG', 'CZ', 'FI', 'FR', 'DE', 'HU', 'IE', 'IT', 'LT', 'LU', 'MT', 'PL', 'PT', 'RO', 'ES', 'SE', 'UK'];
+
+    document.getElementById('thankyou').style.display = 'none';
+    document.getElementById('showmepcontainer').style.display = 'block';
+    if (window.showEmailState === true) {
+	    document.getElementById('callinput').style.display = 'none';
+	} else {
+		document.getElementById('callinput').style.display = 'block';
+	}
+
+    var randomOrNot = Math.floor(Math.random() * 2);
+    if (!fromButton && randomOrNot == 0) { // on page load, 50% of the case show special prioritised MEPs
+    	var currWeight = -1;
+    	for (var i=0;i<meplist.length;i++) {
+    		if ((validCountryCodes.indexOf(window.countryCode) == -1 || // this MEP fits country selection
+    				meplist[i].country == window.countryCode)) {
+    			var weight = meplist[i].weight || 0;
+    			if (weight > currWeight) { // select the one with the highest weight value (if any)
+    				var mep = meplist[i];
+    				currWeight = weight;
+    			}
+    		}
+    	}
+    } else {
+		var randomMep = Math.floor(Math.random() * meplist.length);
+		if (window.countryCode && validCountryCodes.indexOf(window.countryCode) > -1) {
+			while ( meplist[randomMep].country !== window.countryCode || // wrong country?
+					meplist[randomMep].id == window.lastShownMEP &&		 // same as last?
+					mepsFromCertainCountry(window.countryCode) !== 1) {	 // AND more than one MEP from the selected country
+				randomMep = Math.floor(Math.random() * meplist.length);  // => find another
+			}
+		}
+		var mep = meplist[randomMep];
+	}
+	if(document.location.hash == '#debug') mep = {name: "Julia Reda",country: "DE",group: "Greens/EFA",party: "Piratenpartei Deutschland",id: "16776", photoid: "124816"};
+	window.lastShownMEP = mep.id;
+
+	document.getElementById('mep_name').innerHTML = mep.name;
+	document.getElementById('mep_party').innerHTML = mep.party;
+	document.getElementById('mep_group').innerHTML = mep.group;
+	document.getElementById('mep_photo').setAttribute("src", "http://www.europarl.europa.eu/mepphoto/"+ mep.photoid +".jpg")
+	document.getElementById('callform').setAttribute("action", "https://piphone.lqdn.fr/campaign/call2/rapport_reda/"+mep.id);
+	document.getElementById('mailbutton').setAttribute("href", "mailto:"+mep.email);
+
+	return false;
+}
+
+function ccChange(v) {
+	var plh = (v === '') ? "+12 345 67 89" : "0123 456 789";
+	document.getElementById('localnumber').setAttribute("placeholder", plh);
+}
+
+if (!Date.now) {
+  Date.now = function now() {
+    return new Date().getTime();
+  };
+}
+
+function showEmail() {
+	document.getElementById('email').setAttribute("style", "display:inline;");
+	document.getElementById('callinput').setAttribute("style", "display:none;");
+	window.showEmailState = true;
+}
+
+function stats(mepid) {
+	var i = document.createElement('img');
+	var d = new Date();
+	var timestamp = Date.now();
+	var timeOffset = d.getTimezoneOffset();
+	i.style.visibility = 'hidden';
+	i.setAttribute('src', 'http://88.198.91.228/copywrongs.php?timestamp='+timestamp+'&mepid='+mepid+'&timeoffset='+timeOffset);
+	document.body.appendChild(i);
+}
+
+function callSubmit() {
+	var cc = document.getElementById('countrycode').value;
+	var pn = document.getElementById('localnumber').value;
+	if(document.location.hash == '#debug') { cc = '+32'; pn = '24857732'; }
+	var validatedNumber = validateNumber(cc, pn);
+	if (validatedNumber) {
+	    document.getElementById('phone').value = validatedNumber;
+	    stats(window.lastShownMEP);
+
+	    document.getElementById('thankyou').style.display = 'block';
+    	document.getElementById('showmepcontainer').style.display = 'none';
+	    document.getElementById('callinput').style.display = 'none';
+	} else {
+		alert("Invalid number!")
+	    event.preventDefault();
+		return false;
+	}
+};
+
+function validateNumber(c,n) {
+	var countrycode = c;
+	if (countrycode === "") {
+		if(!/^[\+]/g.test(n)) {
+			console.error("number doesn't start with + / number has to start with +[countrycode][rest without starting 0]");
+			return false;
+		}
+		countrycode = "+";
+	} else {
+		if(/^[0]/g.test(n)) {
+			n = n.substr(1);
+		}
+	}
+	// removes everything that is not a number
+	n = n.replace(/[^0-9]/g, '');
+	if (n.length < 5) {
+		console.error("number too short");
+		return false;
+	}
+	// adds the countrycode or +
+	n = countrycode + n;
+	// print final number to console
+	//console.log(n);
+	return n;
+}
+
+
 
 // helpers
 

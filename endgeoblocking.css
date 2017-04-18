@@ -459,7 +459,7 @@ section#intro #topbox #signup .inner0 {
 section#intro #topbox #signup .inner {
 	padding: .1em 1.2em .4em;
 }
-section#intro #topbox #signup strong.hi {
+.hi {
 	background: #ff9;
 	padding: 0 .2em;
 	color: #000;
@@ -486,10 +486,15 @@ section#intro #topbox a.down span {
 	width:1.5em;
 }
 
+section#action {
+	background: linear-gradient(#600, #900);
+	background-size:contain;
+	padding-top: 7em;
+}
+
 section#unfair {
 	background: linear-gradient(#334, #223);
 	background-size:contain;
-	padding-top: 7em;
 }
 section#unfair .share {
 	margin:1em 0 2em;
@@ -865,6 +870,100 @@ blockquote.tweetthis:before {
     top: 1.2em;
     border: .7em solid transparent;
     border-right-color: #fff;
+}
+
+
+h2#countdown {
+	float: right;
+	font-size: .9em;
+}
+h2#countdown div {
+ 	font-size: 3em;
+}
+
+#callform {
+	overflow: hidden;
+}
+#callinput {
+	margin-top:1em;
+	text-align: center;
+	padding: .5em 0;
+}
+#phonenumber {
+	background: #fff;
+	display: inline-block;
+	border: 2px inset #ccc;
+	padding: .2em;
+}
+#callinput select {
+	font-size:.8em;
+	position: relative;
+	top: -.2em;
+}
+#callinput input[type=submit] {
+	-webkit-appearance: none;
+	font-size: 1em;
+	border: 0;
+	cursor: pointer;
+}
+#callform #thankyou { display: none; text-align: center; padding: 1em; line-height:1.7em;}
+#callform #thankyou h3 { display: inline;}
+
+#callinput input[type=submit], #thankyou a {
+	padding: .4em .6em;
+	background: #f5ab00;
+	color: #fff;
+	border-radius: 1em;
+	text-decoration: none;
+}
+#callinput input[type=tel] {
+	border: 0;
+	font-size: 1.2em;
+}
+#mepprofile {
+	width: 73%;
+	overflow: hidden;
+	background: #eee;
+	color: #000;
+	margin: 0 auto;
+	box-shadow: .2em .2em 1em rgba(0,0,0,.4);
+	position: relative;
+}
+#mepprofile h3#mep_name {
+	font-size: 1.3em;
+}
+#mep_party {
+	height: 1.3em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#mepprofile #showmepcontainer {
+	position: absolute;
+	bottom: .7em;
+	width: 100%;
+	font-size:.8em;
+	margin-top: .5em;
+	padding-right: .5em;
+	padding-left: 110px;
+	box-sizing: border-box;
+	text-align: right;
+	opacity: .6;
+}
+#timeoverlay {
+	display: none;
+	width: 300px;
+	overflow: hidden;
+	background: #eee;
+	color: #000;
+	box-shadow: .2em .2em 1em rgba(0,0,0,.4);
+	position: absolute;
+	z-index: 98;
+	margin-top: 30px;
+	padding: 20px;
+}
+#timeoverlay h3 {
+	padding:0 !important;
 }
 
 
