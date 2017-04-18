@@ -58,7 +58,7 @@
 		  		<li><a href="javascript:;" onclick="document.location.hash='voices'">Φωνές</a></li>
 		  		<li><a href="javascript:;" onclick="document.location.hash='todo'">3 βήματα για να το τελειώσουμε</a></li>
 		  		<li><a href="javascript:;" onclick="document.location.hash='learn'">Μάθε περισσότερα</a></li>
-				<li class="last"><a href="javascript:;" class="btn" onclick="signup(); return false">ΒΟΗΘΗΣΤΕ ΝΑ ΤΕΛΕΙΩΣΟΥΜΕ ΤΟ ΓΕΩΜΠΛΟΚΑΡΙΣΜΑ</a></li>
+				<li class="last"><a href="javascript:;" class="btn" onclick="document.location.hash='action'">ΒΟΗΘΗΣΤΕ ΝΑ ΤΕΛΕΙΩΣΟΥΜΕ ΤΟ ΓΕΩΜΠΛΟΚΑΡΙΣΜΑ</a></li><!--signup(); return false-->
 			</ul>
 		</div>
 	</div>
@@ -89,7 +89,7 @@
 			</h3>
 			<h1>
 				<span>Τέλος στο γεωμπλοκάρισμα</span>
-				<a id="agree" class="bigbtn" href="javascript:;" onclick="signup(); return false"><img src="img/up.png" width=40 /><span>Συμφωνώ</span></a>
+				<a id="agree" class="bigbtn" href="javascript:;" onclick="document.location.hash='action'"><img src="img/up.png" width=40 /><span>Συμφωνώ</span></a><!--signup(); return false-->
 			</h1>
 			<div id="signup">
 				<div class="inner0">
@@ -123,6 +123,110 @@
 				</a>
 			</div>
 
+		</div>
+	</section>
+
+	<section id="action">
+		<div class="column">
+			<h2 id="countdown"><div id="days"></div> days until the vote</h2>
+			<h2>Tell the EU Parliament to curb geoblocking on April 24</h2>
+			<p>
+				The EU is taking action – but only against online shops showing different prices to people in different countries. <strong>Geoblocking for videos would continue to exist unrestricted.</strong>
+			</p>
+			<p>
+				<strong>The European Parliament can make it better.</strong> They will vote on whether to include video content in the provision on Monday, April 24, 2017.
+			</p>
+			<h3><span class="hi">
+				Contact your MEP today and tell them to support Geoblocking Amendment 281 to limit geoblocking for videos, too.
+			</span></h3>
+			
+			<form id="callform" action="https://piphone.lqdn.fr/campaign/call2/rapport_reda/" method="POST" onsubmit="return callSubmit();" target="submittarget">
+				<div id="mepprofile">
+					<img alt="Photo of the MEP" id="mep_photo" width="100" height="126" style="float:left; margin-right: 1em" />
+					<h3 id="mep_name"></h3>
+					<div id="mep_party"></div>
+					<div>Member of the Legal Affairs Committee</div>
+					<div style="display:none">European political family: <span id="mep_group"></span></div>
+					<div id="showmepcontainer">
+						<a href="#" id="showmep" onclick="return showMEP('fromButton')">Show me another MEP</a><span id="showmepnoclick" style="display:none;">Show me another MEP</span> from 
+						<select id="country" onchange="geo({ countryCode: this.options[this.selectedIndex].value}, 'fromDropdown')">
+							<option value="">an EU member state</option>
+							<option id="mep-cc-BG" value="BG">България</option>
+							<option id="mep-cc-CZ" value="CZ">Česká republika</option>
+							<option id="mep-cc-DE" value="DE">Deutschland</option>
+							<option id="mep-cc-ES" value="ES">España</option>
+							<option id="mep-cc-FR" value="FR">France</option>
+							<option id="mep-cc-IE" value="IE">Ireland/Éire</option>
+							<option id="mep-cc-IT" value="IT">Italia</option>
+							<option id="mep-cc-LT" value="LT">Lietuva</option>
+							<option id="mep-cc-LU" value="LU">Lëtzebuerg</option>
+							<option id="mep-cc-HU" value="HU">Magyarország</option>
+							<option id="mep-cc-MT" value="MT">Malta</option>
+							<option id="mep-cc-AT" value="AT">Österreich</option>
+							<option id="mep-cc-PL" value="PL">Polska</option>
+							<option id="mep-cc-PT" value="PT">Portugal</option>
+							<option id="mep-cc-RO" value="RO">Română</option>
+							<option id="mep-cc-FI" value="FI">Suomi</option>
+							<option id="mep-cc-SE" value="SE">Sverige</option>
+							<option id="mep-cc-UK" value="UK">United Kingdom</option>
+						</select>
+						<abbr class="help" title="EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!">?</abbr> 
+					</div>
+				</div>
+				<div id="callinput">
+					My phone number: 
+					<div id="phonenumber">
+						<select id="countrycode" onchange="ccChange(this.value)">
+							<option id="cc-AT" value="+43">AT +43</option>
+							<option id="cc-BE" value="+32">BE +32</option>
+							<option id="cc-BG" value="+359">BG +359</option>
+							<option id="cc-CY" value="+357">CY +357</option>
+							<option id="cc-CZ" value="+420">CZ +420</option>
+							<option id="cc-DK" value="+45">DK +45</option>
+							<option id="cc-DE" value="+49">DE +49</option>
+							<option id="cc-EE" value="+372">EE +372</option>
+							<option id="cc-ES" value="+34">ES +34</option>
+							<option id="cc-FI" value="+358">FI +358</option>
+							<option id="cc-FR" value="+33">FR +33</option>
+							<option id="cc-GR" value="+30">GR +30</option>
+							<option id="cc-HR" value="+385">HR +385</option>
+							<option id="cc-HU" value="+36">HU +36</option>
+							<option id="cc-IE" value="+353">IE +353</option>
+							<option id="cc-IT" value="+39">IT +39</option>
+							<option id="cc-LT" value="+370">LT +370</option>
+							<option id="cc-LU" value="+352">LU +352</option>
+							<option id="cc-LV" value="+371">LV +371</option>
+							<option id="cc-MT" value="+356">MT +356</option>
+							<option id="cc-NL" value="+31">NL +31</option>
+							<option id="cc-PL" value="+48">PL +48</option>
+							<option id="cc-PT" value="+351">PT +351</option>
+							<option id="cc-RO" value="+40">RO +40</option>
+							<option id="cc-SI" value="+386">SI +386</option>
+							<option id="cc-SE" value="+46">SE +46</option>
+							<option id="cc-SK" value="+421">SK +421</option>
+							<option id="cc-UK" value="+44">UK +44</option>
+							<option value="">Other</option>
+						</select>				
+						<input type="tel" id="localnumber" placeholder="0123 456 789"></input>
+					</div><br>
+					<input type="hidden" id="phone" name="phone" />
+					<input type="submit" class="btn" id="callbutton" value="Connect me free of charge!" />
+				</div>
+				<div id="email" style="display:none;">
+					<h3>After hours!</h3>
+					At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time.
+					<a href="#" class="btn" id="mailbutton">Send an e-mail instead!</a>
+				</div>
+				<div id="thankyou">
+					<h3>Thank you! You should receive a call any second now.</h3><br>
+					<a href="#" onclick="return showMEP('fromButton')">Show me another MEP</a>
+				</div>
+
+			</form>
+
+			<p>
+				Contacting your MEP is easy and takes just 2 minutes. It is their job to represent you, so don't be afraid to tell them that you reject digital borders in Europe and expect them to vote against geoblocking in all cases.
+			</p>
 		</div>
 	</section>
 
@@ -446,6 +550,33 @@
 	<div id="cover" onclick="shareHide()">
 		<iframe id="shareframe" name="shareframe" />
 	</div>
+
+    <script type="text/javascript">
+        function getGeoFromIp() {
+            var url = 'http://ip-api.com/json';
+            var ajaxRequest = new XMLHttpRequest();
+            ajaxRequest.open( "GET", url, true );
+
+            ajaxRequest.onreadystatechange = function() {
+                if (ajaxRequest.readyState == 4) {
+                    if (ajaxRequest.status == 200) {
+                        // call geo with ip-api geo data
+                        var data = JSON.parse( ajaxRequest.responseText );
+                        geo(data);
+                    } else {
+                        // fallback in case of blocked external urls
+                        // window.countryCode is undefined at this point
+                        // no way to get country :(
+                        //geo({countryCode: window.countryCode});
+                        showMEP();
+                    }
+                }
+            }
+            ajaxRequest.send();
+        }
+
+        getGeoFromIp();
+    </script>
 
 </body>
 </html>
