@@ -242,7 +242,7 @@ if (!Date.now) {
 }
 
 function showEmail() {
-	document.getElementById('email').setAttribute("style", "display:inline;");
+	document.getElementById('emailmep').setAttribute("style", "display:inline;");
 	document.getElementById('callinput').setAttribute("style", "display:none;");
 	window.showEmailState = true;
 }

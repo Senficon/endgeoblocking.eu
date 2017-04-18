@@ -872,6 +872,26 @@ blockquote.tweetthis:before {
     border-right-color: #fff;
 }
 
+#action h3 { color: #fff; }
+
+p.bubble {
+	background: #fff;
+	color: #900;
+	padding: .7em .9em;
+	border-radius: 1em;
+	font-size: 1.8em;
+	font-weight: bold;
+	position: relative;
+}
+p.bubble .bit {
+	display: block;
+	position: absolute;
+	top: -.5em;
+	width:1px; height: 1px;
+	border: .5em solid #800000;
+	border-top: 0;
+	border-bottom-color: #fff;
+}
 
 h2#countdown {
 	float: right;
@@ -881,6 +901,7 @@ h2#countdown div {
  	font-size: 3em;
 }
 
+#email h3 { float: left; }
 #callform {
 	overflow: hidden;
 }
