@@ -134,7 +134,8 @@ function signup() {
 
 
 function geo(d, fromDropdown) {
-	calliframe.src = 'https://endgeoblockingeu.herokuapp.com/?committee=IMCO&country='+d.country;
+	var i = document.getElementById('calliframe');
+	i.src = 'https://endgeoblockingeu.herokuapp.com/?committee=IMCO&country='+d.country_name;
 }
 
 var meplist = [

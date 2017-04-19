@@ -554,9 +554,9 @@
 		<iframe id="shareframe" name="shareframe" />
 	</div>
 
-    <script type="text/javascript">
-        function getGeoFromIp() {
-            var url = 'http://ip-api.com/json';
+    <script type="text/javascript" src="https://freegeoip.net/json/?callback=geo"></script>
+    <!--    function getGeoFromIp() {
+            var url = 'https://freegeoip.net/json';
             var ajaxRequest = new XMLHttpRequest();
             ajaxRequest.open( "GET", url, true );
 
@@ -571,7 +571,7 @@
                         // window.countryCode is undefined at this point
                         // no way to get country :(
                         //geo({countryCode: window.countryCode});
-                        showMEP();
+                        ///showMEP();
                     }
                 }
             }
@@ -579,7 +579,7 @@
         }
 
         getGeoFromIp();
-    </script>
+    </script-->
 
 </body>
 </html>
