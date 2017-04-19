@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 
 	// "don't call now, email instead" button
-	//var d = new Date();
+	var d = new Date();
 	//window.showEmailState = false;
 	//if (d.getUTCDay() === 0 || // if Sunday
 	//	d.getUTCDay() === 6 || // or Saturday
