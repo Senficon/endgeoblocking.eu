@@ -54,15 +54,15 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 
 	// "don't call now, email instead" button
-	var d = new Date();
-	window.showEmailState = false;
-	if (d.getUTCDay() === 0 || // if Sunday
-		d.getUTCDay() === 6 || // or Saturday
-		d.getUTCHours() < 7 || // or before 9AM Brussels Summer Time
-		d.getUTCHours() > 15 // or after 6PM Brussels Summer Time
-		) {
-		showEmail(); // then => show email!
-	}
+	//var d = new Date();
+	//window.showEmailState = false;
+	//if (d.getUTCDay() === 0 || // if Sunday
+	//	d.getUTCDay() === 6 || // or Saturday
+	//	d.getUTCHours() < 7 || // or before 9AM Brussels Summer Time
+	//	d.getUTCHours() > 15 // or after 6PM Brussels Summer Time
+	//	) {
+	//	showEmail(); // then => show email!
+	//}
 
 	// countdown
 	var targetDate = Date.parse("Apr 24, 2017 12:00 GMT+0100");
