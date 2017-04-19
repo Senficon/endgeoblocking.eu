@@ -141,7 +141,7 @@
 				Support Geoblocking Amendment 281 – to limit geoblocking for videos, too
 			</p>
 
-			<iframe id="calliframe" style="width:100%; height:230px; border:0" src="https://endgeoblockingeu.herokuapp.com/?committee=IMCO"></iframe>
+			<iframe id="calliframe" style="width:100%; height:230px; border:0" src="https://endgeoblockingeu.herokuapp.com/iframe?committee=IMCO&random=1"></iframe>
 
 			<!--form id="callform" action="https://piphone.lqdn.fr/campaign/call2/rapport_reda/" method="POST" onsubmit="return callSubmit();" target="submittarget">
 				<div id="mepprofile">
@@ -555,31 +555,6 @@
 	</div>
 
     <script type="text/javascript" src="https://freegeoip.net/json/?callback=geo"></script>
-    <!--    function getGeoFromIp() {
-            var url = 'https://freegeoip.net/json';
-            var ajaxRequest = new XMLHttpRequest();
-            ajaxRequest.open( "GET", url, true );
-
-            ajaxRequest.onreadystatechange = function() {
-                if (ajaxRequest.readyState == 4) {
-                    if (ajaxRequest.status == 200) {
-                        // call geo with ip-api geo data
-                        var data = JSON.parse( ajaxRequest.responseText );
-                        geo(data);
-                    } else {
-                        // fallback in case of blocked external urls
-                        // window.countryCode is undefined at this point
-                        // no way to get country :(
-                        //geo({countryCode: window.countryCode});
-                        ///showMEP();
-                    }
-                }
-            }
-            ajaxRequest.send();
-        }
-
-        getGeoFromIp();
-    </script-->
 
 </body>
 </html>
